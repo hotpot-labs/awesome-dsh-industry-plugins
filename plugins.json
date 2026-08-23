@@ -12,6 +12,226 @@
       "auditedAt": "2026-08-23",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/030611__dsh-telemetry-redactor"
+    },
+    {
+      "id": "00080000__dsh-project-memory",
+      "name": "00080000/dsh-project-memory",
+      "url": "https://github.com/00080000/dsh-project-memory",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 提供的项目记忆插件：项目文件在读取时索引为可检索摘要，上下文失效后按需检索命中，无需重读文件，自带出处与 BM25 排序。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/00080000__dsh-project-memory"
+    },
+    {
+      "id": "01Virex__dsh-status-rotator",
+      "name": "01Virex/dsh-status-rotator",
+      "url": "https://github.com/01Virex/dsh-status-rotator",
+      "category": "其他",
+      "description": "把回合状态那句 \"Deep diving...\" 替换成更有梗的自定义文案，按阶段轮换，支持打字机与流动渐变。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/01Virex__dsh-status-rotator"
+    },
+    {
+      "id": "02Muller25__dsh-api-balance",
+      "name": "02Muller25/dsh-api-balance",
+      "url": "https://github.com/02Muller25/dsh-api-balance",
+      "category": "其他",
+      "description": "输入框下方实时显示 DeepSeek API 账户余额，支持手动刷新与自定义间隔自动刷新。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/02Muller25__dsh-api-balance"
+    },
+    {
+      "id": "030611__dsh-verification-receipt",
+      "name": "030611/dsh-verification-receipt",
+      "url": "https://github.com/030611/dsh-verification-receipt",
+      "category": "其他",
+      "description": "把每轮工具计数与粗粒度验证信号写入本地 JSONL，不保存提示词、工具参数或结果正文。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/030611__dsh-verification-receipt"
+    },
+    {
+      "id": "030611__qiushi-dsh-evidence-audit",
+      "name": "030611/qiushi-dsh-evidence-audit",
+      "url": "https://github.com/030611/qiushi-dsh-evidence-audit",
+      "category": "其他",
+      "description": "把工具结果与会话事件的 receipt 写入本地哈希链 JSONL，不保存提示词、工具参数、结果正文或原始会话 ID。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/030611__qiushi-dsh-evidence-audit"
+    },
+    {
+      "id": "0nt-one__dsh-neo-skin",
+      "name": "0nt-one/dsh-neo-skin",
+      "url": "https://github.com/0nt-one/dsh-neo-skin",
+      "category": "其他",
+      "description": "新粗野主义换肤皮肤：双方案（蓝统治 / 做旧报纸）随时切换，硬阴影 + 直角 + 2px 边框结构层，浅色/深色自适应。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0nt-one__dsh-neo-skin"
+    },
+    {
+      "id": "0nt-one__dsh-voice-input",
+      "name": "0nt-one/dsh-voice-input",
+      "url": "https://github.com/0nt-one/dsh-voice-input",
+      "category": "其他",
+      "description": "输入框麦克风语音输入：浏览器 Web Speech API 实时转写（Chrome/Edge），多语言切换与可选自动发送，零依赖零密钥。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0nt-one__dsh-voice-input"
+    },
+    {
+      "id": "0xsline__dsh-spotlight",
+      "name": "0xsline/dsh-spotlight",
+      "url": "https://github.com/0xsline/dsh-spotlight",
+      "category": "其他",
+      "description": "键盘优先的命令面板（command palette）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0xsline__dsh-spotlight"
+    },
+    {
+      "id": "1052326311__dsh-plan-lattice",
+      "name": "1052326311/dsh-plan-lattice",
+      "url": "https://github.com/1052326311/dsh-plan-lattice",
+      "category": "其他",
+      "description": "为长期或定义不完整的 Harness 任务提供持久执行合同、递归工作图、关键澄清与证据门禁。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1052326311__dsh-plan-lattice"
+    },
+    {
+      "id": "1070296335-create__dph-taskboard",
+      "name": "1070296335-create/dph-taskboard",
+      "url": "https://github.com/1070296335-create/dph-taskboard",
+      "category": "其他",
+      "description": "侧边栏会话化任务看板：拖拽会话到待办/进行中/评审中/已完成四列，新建会话可选模型与推理强度，回收站可恢复，支持备注与导出导入。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1070296335-create__dph-taskboard"
+    },
+    {
+      "id": "1123762794__dsh-web-restart",
+      "name": "1123762794/dsh-web-restart",
+      "url": "https://github.com/1123762794/dsh-web-restart",
+      "category": "计算机",
+      "description": "DSH Web 界面一键重启按钮：侧边栏底部按钮，单击即重启 dsh web 进程，且重启后按钮常驻。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1123762794__dsh-web-restart"
+    },
+    {
+      "id": "117BS__dsh-perlica-ding",
+      "name": "117BS/dsh-perlica-ding",
+      "url": "https://github.com/117BS/dsh-perlica-ding",
+      "category": "其他",
+      "description": "明日方舟终末地佩丽卡主题分级提示音：计划出方案 / 任务完成 / 需要你回应 / 出错四档独立音效，普通问答保持安静；系统级播放（窗口在后台也响），跨平台（Windows/macOS/Linux），支持自定义 TTS 语音。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/117BS__dsh-perlica-ding"
+    },
+    {
+      "id": "13071301808__dsh-composer-expand",
+      "name": "13071301808/dsh-composer-expand",
+      "url": "https://github.com/13071301808/dsh-composer-expand",
+      "category": "其他",
+      "description": "Web UI 输入框展开/收起：composer 工具行新增 ⬆/⬇ 按钮，一键把输入框扩大到 70vh 高度，方便写长 prompt。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/13071301808__dsh-composer-expand"
+    },
+    {
+      "id": "131CDA1__dsh-scrape-webpage",
+      "name": "131CDA1/dsh-scrape-webpage",
+      "url": "https://github.com/131CDA1/dsh-scrape-webpage",
+      "category": "其他",
+      "description": "抓取任意 http/https 网页，提取标题、描述、正文、标题结构与链接，输出字符/词数、阅读时长、语言等统计与高频关键词；支持下载内容图片到会话工作区供视觉分析，并通过 scrape.imageAnalyzer 服务分发给已注册的识图分析器。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/131CDA1__dsh-scrape-webpage"
+    },
+    {
+      "id": "1624318455__dsh-plugin-tavily",
+      "name": "1624318455/dsh-plugin-tavily",
+      "url": "https://github.com/1624318455/dsh-plugin-tavily",
+      "category": "其他",
+      "description": "基于 Tavily 的网页搜索提供方：替换内置 web_search 的后端，并提供 API Key、结果数量与时间窗口的设置卡片。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1624318455__dsh-plugin-tavily"
+    },
+    {
+      "id": "1624318455__dsh-plugin-tts",
+      "name": "1624318455/dsh-plugin-tts",
+      "url": "https://github.com/1624318455/dsh-plugin-tts",
+      "category": "其他",
+      "description": "用免费 Edge TTS 或你自己的 RVC 音色朗读 AI 回复：消息朗读与自动朗读、长文自适应分块渐进播放（无缝衔接）、音色包仓库一键安装、便携 RVC 运行时。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1624318455__dsh-plugin-tts"
+    },
+    {
+      "id": "1HelloMan1__dsh-usage-dashboard-plus",
+      "name": "1HelloMan1/dsh-usage-dashboard-plus",
+      "url": "https://github.com/1HelloMan1/dsh-usage-dashboard-plus",
+      "category": "其他",
+      "description": "显示 DeepSeek 余额与今日花费估算，合并外部视觉调用 JSONL 记录，并提供含模型统计、TTFT、缓存率、调用日志、费用估算、筛选与 CSV 导出的会话看板。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1HelloMan1__dsh-usage-dashboard-plus"
+    },
+    {
+      "id": "1HelloMan1__dsh-vision-fallback",
+      "name": "1HelloMan1/dsh-vision-fallback",
+      "url": "https://github.com/1HelloMan1/dsh-vision-fallback",
+      "category": "其他",
+      "description": "将聊天图片交给固定的 OpenAI 兼容视觉模型，把事实性观察交给当前主模型，并在事件回放、上下文压缩和重启时复用会话内观察。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1HelloMan1__dsh-vision-fallback"
+    },
+    {
+      "id": "1e0zj__dsh-plugin-mall",
+      "name": "1e0zj/dsh-plugin-mall",
+      "url": "https://github.com/1e0zj/dsh-plugin-mall",
+      "category": "其他",
+      "description": "开放式插件市场：GitHub dsh-plugin 话题实时搜索，逐仓库 package.json 验证（dsh.bundle/dsh.client 声明徽章与只看已验证过滤），npm 优先安装带同源防抢注校验，更新检测，并附五个可在无界面环境使用的 agent 工具。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1e0zj__dsh-plugin-mall"
+    },
+    {
+      "id": "1na-ko__dsh-hdc-bridge",
+      "name": "1na-ko/dsh-hdc-bridge",
+      "url": "https://github.com/1na-ko/dsh-hdc-bridge",
+      "category": "其他",
+      "description": "鸿蒙设备桥：hdc 截图/装包/日志/崩溃/UI 自动化闭环（配 read_image 看图），官方优先版本化 API 知识层（SDK .d.ts + 离线随包文档），以及 DevEco CLI 构建/签名/lint 通道。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1na-ko__dsh-hdc-bridge"
     }
   ]
 }
