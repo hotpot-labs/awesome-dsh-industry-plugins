@@ -1,0 +1,12 @@
+# HUITianYi/dsh-whale-desktop-launcher
+
+- **仓库地址**: https://github.com/HUITianYi/dsh-whale-desktop-launcher
+- **收录分类**: 其他
+- **插件简介**: DSH 的 Windows 桌面启动器，提供鲸鱼娘图标、后台服务启动和无浏览器工具栏的 Chromium 应用窗口。
+- **收录来源**: awesome-dsh-plugin
+- **审核日期**: 2026-08-23
+- **审核定级**: 🔴 黑名单 (禁止使用)
+
+完整审核报告见同目录 [security-report.md](./security-report.md)。
+
+> ⚠️ 自动审核不等于人工审计，报告中标注「需人工复核」的检查项以人工复核结论为准。
