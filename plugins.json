@@ -1,0 +1,17 @@
+{
+  "$schema": "./plugins.schema.json",
+  "updatedAt": "2026-08-23",
+  "plugins": [
+    {
+      "id": "030611__dsh-telemetry-redactor",
+      "name": "030611/dsh-telemetry-redactor",
+      "url": "https://github.com/030611/dsh-telemetry-redactor",
+      "category": "通用",
+      "description": "在已配置遥测后端接收前，对 session-telemetry/record 导出副本中的已支持秘密模式进行脱敏。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/030611__dsh-telemetry-redactor"
+    }
+  ]
+}

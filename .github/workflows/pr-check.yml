@@ -1,0 +1,109 @@
+name: PR 投稿检查
+
+# PR 投稿 CI：结构校验 + 自动安全审核 + 防绕过检查
+# CI 只是 sanity check，合并前维护者须人工复核审核报告（见 contributing.md）
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  # ------------------------------------------------------------------
+  # Job 1: 结构校验（plugins.json 合法性、审核产物齐全、diff 控量）
+  # ------------------------------------------------------------------
+  check-submission:
+    name: 结构校验
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: 运行结构校验
+        run: python3 scripts/check_submission.py --base "origin/${{ github.base_ref }}"
+
+  # ------------------------------------------------------------------
+  # Job 2: 自动安全审核（对 PR 新增/变更的 url 跑审核，不落盘）
+  # ------------------------------------------------------------------
+  security-audit:
+    name: 自动安全审核
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: 审核新增/变更插件
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'EOF'
+          import json, subprocess, sys
+
+          base = subprocess.run(
+              ['git', 'show', 'origin/${{ github.base_ref }}:plugins.json'],
+              capture_output=True, text=True)
+          old = {e['id']: e for e in json.loads(base.stdout).get('plugins', [])} if base.returncode == 0 else {}
+          new = {e['id']: e for e in json.load(open('plugins.json')).get('plugins', [])}
+
+          # 新增条目，或 url 发生变更的已有条目，都需要重新审核
+          targets = [e for i, e in new.items() if i not in old or old[i].get('url') != e.get('url')]
+          if not targets:
+              print('本 PR 无新增/变更插件，跳过安全审核')
+              sys.exit(0)
+
+          failed = False
+          for e in targets:
+              print(f"::group::审核 {e['id']} ({e['url']})")
+              proc = subprocess.run(
+                  [sys.executable, 'scripts/audit_plugin.py',
+                   '--url', e['url'], '--category', e.get('category', '其他'),
+                   '--source', e.get('source', 'submission'), '--dry-run',
+                   '--token', __import__('os').environ.get('GITHUB_TOKEN', '')],
+                  capture_output=True, text=True, timeout=660)
+              print(proc.stdout)
+              print(proc.stderr, file=sys.stderr)
+              verdict = 'pending'
+              for line in reversed(proc.stdout.splitlines()):
+                  if line.strip().startswith('{'):
+                      verdict = json.loads(line).get('verdict', 'pending')
+                      break
+              if proc.returncode != 0:
+                  print(f"::error::{e['id']} 审核脚本执行失败")
+                  failed = True
+              elif verdict == 'blacklist':
+                  print(f"::error::{e['id']} 自动判定为黑名单，禁止收录")
+                  failed = True
+              elif verdict == 'greylist':
+                  print(f"::warning::{e['id']} 判定为灰名单，合并前需维护者人工复核安全报告")
+              elif verdict == 'pending':
+                  print(f"::warning::{e['id']} 定级解析失败，需人工复核")
+              print('::endgroup::')
+          sys.exit(1 if failed else 0)
+          EOF
+
+  # ------------------------------------------------------------------
+  # Job 3: 防绕过检查（PR 不得改动 CI 与审核逻辑）
+  # ------------------------------------------------------------------
+  guard:
+    name: 防绕过检查
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: 检查 PR 是否触及受保护路径
+        run: |
+          CHANGED=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD")
+          echo "$CHANGED"
+          if echo "$CHANGED" | grep -qE '^(\.github/workflows/|security/)'; then
+            echo "::error::PR 不允许修改 .github/workflows/ 或 security/（审核逻辑与 CI 仅维护者可改）"
+            exit 1
+          fi

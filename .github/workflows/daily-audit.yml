@@ -1,0 +1,39 @@
+name: 每日增量审核
+
+# 每天北京时间 08:00（UTC 00:00）从上游 awesome-dsh-plugin 同步新增收录并自动审核，
+# 结果直接 commit 回 main。单次最多审核 20 个，剩余下个工作日继续。
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    name: 同步上游并审核
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: 安装 PyYAML（解析上游 yml）
+        run: pip install pyyaml
+      - name: 增量同步并审核
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/sync_upstream.py --token "$GITHUB_TOKEN" --max 20
+      - name: 提交审核结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add plugins.json plugins/
+          if git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "chore: 每日增量安全审核 ($(date +%F))"
+            git push
+          fi

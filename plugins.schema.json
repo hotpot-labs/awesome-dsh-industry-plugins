@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "awesome-dsh-industry-plugins 收录名单",
+  "description": "经过安全审核的 dsh 行业插件市场索引。所有审核过的插件（含黑名单）都会记录，用 verdict 字段区分。",
+  "type": "object",
+  "required": ["updatedAt", "plugins"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "updatedAt": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "名单最后更新日期 (YYYY-MM-DD)"
+    },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "url", "category", "description", "verdict", "auditedAt", "source", "dir"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[^/]+__[^/]+$",
+            "description": "插件唯一标识，格式 <owner>__<repo>，与 plugins/ 下目录名一致"
+          },
+          "name": {
+            "type": "string",
+            "description": "插件全名，格式 owner/repo"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://github\\.com/[^/]+/[^/]+$",
+            "description": "插件 GitHub 仓库地址"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["通用", "计算机", "金融", "法律", "自媒体", "电商", "其他"],
+            "description": "收录分类，仅允许这 7 类"
+          },
+          "description": {
+            "type": "string",
+            "description": "插件一句话简介"
+          },
+          "verdict": {
+            "type": "string",
+            "enum": ["whitelist", "greylist", "blacklist", "pending"],
+            "description": "审核定级：白名单 / 灰名单(需人工复核) / 黑名单(禁止收录展示) / 待审核"
+          },
+          "auditedAt": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+            "description": "最近一次审核日期 (YYYY-MM-DD)"
+          },
+          "source": {
+            "type": "string",
+            "enum": ["submission", "awesome-dsh-plugin"],
+            "description": "收录来源：PR 投稿 / 上游 awesome-dsh-plugin 每日同步"
+          },
+          "dir": {
+            "type": "string",
+            "pattern": "^plugins/[^/]+__[^/]+$",
+            "description": "审核产物目录（含 plugin.md 与 security-report.md）"
+          },
+          "removed": {
+            "type": "boolean",
+            "description": "上游已删除时置 true，保留审核档案但不再展示"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

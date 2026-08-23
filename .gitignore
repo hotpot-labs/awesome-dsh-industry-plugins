@@ -1,0 +1,5 @@
+# 审核临时产物
+*.tmp
+*.log
+__pycache__/
+.DS_Store
