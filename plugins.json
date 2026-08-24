@@ -74,7 +74,7 @@
       "url": "https://github.com/0nt-one/dsh-neo-skin",
       "category": "其他",
       "description": "新粗野主义换肤皮肤：双方案（蓝统治 / 做旧报纸）随时切换，硬阴影 + 直角 + 2px 边框结构层，浅色/深色自适应。",
-      "verdict": "blacklist",
+      "verdict": "whitelist",
       "auditedAt": "2026-08-23",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/0nt-one__dsh-neo-skin"
@@ -866,7 +866,7 @@
       "url": "https://github.com/AKS1st/ikun-theme-skin",
       "category": "其他",
       "description": "ikun 主题皮肤：星蓝昼/夜与背带裤黑金三套配色接入系统主题列表，全屏照片壁纸轮播、音乐盒与发送音效。",
-      "verdict": "blacklist",
+      "verdict": "whitelist",
       "auditedAt": "2026-08-23",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/AKS1st__ikun-theme-skin"
@@ -3011,7 +3011,7 @@
       "url": "https://github.com/JFWaskin/dsh-git-nexus",
       "category": "其他",
       "description": "DSH Web 的 Git 与 GitHub 面板：暂存/撤销/丢弃/差异、分支、提交、推送/拉取/同步、日志、文件浏览、工作流看板，以及带 PR 创建的 GitHub OAuth。",
-      "verdict": "blacklist",
+      "verdict": "whitelist",
       "auditedAt": "2026-08-23",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/JFWaskin__dsh-git-nexus"
