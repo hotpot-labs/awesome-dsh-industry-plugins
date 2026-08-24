@@ -6846,7 +6846,7 @@
     },
     {
       "id": "Relistencode__dsh-extension-hub--packages-dsh-myrules",
-      "name": "dsh-myrules",
+      "name": "Relistencode/dsh-myrules",
       "url": "https://github.com/Relistencode/dsh-extension-hub/tree/main/packages/dsh-myrules",
       "category": "计算机",
       "description": "在设置页的「个性化」页编辑此主机全局指令（~/.dsh/AGENTS.md），此机器上的所有会话都会应用。",
@@ -17340,7 +17340,7 @@
     },
     {
       "id": "qimidandapigu__dsh-xiaotangyuan-game--apps-harness-plugin",
-      "name": "单机游戏内 AI 同伴「小汤圆」",
+      "name": "qimidandapigu/单机游戏内 AI 同伴「小汤圆」",
       "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/tree/main/apps/harness-plugin",
       "category": "其他",
       "description": "单机游戏内 AI 同伴「小汤圆」：理解游戏画面，支持文字或按住说话交流并语音回复；现已支持《星露谷物语》，《饥荒联机版》和《缺氧》正在迁移接入。",
@@ -21465,7 +21465,7 @@
     },
     {
       "id": "zhengjy01__dsh-settings-nav-organizer",
-      "name": "dsh-settings-nav-organizer",
+      "name": "zhengjy01/dsh-settings-nav-organizer",
       "url": "https://github.com/zhengjy01/dsh-settings-nav-organizer",
       "category": "其他",
       "description": "设置面板导航整理：第三方插件入口折叠为可展开的分组行，支持书签式自定义分组、折叠开关与自动分类（市场标签 → 名称规则 → AI 模型三级兜底）。",
