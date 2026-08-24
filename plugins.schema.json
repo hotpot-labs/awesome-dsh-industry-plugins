@@ -28,8 +28,8 @@
           },
           "url": {
             "type": "string",
-            "pattern": "^https://github\\.com/[^/]+/[^/]+$",
-            "description": "插件 GitHub 仓库地址"
+            "pattern": "^https://github\\.com/[^/]+/[^/]+(/tree/[^/]+/.+)?$",
+            "description": "插件 GitHub 地址：独立仓库为 owner/repo，monorepo 子目录插件可带 /tree/<branch>/<subpath>"
           },
           "category": {
             "type": "string",
