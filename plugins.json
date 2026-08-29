@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-08-28",
+  "updatedAt": "2026-08-29",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -8142,7 +8142,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Tlyer233__dsh-vscode-review--packages-dsh-review-changes"
+      "dir": "plugins/Tlyer233__dsh-vscode-review--packages-dsh-review-changes",
+      "removed": true
     },
     {
       "id": "Tlyer233__dsh-vscode-review--packages-dsh-review",
@@ -8153,7 +8154,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Tlyer233__dsh-vscode-review--packages-dsh-review"
+      "dir": "plugins/Tlyer233__dsh-vscode-review--packages-dsh-review",
+      "removed": true
     },
     {
       "id": "Tommy00748__dsh-theme-cyberpunk2077",
@@ -18739,7 +18741,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/text2future__flowix--app-flowix-dsh-host-bundles-dsh-flowix-memory"
+      "dir": "plugins/text2future__flowix--app-flowix-dsh-host-bundles-dsh-flowix-memory",
+      "removed": true
     },
     {
       "id": "tiantianlaolao__dsh-astock-research",
@@ -25095,7 +25098,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-08-28",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Hou-DL__dsh-token-heatmap"
+      "dir": "plugins/Hou-DL__dsh-token-heatmap",
+      "removed": true
     },
     {
       "id": "InkshadeWoods__dsh-tool-visual-primitives",
@@ -26515,6 +26519,490 @@
       "auditedAt": "2026-08-28",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/xiaxi626__dsh-skills-nexus"
+    },
+    {
+      "id": "Fakek0f3sT__dsh-mcp-diff",
+      "name": "Fakek0f3sT/dsh-mcp-diff",
+      "url": "https://github.com/Fakek0f3sT/dsh-mcp-diff",
+      "category": "其他",
+      "description": "Renders every file mutation in the web chat as one collapsed diff card with per-line highlighting — MCP filesystem edit_file/write_file and the built-in edit/write.",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Fakek0f3sT__dsh-mcp-diff"
+    },
+    {
+      "id": "FeatureAgents__AgentsGitFlowController",
+      "name": "FeatureAgents/AgentsGitFlowController",
+      "url": "https://github.com/FeatureAgents/AgentsGitFlowController",
+      "category": "其他",
+      "description": "AI 编码智能体分支角色守卫：可配置集成/预览/生产/归档角色，拦截对受保护分支的直接推送、强推与删除，以及智能体对生产/归档分支的合并。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FeatureAgents__AgentsGitFlowController"
+    },
+    {
+      "id": "GooDAnDReaDY__dsh-grok-xsearch",
+      "name": "GooDAnDReaDY/dsh-grok-xsearch",
+      "url": "https://github.com/GooDAnDReaDY/dsh-grok-xsearch",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 增加用于 X/Twitter 搜索的 x_search 工具，通过独立的 SuperGrok OAuth 账号鉴权，不占用会话所用提供方的配额。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/GooDAnDReaDY__dsh-grok-xsearch"
+    },
+    {
+      "id": "GooDAnDReaDY__dsh-key-rotation",
+      "name": "GooDAnDReaDY/dsh-key-rotation",
+      "url": "https://github.com/GooDAnDReaDY/dsh-key-rotation",
+      "category": "其他",
+      "description": "为每个提供方维护 API Key 池并自动创建克隆路由，在配额或限流错误时切换到下一个 Key，主动探测冷却中的 Key 以便恢复，并在设置中提供 Key 池、冷却时间与切换状态码的编辑界面。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/GooDAnDReaDY__dsh-key-rotation"
+    },
+    {
+      "id": "GooDAnDReaDY__dsh-lanmode",
+      "name": "GooDAnDReaDY/dsh-lanmode",
+      "url": "https://github.com/GooDAnDReaDY/dsh-lanmode",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 网页 UI 提供局域网与反向代理访问：在非 localhost 页面返回设置服务，补齐浏览器在纯 HTTP 下限制的 Web API，并可自行开启监听端口。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/GooDAnDReaDY__dsh-lanmode"
+    },
+    {
+      "id": "GooDAnDReaDY__dsh-subscriptions",
+      "name": "GooDAnDReaDY/dsh-subscriptions",
+      "url": "https://github.com/GooDAnDReaDY/dsh-subscriptions",
+      "category": "其他",
+      "description": "通过 OAuth 将 ChatGPT Codex、Claude、Grok 与 Antigravity 订阅注册为 DeepSeek Harness 的 LLM 提供方，无需为其配置 API Key。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/GooDAnDReaDY__dsh-subscriptions"
+    },
+    {
+      "id": "GooDAnDReaDY__dsh-tts",
+      "name": "GooDAnDReaDY/dsh-tts",
+      "url": "https://github.com/GooDAnDReaDY/dsh-tts",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 网页 UI 中朗读智能体回复，采用服务商回退链（OpenAI、ElevenLabs、Google、Azure、Groq、Deepgram、OpenRouter、Edge、Piper、eSpeak），某个服务商失败或被限流时自动切换到下一个，而不是直接静音。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/GooDAnDReaDY__dsh-tts"
+    },
+    {
+      "id": "Hou-DL__dsh-token-pulse",
+      "name": "Hou-DL/dsh-token-pulse",
+      "url": "https://github.com/Hou-DL/dsh-token-pulse",
+      "category": "其他",
+      "description": "DSH 设置内的本地 Token 用量热图：GitHub 风格周/月/季度/年视图、每日小时级展开、模型与供应商 Top 5，历史持久化，删除会话不丢数据。零联网、零计费。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Hou-DL__dsh-token-pulse"
+    },
+    {
+      "id": "LWJ007__dsh-browser-tabs",
+      "name": "LWJ007/dsh-browser-tabs",
+      "url": "https://github.com/LWJ007/dsh-browser-tabs",
+      "category": "其他",
+      "description": "输入 /tabs 弹出浏览器标签页选择器，点选后链接自动填入输入框。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/LWJ007__dsh-browser-tabs"
+    },
+    {
+      "id": "NyaaCaster__dsh-yuque-kb",
+      "name": "NyaaCaster/dsh-yuque-kb",
+      "url": "https://github.com/NyaaCaster/dsh-yuque-kb",
+      "category": "其他",
+      "description": "把语雀文档作为 dsh 的外部记忆：对话中自动检索并注入相关文档片段，支持目录快照检索、云端全文搜索与在线阅读。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/NyaaCaster__dsh-yuque-kb"
+    },
+    {
+      "id": "SuperstructureJH__dsh-workbuddy-ppt",
+      "name": "SuperstructureJH/dsh-workbuddy-ppt",
+      "url": "https://github.com/SuperstructureJH/dsh-workbuddy-ppt",
+      "category": "其他",
+      "description": "在 DSH 中使用包内编排 Skill、确定性 PPTD 场景检查和原生 PowerPoint 对象生成可编辑 PPTX，并在本地交付 PPTD 源项目。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/SuperstructureJH__dsh-workbuddy-ppt"
+    },
+    {
+      "id": "bearice__dsh-keep-awake",
+      "name": "bearice/dsh-keep-awake",
+      "url": "https://github.com/bearice/dsh-keep-awake",
+      "category": "其他",
+      "description": "任意 agent、subagent 或后台任务运行时持有系统唤醒锁，全部结束后按可配置宽限期释放；提供中英双语 Web 设置页，实时显示活动与唤醒锁状态，支持手动保持与阻止屏幕关闭。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/bearice__dsh-keep-awake"
+    },
+    {
+      "id": "bescriptkiddie__dsh-wechat-collector",
+      "name": "bescriptkiddie/dsh-wechat-collector",
+      "url": "https://github.com/bescriptkiddie/dsh-wechat-collector",
+      "category": "其他",
+      "description": "公众号素材采集：扫码登录的多套凭证档案、带冷却保护的限流安全抓取、RSS 第二水源，以及凭证隔离的 ContentStudio 来源卡交接。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/bescriptkiddie__dsh-wechat-collector"
+    },
+    {
+      "id": "bobostudio__dsh-session-lens",
+      "name": "bobostudio/dsh-session-lens",
+      "url": "https://github.com/bobostudio/dsh-session-lens",
+      "category": "其他",
+      "description": "Session insights and one-click shareable HTML replay for DeepSeek Harness.",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/bobostudio__dsh-session-lens"
+    },
+    {
+      "id": "cyrus123456__dsh-johari-cognition-quadrant-dialog-composer",
+      "name": "cyrus123456/dsh-johari-cognition-quadrant-dialog-composer",
+      "url": "https://github.com/cyrus123456/dsh-johari-cognition-quadrant-dialog-composer",
+      "category": "其他",
+      "description": "乔哈里认知四象限对话梳理工具——在输入框上方添加按钮，弹出 2×2 象限面板（我知道/不知道 × AI知道/不知道），将对话上下文梳理为结构化 Prompt 并写回输入框。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/cyrus123456__dsh-johari-cognition-quadrant-dialog-composer"
+    },
+    {
+      "id": "falling-ts__dsh-web-ding",
+      "name": "falling-ts/dsh-web-ding",
+      "url": "https://github.com/falling-ts/dsh-web-ding",
+      "category": "其他",
+      "description": "agent 回合结束时在浏览器标签页里播放一声合成的叮,纯前端 Web Audio 发音,不经过后端、不弹系统通知。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/falling-ts__dsh-web-ding"
+    },
+    {
+      "id": "gehennawu__dsh-service",
+      "name": "gehennawu/dsh-service",
+      "url": "https://github.com/gehennawu/dsh-service",
+      "category": "计算机",
+      "description": "面向自托管 DSH Web 的运维面板：安全重启与升级、健康诊断、模型用量统计与供应商额度查询、备份和会话管理、任务通知、技能控制、子代理模型路由与 Linux 权限维护。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/gehennawu__dsh-service"
+    },
+    {
+      "id": "iguowz__dsh-cortex",
+      "name": "iguowz/dsh-cortex",
+      "url": "https://github.com/iguowz/dsh-cortex",
+      "category": "其他",
+      "description": "DeepSeek-Harness 多模型编排插件，支持递归任务拆解、动态路由、质量门控、失败恢复与 KPI 报表。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/iguowz__dsh-cortex"
+    },
+    {
+      "id": "liujia-io__dsh-image-picker",
+      "name": "liujia-io/dsh-image-picker",
+      "url": "https://github.com/liujia-io/dsh-image-picker",
+      "category": "其他",
+      "description": "在会话输入框添加 📎 选图按钮，通过系统文件选择器选取参考图并注入官方附件管线（缩略图、数量与大小校验、随消息上传），绕开拖拽环境问题。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/liujia-io__dsh-image-picker"
+    },
+    {
+      "id": "liuwenji007__dsh-trust-check",
+      "name": "liuwenji007/dsh-trust-check",
+      "url": "https://github.com/liuwenji007/dsh-trust-check",
+      "category": "其他",
+      "description": "在设置页和 CLI 里对已安装的 DeepSeek Harness 插件做静态扫描，列出能力、字面量去向、安装脚本和提示注入，并给出可确认的裁决。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/liuwenji007__dsh-trust-check"
+    },
+    {
+      "id": "loyalchiiina__dsh-font-enhancer",
+      "name": "loyalchiiina/dsh-font-enhancer",
+      "url": "https://github.com/loyalchiiina/dsh-font-enhancer",
+      "category": "其他",
+      "description": "DIY 你的 DSH 界面：按区域自定义字体、字号与颜色，支持全局统一设置、主题保存切换与随机配色。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/loyalchiiina__dsh-font-enhancer"
+    },
+    {
+      "id": "mienfong__dsh-session-mgr",
+      "name": "mienfong/dsh-session-mgr",
+      "url": "https://github.com/mienfong/dsh-session-mgr",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 网页界面中跨工作区移动、归档、恢复、可携式备份/导出与导入会话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/mienfong__dsh-session-mgr"
+    },
+    {
+      "id": "objectivex666__dsh-settings-search",
+      "name": "objectivex666/dsh-settings-search",
+      "url": "https://github.com/objectivex666/dsh-settings-search",
+      "category": "其他",
+      "description": "通过关键词、拼音、意图或 AI 一键搜索 DSH 设置面板，并直达目标设置页、标签或选项。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/objectivex666__dsh-settings-search"
+    },
+    {
+      "id": "rayadesune__DeepSeek-Harness-chat-billing",
+      "name": "rayadesune/DeepSeek-Harness-chat-billing",
+      "url": "https://github.com/rayadesune/DeepSeek-Harness-chat-billing",
+      "category": "其他",
+      "description": "会话头部徽标显示 DeepSeek 账户余额、本轮对话花费与今日全部会话总花费；每轮消息操作行前置本轮花费，详情面板含按模型计价与今日会话消费排行。官方峰谷定价，余额取自 /user/balance API。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/rayadesune__DeepSeek-Harness-chat-billing"
+    },
+    {
+      "id": "rice-awa__dsh-lan-gateway",
+      "name": "rice-awa/dsh-lan-gateway",
+      "url": "https://github.com/rice-awa/dsh-lan-gateway",
+      "category": "其他",
+      "description": "DeepSeek Harness Web GUI 的局域网/公网反向代理网关：dsh 仍绑定回环，本插件在 0.0.0.0 提供登录+HMAC Cookie（仅对非局域网来源生效，局域网与回环来源默认免密直连）、可选自签名或自定义 TLS 与官方设置页卡片。自带不安全源 UUID shim，让局域网纯 HTTP 地址也能正常打开工作区。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/rice-awa__dsh-lan-gateway"
+    },
+    {
+      "id": "savageops__dsh-rich-tracking",
+      "name": "savageops/dsh-rich-tracking",
+      "url": "https://github.com/savageops/dsh-rich-tracking",
+      "category": "其他",
+      "description": "todo 胶囊下方的进度记分板：百分比行必须带工件证据，检查点由宿主抓取 git 状态，pursue/align/dismiss 直接送达 agent 下一步。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/savageops__dsh-rich-tracking"
+    },
+    {
+      "id": "xobexo__dsh-smart-scenario-router",
+      "name": "xobexo/dsh-smart-scenario-router",
+      "url": "https://github.com/xobexo/dsh-smart-scenario-router",
+      "category": "其他",
+      "description": "根据对话场景选择模型，并在请求失败时按候选链进行回退。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/xobexo__dsh-smart-scenario-router"
+    },
+    {
+      "id": "xswt442-cmd__dsh-instance-manager",
+      "name": "xswt442-cmd/dsh-instance-manager",
+      "url": "https://github.com/xswt442-cmd/dsh-instance-manager",
+      "category": "计算机",
+      "description": "侧边栏实例管理面板：统一列出本机 3080–3129 端口的全部 dsh web 实例（端口、PID、运行时长、会话数），一键启动或优雅停止任意实例，含当前实例的任务管理器式停止。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/xswt442-cmd__dsh-instance-manager"
+    },
+    {
+      "id": "xtd1145__dsh-full-access-switch",
+      "name": "xtd1145/dsh-full-access-switch",
+      "url": "https://github.com/xtd1145/dsh-full-access-switch",
+      "category": "其他",
+      "description": "给 DeepSeek Harness 加 Full access 一次性开关：新工作区与新对话默认 danger-full-access 并跳过逐个确认；可作为 dsh bundle 安装，也可用脚本打补丁。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/xtd1145__dsh-full-access-switch"
+    },
+    {
+      "id": "xxxyz__DeepSeekHarness-MCP-Manager",
+      "name": "xxxyz/DeepSeekHarness-MCP-Manager",
+      "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+      "category": "其他",
+      "description": "DeepSeek Harness 的 MCP 服务管理器：在「设置 → MCP 管理」中新增/编辑/启停/重启/删除 MCP 服务，支持 JSON 导入导出、4 个 mcp_manager_* 模型工具与 HTTP API，可通过 npx、npm 或跨平台脚本安装。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/xxxyz__DeepSeekHarness-MCP-Manager"
+    },
+    {
+      "id": "yangdongzhen590__dsh-knj-menu",
+      "name": "yangdongzhen590/dsh-knj-menu",
+      "url": "https://github.com/yangdongzhen590/dsh-knj-menu",
+      "category": "其他",
+      "description": "第三方菜单管理器：统一收纳第三方插件的新增菜单入口，提供常规折叠与固定菜单项。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/yangdongzhen590__dsh-knj-menu"
+    },
+    {
+      "id": "yangdongzhen590__dsh-knj-scheduler",
+      "name": "yangdongzhen590/dsh-knj-scheduler",
+      "url": "https://github.com/yangdongzhen590/dsh-knj-scheduler",
+      "category": "其他",
+      "description": "定时任务调度器：按 Cron 表达式到点自动新建 DSH 会话并注入提示词执行，支持任务历史、手动运行与启停。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/yangdongzhen590__dsh-knj-scheduler"
+    },
+    {
+      "id": "yangdongzhen590__dsh-knj-workflow",
+      "name": "yangdongzhen590/dsh-knj-workflow",
+      "url": "https://github.com/yangdongzhen590/dsh-knj-workflow",
+      "category": "其他",
+      "description": "配置驱动的工作流与开发任务编排：任务绑定多阶段工作流，支持阶段级断点持久化、重跑与续跑，右侧栏可视化阶段进度。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/yangdongzhen590__dsh-knj-workflow"
+    },
+    {
+      "id": "yanglaofish__dsh-skill-manager",
+      "name": "yanglaofish/dsh-skill-manager",
+      "url": "https://github.com/yanglaofish/dsh-skill-manager",
+      "category": "其他",
+      "description": "DeepSeek Harness 技能生命周期管理：技能库（纯技能池）、工作区启用白名单、会话勾选三层模型；Web 设置面板与对话页内嵌视图，支持技能文件浏览/编辑、zip 与文件夹批量导入、引擎实际加载校验。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/yanglaofish__dsh-skill-manager"
+    },
+    {
+      "id": "yongshuai0314__dsh-i-have-adhd",
+      "name": "yongshuai0314/dsh-i-have-adhd",
+      "url": "https://github.com/yongshuai0314/dsh-i-have-adhd",
+      "category": "其他",
+      "description": "常驻的 ADHD 友好输出塑形：一个系统提示词区段让回复行动先行、步骤编号、时间估算具体；adhd_on / adhd_off / adhd_status 三个工具让模式跨重启保持。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/yongshuai0314__dsh-i-have-adhd"
+    },
+    {
+      "id": "yoshino-xiao7__dsh-grok-provider",
+      "name": "yoshino-xiao7/dsh-grok-provider",
+      "url": "https://github.com/yoshino-xiao7/dsh-grok-provider",
+      "category": "其他",
+      "description": "Grok Build 模型接入插件：使用官方 CLI 浏览器登录，动态发现账号可见模型，支持流式推理、工具调用、额度与模型能力设置页。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/yoshino-xiao7__dsh-grok-provider"
+    },
+    {
+      "id": "yu-wenchao__dsh-free-models-hub",
+      "name": "yu-wenchao/dsh-free-models-hub",
+      "url": "https://github.com/yu-wenchao/dsh-free-models-hub",
+      "category": "其他",
+      "description": "DSH Web UI 右侧的免费模型抽屉面板，分页浏览免费模型，可一键或整页批量把模型写入自定义提供方，并附带本地多 Key 轮换代理。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/yu-wenchao__dsh-free-models-hub"
+    },
+    {
+      "id": "yuanzhenqi__dsh-mobile-ui",
+      "name": "yuanzhenqi/dsh-mobile-ui",
+      "url": "https://github.com/yuanzhenqi/dsh-mobile-ui",
+      "category": "其他",
+      "description": "为 DSH Web 做成真正的手机壳：会话列表收成抽屉，点会话自动收起且不弹键盘，设置页改为全宽 sheet。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/yuanzhenqi__dsh-mobile-ui"
+    },
+    {
+      "id": "zeshuochen__dsh-watch-video",
+      "name": "zeshuochen/dsh-watch-video",
+      "url": "https://github.com/zeshuochen/dsh-watch-video",
+      "category": "其他",
+      "description": "字幕优先的视频转录，支持 SRT 导出与可取消任务控制；字幕不可用时回退到 faster-whisper `large-v3`。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/zeshuochen__dsh-watch-video"
+    },
+    {
+      "id": "zh851233__docs-mode",
+      "name": "zh851233/docs-mode",
+      "url": "https://github.com/zh851233/docs-mode",
+      "category": "其他",
+      "description": "面向 DeepSeek Harness 的技术文档撰写 Agent 模式：模板驱动写作与自学习模板库、技术文档去 AI 味，以及文档质量保障工具集（量化体检、多文档口径一致性校验、图/表编号重排、版本同步检查、Word/PDF 导出与界面截图自动化）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/zh851233__docs-mode"
+    },
+    {
+      "id": "zhangjunjesse__dsh-claude-code",
+      "name": "zhangjunjesse/dsh-claude-code",
+      "url": "https://github.com/zhangjunjesse/dsh-claude-code",
+      "category": "其他",
+      "description": "把自包含的编码任务委派给本机 Claude Code 订阅执行（走官方 Claude Agent SDK），并在会话里新增一个标签页，实时显示输出、费用与剩余额度。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/zhangjunjesse__dsh-claude-code"
+    },
+    {
+      "id": "zhangjunjesse__dsh-claude-driver",
+      "name": "zhangjunjesse/dsh-claude-driver",
+      "url": "https://github.com/zhangjunjesse/dsh-claude-driver",
+      "category": "其他",
+      "description": "让会话主模型跑在本机 Claude Code 订阅上：经官方 Claude Agent SDK 接管 claude-code provider 的 llm/stream 路由，支持 token 级流式、会话 resume 续接，并把 DSH 工具经 MCP 桥接进去以保留 DSH 的沙箱与审批。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/zhangjunjesse__dsh-claude-driver"
+    },
+    {
+      "id": "zhubaohi__dsh-qwen38-compaction-fix",
+      "name": "zhubaohi/dsh-qwen38-compaction-fix",
+      "url": "https://github.com/zhubaohi/dsh-qwen38-compaction-fix",
+      "category": "其他",
+      "description": "针对 NInfer 托管的 qwen3.8-27b 网关的压缩修复：在 dsh 上下文压缩与会话标题调用中关闭思考，避免 xhigh 推理耗尽全部输出预算；同一思路适用于其他启动方式，本包仅面向 NInfer。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/zhubaohi__dsh-qwen38-compaction-fix"
+    },
+    {
+      "id": "ziduup__dsh-programming-mode",
+      "name": "ziduup/dsh-programming-mode",
+      "url": "https://github.com/ziduup/dsh-programming-mode",
+      "category": "其他",
+      "description": "编程模式 agent preset 组合包：标准编码 Agent 强制执行 Superpowers 工程纪律（技能优先、先头脑风暴、先计划后编码、TDD、系统化调试、完成前验证），内置全部 14 个技能，并在每个新会话的第一条请求前自动注入 using-superpowers 技能全文。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-08-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ziduup__dsh-programming-mode"
     }
   ]
 }
