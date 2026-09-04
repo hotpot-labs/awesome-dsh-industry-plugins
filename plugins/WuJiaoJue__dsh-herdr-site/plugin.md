@@ -1,0 +1,12 @@
+# WuJiaoJue/dsh-herdr-site
+
+- **仓库地址**: https://github.com/WuJiaoJue/dsh-herdr-site
+- **收录分类**: 其他
+- **插件简介**: 通过 Herdr 自定义集成协议把 dsh/cc-tui agent 的 working / idle / blocked 状态上报给终端工作区管理器 Herdr，让 dsh 面板获得状态显示、面板跳转与 --wait 支持。
+- **收录来源**: awesome-dsh-plugin
+- **审核日期**: 2026-09-04
+- **审核定级**: 🔴 黑名单 (禁止使用)
+
+完整审核报告见同目录 [security-report.md](./security-report.md)。
+
+> ⚠️ 自动审核不等于人工审计，报告中标注「需人工复核」的检查项以人工复核结论为准。
