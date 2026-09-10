@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -35584,6 +35584,270 @@
       "auditedAt": "2026-09-09",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/somebdly__dsh-docker"
+    },
+    {
+      "id": "songofhawk__dsh-alpha",
+      "name": "songofhawk/dsh-alpha",
+      "url": "https://github.com/songofhawk/dsh-alpha",
+      "category": "其他",
+      "description": "DSH 的多机多 Agent 编排与控制平台：发现各设备上的 Agent 与工作区，按机器、仓库、能力和负载将任务路由到本地或远程 Agent Runtime，统一回传进度、审批与结果，并在断线后恢复持久任务。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/songofhawk__dsh-alpha"
+    },
+    {
+      "id": "sunnystarye-ui__dsh-plugin-text-quote",
+      "name": "sunnystarye-ui/dsh-plugin-text-quote",
+      "url": "https://github.com/sunnystarye-ui/dsh-plugin-text-quote",
+      "category": "其他",
+      "description": "Codex 风格对话文字批注：选中原文加注释、引用进对话、发送后以「N 条注释」胶囊展开。",
+      "verdict": "whitelist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/sunnystarye-ui__dsh-plugin-text-quote"
+    },
+    {
+      "id": "sunzhentao__dsh--prompt--enhance",
+      "name": "sunzhentao/dsh--prompt--enhance",
+      "url": "https://github.com/sunzhentao/dsh--prompt--enhance",
+      "category": "其他",
+      "description": "DSH Web 界面提示词增强插件：基础/标准/专家三档模式，标准/专家模式结合项目上下文与最近会话历史重写草稿；网关拒绝推理档位参数时自动去参重试；增强结果支持对比确认与撤回。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/sunzhentao__dsh--prompt--enhance"
+    },
+    {
+      "id": "tr1v3r__dsh-quote-followup",
+      "name": "tr1v3r/dsh-quote-followup",
+      "url": "https://github.com/tr1v3r/dsh-quote-followup",
+      "category": "其他",
+      "description": "在网页会话中划选文本，以原生引用 chip 插入输入框，进行针对性追问。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/tr1v3r__dsh-quote-followup"
+    },
+    {
+      "id": "wangtie-010101__wangtie-os",
+      "name": "wangtie-010101/wangtie-os",
+      "url": "https://github.com/wangtie-010101/wangtie-os",
+      "category": "计算机",
+      "description": "构建在 DeepSeek Harness Web 之上的全屏业务应用框架：深色侧边栏工作台，集成数据库连通测试与 SQL 查询、票据/会计二级知识库（本地检索与 Word 文档投喂）、元数据环境比对与变更 SQL 生成、数据字典、Agent 日志检索报告演示、系统测试用例执行、印象笔记风格记事本、常用开发工具与小游戏。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/wangtie-010101__wangtie-os"
+    },
+    {
+      "id": "wangzhanchao883__dsh-disk-manager",
+      "name": "wangzhanchao883/dsh-disk-manager",
+      "url": "https://github.com/wangzhanchao883/dsh-disk-manager",
+      "category": "其他",
+      "description": "扫描整 C 盘,把每个大空间按 A/B/C/D/E/P 分类(无忧缓存/官方可改址/可junction搬/冷废弃软件/配置记忆红线/个人文件),再按需删缓存/junction搬走/引导改址,带强红线保护、dry-run 预览与 undo。未知软件由 LLM 兜底 + 人工确认,动手前先预览、做完可回滚。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/wangzhanchao883__dsh-disk-manager"
+    },
+    {
+      "id": "wbycloud__dsh-composer-tokens",
+      "name": "wbycloud/dsh-composer-tokens",
+      "url": "https://github.com/wbycloud/dsh-composer-tokens",
+      "category": "其他",
+      "description": "为 DSH 对话输入框实时估算 token 数，将当前上下文基线与草稿合并计算，并区分精确计数与启发式估算。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/wbycloud__dsh-composer-tokens"
+    },
+    {
+      "id": "weibaohui__context-razor",
+      "name": "weibaohui/context-razor",
+      "url": "https://github.com/weibaohui/context-razor",
+      "category": "其他",
+      "description": "上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weibaohui__context-razor"
+    },
+    {
+      "id": "weibaohui__dsh-continue",
+      "name": "weibaohui/dsh-continue",
+      "url": "https://github.com/weibaohui/dsh-continue",
+      "category": "其他",
+      "description": "自动续跑：agent 会话中断后自动续上，规则表按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由——自动退避重试、换模型继续、压缩上下文后继续或止损通知，规则可视化编辑，全程活动日志。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weibaohui__dsh-continue"
+    },
+    {
+      "id": "weibaohui__dsh-settings-ui",
+      "name": "weibaohui/dsh-settings-ui",
+      "url": "https://github.com/weibaohui/dsh-settings-ui",
+      "category": "其他",
+      "description": "设置界面自定义：调整原生设置窗口大小（全屏/预置大尺寸/自定义宽高）、背景透明度与背景（主题/自定义颜色/图片），悬浮球即开即调，存本机浏览器。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weibaohui__dsh-settings-ui"
+    },
+    {
+      "id": "weibaohui__dsh-tasks",
+      "name": "weibaohui/dsh-tasks",
+      "url": "https://github.com/weibaohui/dsh-tasks",
+      "category": "其他",
+      "description": "定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weibaohui__dsh-tasks"
+    },
+    {
+      "id": "weibaohui__dsh-xiuxian",
+      "name": "weibaohui/dsh-xiuxian",
+      "url": "https://github.com/weibaohui/dsh-xiuxian",
+      "category": "其他",
+      "description": "修仙陪伴：随机唤醒《凡人修仙传》角色，MC 像素风桌宠与 agent 会话实时联动，子代理启动时化身宠物现身（最多 3 只同屏），支持储物袋收藏、右键法宝菜单、图鉴选宠，可导出 Codex 桌宠格式。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weibaohui__dsh-xiuxian"
+    },
+    {
+      "id": "weibaohui__experts-management",
+      "name": "weibaohui/experts-management",
+      "url": "https://github.com/weibaohui/experts-management",
+      "category": "其他",
+      "description": "专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weibaohui__experts-management"
+    },
+    {
+      "id": "weibaohui__hermes-loop",
+      "name": "weibaohui/hermes-loop",
+      "url": "https://github.com/weibaohui/hermes-loop",
+      "category": "其他",
+      "description": "自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用的技能（skill）存入技能库，支持信号加速触发、手动立即复盘、审批模式与技能库治理（归档/恢复，永不直接删除）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weibaohui__hermes-loop"
+    },
+    {
+      "id": "weibaohui__skills-management",
+      "name": "weibaohui/skills-management",
+      "url": "https://github.com/weibaohui/skills-management",
+      "category": "其他",
+      "description": "技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weibaohui__skills-management"
+    },
+    {
+      "id": "weibaohui__user-management",
+      "name": "weibaohui/user-management",
+      "url": "https://github.com/weibaohui/user-management",
+      "category": "其他",
+      "description": "用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weibaohui__user-management"
+    },
+    {
+      "id": "weisofns__dsh-print3d",
+      "name": "weisofns/dsh-print3d",
+      "url": "https://github.com/weisofns/dsh-print3d",
+      "category": "其他",
+      "description": "DeepSeek Harness 的 3D 打印与增材制造插件：参数化 STL 生成、校准 G-code、STL/G-code 分析、刀路可视化、PrusaSlicer 桥接，含 5 个技能与面向本地小模型的精简 persona。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weisofns__dsh-print3d"
+    },
+    {
+      "id": "weisofns__dsh-security-guard",
+      "name": "weisofns/dsh-security-guard",
+      "url": "https://github.com/weisofns/dsh-security-guard",
+      "category": "其他",
+      "description": "DSH 插件安全卫士：28 条规则静态扫描、风险评分、白名单/黑名单、本地 Web 仪表盘与 DSH 内风险弹窗。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weisofns__dsh-security-guard"
+    },
+    {
+      "id": "weixshaw__dsh-plugin-task-runner",
+      "name": "weixshaw/dsh-plugin-task-runner",
+      "url": "https://github.com/weixshaw/dsh-plugin-task-runner",
+      "category": "其他",
+      "description": "任务拆解模式：主代理把大任务拆成独立子任务，派给子代理（默认本地模型）在全新短上下文中执行并综合结果；并发数与模型可在设置面板图形化配置。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/weixshaw__dsh-plugin-task-runner"
+    },
+    {
+      "id": "welsione__dsh-model-router",
+      "name": "welsione/dsh-model-router",
+      "url": "https://github.com/welsione/dsh-model-router",
+      "category": "其他",
+      "description": "统一模型路由：一个逻辑 ModelID 汇聚多家供应商，首 token 前失败自动切换并冷却、健康度择优、按 purpose 三档分级（tier1/2/3）、每候选思考级别，设置面板自动保存即时生效。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/welsione__dsh-model-router"
+    },
+    {
+      "id": "wentao75__dsh-remote-auth",
+      "name": "wentao75/dsh-remote-auth",
+      "url": "https://github.com/wentao75/dsh-remote-auth",
+      "category": "其他",
+      "description": "DSH 远程授权页：以可点击链接或二维码呈现当前进程的浏览器会话 URL，可选主机/网段白名单与 PIN 门禁。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/wentao75__dsh-remote-auth"
+    },
+    {
+      "id": "wenyixiaoqingnian__screenshot-review",
+      "name": "wenyixiaoqingnian/screenshot-review",
+      "url": "https://github.com/wenyixiaoqingnian/screenshot-review",
+      "category": "其他",
+      "description": "截图审阅 skill：模型自己打开页面、截图、看图、改代码，反复迭代直到前端效果符合要求。以 dsh.bundle 打包，可用 `dsh plugin add` 一键安装。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/wenyixiaoqingnian__screenshot-review"
+    },
+    {
+      "id": "wjingshan__dsh-cost-gauge",
+      "name": "wjingshan/dsh-cost-gauge",
+      "url": "https://github.com/wjingshan/dsh-cost-gauge",
+      "category": "其他",
+      "description": "DSH Web 浮动花费表盘：24 小时费率弧 + 按模型着色的指针、带报警阈值的余额环，支持拖拽缩放与最小化状态灯模式。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/wjingshan__dsh-cost-gauge"
+    },
+    {
+      "id": "wjj-8283__dsh-temp-workspace",
+      "name": "wjj-8283/dsh-temp-workspace",
+      "url": "https://github.com/wjj-8283/dsh-temp-workspace",
+      "category": "其他",
+      "description": "DSH web 临时工作区：一键创建一次性工作区，下次重启自动清空其全部对话（可立即/延迟删除，也可先弹确认框）。点击图钉可永久保留——文件移入所选文件夹、以文件夹名为标题、对话一并迁移，并触发真实的宿主级重启重新索引。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/wjj-8283__dsh-temp-workspace"
     }
   ]
 }
