@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-15",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -37662,6 +37662,160 @@
       "auditedAt": "2026-09-14",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/shenkonghui__dsh-llm-acp"
+    },
+    {
+      "id": "sojo-negai__dsh-prompt-refine",
+      "name": "sojo-negai/dsh-prompt-refine",
+      "url": "https://github.com/sojo-negai/dsh-prompt-refine",
+      "category": "其他",
+      "description": "A ✨ button left of the send button: reads the draft and recent turns, asks the configured model for three suggestions each pairing an issue with a patch, lets you tick them individually with a live preview of the merged prompt, and writes the result back to the composer without sending.",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/sojo-negai__dsh-prompt-refine"
+    },
+    {
+      "id": "songer522__dsh-launcher",
+      "name": "songer522/dsh-launcher",
+      "url": "https://github.com/songer522/dsh-launcher",
+      "category": "其他",
+      "description": "DSH Web 服务的 macOS 菜单栏应用，以及它所读取的 Host 插件：插件把运行中服务的端口、PID 与带 token 的 URL 写入 ~/.config/dsh-launcher/runtime.json，并在停止时删除，因此即使服务器是从终端启动的，也能在状态栏完成启动、打开、重启与停止。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/songer522__dsh-launcher"
+    },
+    {
+      "id": "sryimnoob123__dsh-tool-pwsh-safe",
+      "name": "sryimnoob123/dsh-tool-pwsh-safe",
+      "url": "https://github.com/sryimnoob123/dsh-tool-pwsh-safe",
+      "category": "其他",
+      "description": "把 PowerShell 脚本 base64 编码后执行，引号、$、反斜杠、中文全部原样传递，免去转义地狱。走与内置 pwsh 工具相同的沙箱通道。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/sryimnoob123__dsh-tool-pwsh-safe"
+    },
+    {
+      "id": "sueqet__dsh-todo-board",
+      "name": "sueqet/dsh-todo-board",
+      "url": "https://github.com/sueqet/dsh-todo-board",
+      "category": "其他",
+      "description": "跨会话 TODO 板：可拖动浮窗按工作目录分组、拖拽排序，每条待办带一个执行模式（仅提醒 / 在当前会话续跑 / 在同目录新开会话）、可附最多 4 张图片（派发时作为真正的图片附件发给模型）、以及一个可选的定时执行时间；两个勾选框分别记录 AI 已完成与用户已验收，AI 完成一项后自动接续该目录下一条未完成待办。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/sueqet__dsh-todo-board"
+    },
+    {
+      "id": "suomir1995__dsh-link-collect",
+      "name": "suomir1995/dsh-link-collect",
+      "url": "https://github.com/suomir1995/dsh-link-collect",
+      "category": "其他",
+      "description": "把收藏的链接存成你指定文件夹里的 Markdown 文件，带侧栏页面管理收藏夹与链接、全库搜索、自动抓取图标，以及三个 agent 工具。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/suomir1995__dsh-link-collect"
+    },
+    {
+      "id": "suomir1995__dsh-notes",
+      "name": "suomir1995/dsh-notes",
+      "url": "https://github.com/suomir1995/dsh-notes",
+      "category": "其他",
+      "description": "把笔记存成你选定根目录下按分组组织的本地 Markdown 文件，带侧栏页面，并把 AGENTS 等规则 md 作为写作上下文，另有六个 agent 工具。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/suomir1995__dsh-notes"
+    },
+    {
+      "id": "swenbo1-web__dsh-web-search-button",
+      "name": "swenbo1-web/dsh-web-search-button",
+      "url": "https://github.com/swenbo1-web/dsh-web-search-button",
+      "category": "其他",
+      "description": "DeepSeek Harness 的直接联网搜索按钮与 /search 斜杠命令插件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/swenbo1-web__dsh-web-search-button"
+    },
+    {
+      "id": "tangzheng202202__dsh-sparkos",
+      "name": "tangzheng202202/dsh-sparkos",
+      "url": "https://github.com/tangzheng202202/dsh-sparkos",
+      "category": "其他",
+      "description": "自媒体工作台插件：8 tab 看板（今日简报/叙事主线/选题/草稿/知识卡蒸馏审核/信息源/发布表现/系统建议），五守卫硬执行，VAULT 数据与代码分离，intel 模块只读接入并遵守四条红线。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/tangzheng202202__dsh-sparkos"
+    },
+    {
+      "id": "techflag__dsh-plugin-ssh",
+      "name": "techflag/dsh-plugin-ssh",
+      "url": "https://github.com/techflag/dsh-plugin-ssh",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 内使用 SSH 终端、SFTP 文件传输与文本编辑，并通过宿主模型排查服务器问题。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/techflag__dsh-plugin-ssh"
+    },
+    {
+      "id": "teethyachi__dsh-usage-mini",
+      "name": "teethyachi/dsh-usage-mini",
+      "url": "https://github.com/teethyachi/dsh-usage-mini",
+      "category": "其他",
+      "description": "DSH Web 悬浮用量小窗，显示 Claude、Codex 订阅用量窗口与重置倒计时，以及 DeepSeek API 今日花费与余额；只展示，是 dsh-cost-meter 的伴侣。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/teethyachi__dsh-usage-mini"
+    },
+    {
+      "id": "tkliuxing__dsh-presets-hidden",
+      "name": "tkliuxing/dsh-presets-hidden",
+      "url": "https://github.com/tkliuxing/dsh-presets-hidden",
+      "category": "其他",
+      "description": "在新会话页控制 Agent 预设的显示与排序。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/tkliuxing__dsh-presets-hidden"
+    },
+    {
+      "id": "tmeeli__dsh-auto-goal-resume",
+      "name": "tmeeli/dsh-auto-goal-resume",
+      "url": "https://github.com/tmeeli/dsh-auto-goal-resume",
+      "category": "其他",
+      "description": "DSH 重启后自动续跑有活跃目标的会话,无需人工说「继续」。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/tmeeli__dsh-auto-goal-resume"
+    },
+    {
+      "id": "toustifer__agentflow",
+      "name": "toustifer/agentflow",
+      "url": "https://github.com/toustifer/agentflow",
+      "category": "其他",
+      "description": "基于 Git 工作树任务隔离、状态门禁交付与外置记忆的 AI 智能体软件生命周期编排引擎。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/toustifer__agentflow"
+    },
+    {
+      "id": "toustifer__dsh-harvest",
+      "name": "toustifer/dsh-harvest",
+      "url": "https://github.com/toustifer/dsh-harvest",
+      "category": "其他",
+      "description": "多平台调研与深度搜索流水线：harvest_scout 并行发现（覆盖 GitHub、Web、推特、Reddit、小红书、B站、YouTube 等通道），harvest_deep_research 自动化长篇综合研报生成，外加穿透抓取、跨源交叉验证与五维来源可信度审计。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/toustifer__dsh-harvest"
     }
   ]
 }
