@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-17",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -38476,6 +38476,237 @@
       "auditedAt": "2026-09-16",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/kankezhiyan__dsh-awesome-fonts"
+    },
+    {
+      "id": "CosmerHomura__dsh-yoimiya-theme",
+      "name": "CosmerHomura/dsh-yoimiya-theme",
+      "url": "https://github.com/CosmerHomura/dsh-yoimiya-theme",
+      "category": "其他",
+      "description": "《原神》宵宫主题：严格核算过对比度的明暗双色板、程序化生成的烟花粒子层，以及一个读取你自己本地文件的播放器——歌曲与封面不上传到任何地方。语法高亮为暖色，标识为自绘金鱼；除壁纸外所有画面都由 CSS 渐变与手写 SVG 生成。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CosmerHomura__dsh-yoimiya-theme"
+    },
+    {
+      "id": "apex-mochen__dsh-reasoning-only-guard",
+      "name": "apex-mochen/dsh-reasoning-only-guard",
+      "url": "https://github.com/apex-mochen/dsh-reasoning-only-guard",
+      "category": "其他",
+      "description": "防止「只有推理、没有正文」的一轮把整个会话变成不可用。某一轮没有可见文本也没有 tool-call 时，assistant 消息会以空内容落盘，此后该会话的每一次请求都会被网关以 \"content or tool_calls must be set\" 拒绝，会话彻底死亡且无法再从对话里找回。本插件只注册一个 llm/stream waterfall 监听器，且仅当这一轮没有任何可见产出时，在终止 finish 之前注入一小段文本，使落盘消息永远不为空。附带 DSH 自带 mock 造不出的夹具（严格只有推理的 SSE 服务，因为 llm-mock-server 不允许空 successText，且 reasoning_success 总会再补一段正文），以及把真实落盘会话经 DSH 自己的 serializeMessages 重放的端到端复现。属预防而非修复。零依赖、单文件、不访问进程与文件系统。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/apex-mochen__dsh-reasoning-only-guard"
+    },
+    {
+      "id": "apex-mochen__dsh-todo-continuity",
+      "name": "apex-mochen/dsh-todo-continuity",
+      "url": "https://github.com/apex-mochen/dsh-todo-continuity",
+      "category": "其他",
+      "description": "让没做完的任务清单跨回合保留。DSH 在每个回合开始时清空 todos 投影，指望模型重写整份清单，于是回合一旦被中断，计划虽然durable 地留在会话日志里，界面上却永久消失——而 todo_write 只写不读，用户和模型都拿不回来。本插件只注册一个普通的 session/event 监听器，按会话记住最后一份清单；当 turn/start 到来而那份清单仍有未完成项时，把它补折回去，投影就不再显示空计划。不 fork tool-todo、不注册任何 waterfall：插件换不掉投影（注册表对 stateVersion 不一致直接抛错），追加折叠所反应的那条事件才是够得着的缝。刻意收得很窄——只管未完成的清单、每次回合开始最多补一条、失败即放行。已用真实会话上的受控 A/B 验证：两次运行内容相同，唯一差别是插件装没装，都用真实的投影定义折叠。零依赖。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/apex-mochen__dsh-todo-continuity"
+    },
+    {
+      "id": "kinderao__dsh-pocket-relay",
+      "name": "kinderao/dsh-pocket-relay",
+      "url": "https://github.com/kinderao/dsh-pocket-relay",
+      "category": "其他",
+      "description": "手机与远程访问 DSH Web 界面：局域网扫码即用，或用自建 relay 中继服务端（替代 cloudflared 隧道）随时随地连回电脑；每台设备独立凭据，可配对、查看与单独撤销；多台电脑共用一个中继并自动热备。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/kinderao__dsh-pocket-relay"
+    },
+    {
+      "id": "kp-z__dsh-mermaid-comm",
+      "name": "kp-z/dsh-mermaid-comm",
+      "url": "https://github.com/kp-z/dsh-mermaid-comm",
+      "category": "其他",
+      "description": "让 AI 在开发交流中默认用 Mermaid 图表达——系统提示引导、mermaid_validate 真解析语法校验工具，以及自动修复或摘除坏图的输出闸。渲染交给 dsh-mermaid。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/kp-z__dsh-mermaid-comm"
+    },
+    {
+      "id": "levodoubt__dsh-longtext-input",
+      "name": "levodoubt/dsh-longtext-input",
+      "url": "https://github.com/levodoubt/dsh-longtext-input",
+      "category": "其他",
+      "description": "在输入框工具栏新增「长文本」按钮：在编辑器浮层里写或粘贴正文，保存后写入 <工作区>/.dsh-longtext/<时间戳>_<标题>.md，并把该文件的 @ 路径引用追加到输入框，让正文不进入对话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/levodoubt__dsh-longtext-input"
+    },
+    {
+      "id": "liu3734__jira-tasks-dsh-plugin",
+      "name": "liu3734/jira-tasks-dsh-plugin",
+      "url": "https://github.com/liu3734/jira-tasks-dsh-plugin",
+      "category": "其他",
+      "description": "DSH 输入框下方的 JIRA 任务面板：按工作区配置项目 Key 与可选 JQL，展示指派给当前用户的问题，带状态、优先级与类型标签、总数徽标、收起与刷新、跳转 JIRA，并在设置页卡片配置 JIRA 地址与令牌（含连接测试）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/liu3734__jira-tasks-dsh-plugin"
+    },
+    {
+      "id": "lnsdlszsqxxx__dsh-courseware",
+      "name": "lnsdlszsqxxx/dsh-courseware",
+      "url": "https://github.com/lnsdlszsqxxx/dsh-courseware",
+      "category": "其他",
+      "description": "拿用户自己的 .pptx 模板 + 一份课程大纲（教案/文档/纯文本），产出套用该模板背景、配色、字体、页面骨架的课件 .pptx。纯插件包，无内置密钥，图片后端需用户自行配置。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/lnsdlszsqxxx__dsh-courseware"
+    },
+    {
+      "id": "loyalchiiina__dsh-model-fold",
+      "name": "loyalchiiina/dsh-model-fold",
+      "url": "https://github.com/loyalchiiina/dsh-model-fold",
+      "category": "其他",
+      "description": "把模型选择菜单按来源（provider）分组：菜单先列出来源，点来源从右侧滑出子面板列出该来源的全部模型（默认），双击来源标题可切换为在列表内就地展开。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/loyalchiiina__dsh-model-fold"
+    },
+    {
+      "id": "lsjspl__dsh-reel",
+      "name": "lsjspl/dsh-reel",
+      "url": "https://github.com/lsjspl/dsh-reel",
+      "category": "其他",
+      "description": "基于 dsh 内置 Web 服务管理、浏览与播放本地媒体库，完美适配 PC 与移动端，支持手势上下滑动刷视频、即时拖拽秒播与实时转码。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/lsjspl__dsh-reel"
+    },
+    {
+      "id": "mafeis__dsh-image-guard",
+      "name": "mafeis/dsh-image-guard",
+      "url": "https://github.com/mafeis/dsh-image-guard",
+      "category": "其他",
+      "description": "发送前把请求中的历史图片裁剪至保留张数，并从上游 400 错误解析单次图片上限、按更少张数降级重试，保证含图会话不被图片数量限制打断。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/mafeis__dsh-image-guard"
+    },
+    {
+      "id": "nirvanaslash__dsh-bat2exe",
+      "name": "nirvanaslash/dsh-bat2exe",
+      "url": "https://github.com/nirvanaslash/dsh-bat2exe",
+      "category": "计算机",
+      "description": "在 DSH 内把 Windows .bat/.cmd 启动器编译成真正的 .exe：用内置位图字体生成图标，生成调用同目录批处理的 C# 薄壳，经 csc.exe（或 dotnet build）编译，并可选写入开始菜单/桌面快捷方式。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/nirvanaslash__dsh-bat2exe"
+    },
+    {
+      "id": "nobu121__dsh-opencode-session",
+      "name": "nobu121/dsh-opencode-session",
+      "url": "https://github.com/nobu121/dsh-opencode-session",
+      "category": "其他",
+      "description": "为 OpenCode / OpenCode Go 提供商请求自动附加每个会话稳定的 x-opencode-session 请求头，修复 400 MissingSessionID 错误，同时保持会话亲和与提示缓存路由。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/nobu121__dsh-opencode-session"
+    },
+    {
+      "id": "noteflowai__dsh-skills-anywhere",
+      "name": "noteflowai/dsh-skills-anywhere",
+      "url": "https://github.com/noteflowai/dsh-skills-anywhere",
+      "category": "其他",
+      "description": "实时技能提供器：把 60+ 个其他 Agent（Claude Code、Codex、Cursor、Gemini CLI、Copilot）的技能目录、Claude Code 插件市场以及任意 git 技能仓库中的技能接入 dsh 目录，零拷贝零软链接；自动去重、修复 frontmatter、处理同名冲突，并附带 CLI（list、add、sync、doctor）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/noteflowai__dsh-skills-anywhere"
+    },
+    {
+      "id": "ouli-1242__dsh-plugin-tool-management",
+      "name": "ouli-1242/dsh-plugin-tool-management",
+      "url": "https://github.com/ouli-1242/dsh-plugin-tool-management",
+      "category": "其他",
+      "description": "一个设置面板统一管理 DSH 的 MCP、技能、AGENTS.md 预设、归档会话与场景记忆：单工具级启停、技能导入与回收、场景记忆以普通 Markdown 目录形式注入系统提示词。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ouli-1242__dsh-plugin-tool-management"
+    },
+    {
+      "id": "qtaik__dsh-noname-kit",
+      "name": "qtaik/dsh-noname-kit",
+      "url": "https://github.com/qtaik/dsh-noname-kit",
+      "category": "计算机",
+      "description": "无名杀扩展开发工坊。AI 在确认协议、校验门禁与区块化写入的保护下编写武将技能与卡牌扩展。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/qtaik__dsh-noname-kit"
+    },
+    {
+      "id": "rakibulrocky14__dsh-cli",
+      "name": "rakibulrocky14/dsh-cli",
+      "url": "https://github.com/rakibulrocky14/dsh-cli",
+      "category": "其他",
+      "description": "DeepSeek Harness 全屏终端 TUI 界面，具备 Web GUI 级对齐能力，支持实时流式输出、智能体预设与经典蓝配色。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/rakibulrocky14__dsh-cli"
+    },
+    {
+      "id": "rex178178__dsh-turnbar",
+      "name": "rex178178/dsh-turnbar",
+      "url": "https://github.com/rex178178/dsh-turnbar",
+      "category": "其他",
+      "description": "会话内轮次导航视频进度条：全图分段、悬停富元信息卡（工具/文件/token）、拖动 scrub、⌘K 全会话搜索、⌘↑/⌘↓ 逐轮跳转、Esc 返回原位——基于会话事件日志，超出已加载窗口仍可用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/rex178178__dsh-turnbar"
+    },
+    {
+      "id": "runcat-tommy__dsh-unitverse",
+      "name": "runcat-tommy/dsh-unitverse",
+      "url": "https://github.com/runcat-tommy/dsh-unitverse",
+      "category": "其他",
+      "description": "单位换算：提供 convert 工具，覆盖长度/面积/体积/时间/角度/速度/温度/压力/热量/功率十大类共 82 个单位，支持中英文单位名与温差（Δ）换算，并在 DSH Web 会话视图中提供按类别分模块、跟随中英文界面语言的「单位换算」标签页。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/runcat-tommy__dsh-unitverse"
+    },
+    {
+      "id": "runcat-tommy__dsh-view-manager",
+      "name": "runcat-tommy/dsh-view-manager",
+      "url": "https://github.com/runcat-tommy/dsh-view-manager",
+      "category": "其他",
+      "description": "DSH 视图标签管理器（逃咪）：管理会话页头视图标签（对话/轨迹）——启停、隐藏、排序与重命名，文案随界面语言中英切换，并带 npm 更新提醒。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/runcat-tommy__dsh-view-manager"
+    },
+    {
+      "id": "shenkonghui__dsh-worktree-manager",
+      "name": "shenkonghui/dsh-worktree-manager",
+      "url": "https://github.com/shenkonghui/dsh-worktree-manager",
+      "category": "其他",
+      "description": "dsh 的 Git worktree 管理——按仓库聚合工作区，创建与切换 worktree，并查看变更、提交历史与文件差异。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/shenkonghui__dsh-worktree-manager"
     }
   ]
 }
