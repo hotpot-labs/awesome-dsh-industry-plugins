@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-26",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -42972,6 +42972,259 @@
       "auditedAt": "2026-09-25",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/idoall__dsh-session-colors"
+    },
+    {
+      "id": "173787247__dsh-device-bridge",
+      "name": "173787247/dsh-device-bridge",
+      "url": "https://github.com/173787247/dsh-device-bridge",
+      "category": "其他",
+      "description": "DeepSeek Harness 通用 Companion 桥：手机 / IoT / 旧世界薄 Agent。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/173787247__dsh-device-bridge"
+    },
+    {
+      "id": "173787247__dsh-mac-companion",
+      "name": "173787247/dsh-mac-companion",
+      "url": "https://github.com/173787247/dsh-mac-companion",
+      "category": "其他",
+      "description": "DeepSeek Harness 对接 macOS Companion（通知 / Shortcuts / 剪贴板）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/173787247__dsh-mac-companion"
+    },
+    {
+      "id": "173787247__dsh-remote-ssh",
+      "name": "173787247/dsh-remote-ssh",
+      "url": "https://github.com/173787247/dsh-remote-ssh",
+      "category": "其他",
+      "description": "从 DeepSeek Harness 白名单 SSH 接入 Unix/AIX/macOS（不走 shell；默认只读）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/173787247__dsh-remote-ssh"
+    },
+    {
+      "id": "Astervolans__dsh-opencode-go-usage",
+      "name": "Astervolans/dsh-opencode-go-usage",
+      "url": "https://github.com/Astervolans/dsh-opencode-go-usage",
+      "category": "其他",
+      "description": "常驻侧边栏的 OpenCode GO 套餐额度组件：滚动/周/月三条用量条、每条下方一条已流逝与剩余时间条、同源用量代理、/opencode-go 命令，以及针对 GO 网关聊天请求的运行时 x-opencode-session 修复。fork 自 yumusb/dsh-opencode-go-usage。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Astervolans__dsh-opencode-go-usage"
+    },
+    {
+      "id": "Bingtang1019__dsh-ppt-fusion",
+      "name": "Bingtang1019/dsh-ppt-fusion",
+      "url": "https://github.com/Bingtang1019/dsh-ppt-fusion",
+      "category": "其他",
+      "description": "从需求生成 PPTX：规划与分镜门、pptwise + ppt-master 页级作者、设计档案 pass、渲染页图快照与渲染审计，以及把页图交给支持图片的模型自评的工具。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Bingtang1019__dsh-ppt-fusion"
+    },
+    {
+      "id": "CJYLZS__dsh-browser",
+      "name": "CJYLZS/dsh-browser",
+      "url": "https://github.com/CJYLZS/dsh-browser",
+      "category": "其他",
+      "description": "给 dsh agent 一个真正的浏览器：每个会话拥有自己的 Chrome 或 Edge 进程、独立 profile 与独立 CDP 端口，六个工具驱动它，右侧边栏实时镜像同一批页面，你既能看着它干活，也能直接在画面上点击、输入接管。除此之外无需再装东西——它驱动机器上已有的 Chrome 或 Edge，不下载浏览器，不需要配套应用或扩展，标签页与登录状态在工具调用之间一直保留。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CJYLZS__dsh-browser"
+    },
+    {
+      "id": "CheeseFox259__dsh-better-composer",
+      "name": "CheeseFox259/dsh-better-composer",
+      "url": "https://github.com/CheeseFox259/dsh-better-composer",
+      "category": "其他",
+      "description": "DSH Web Composer 视觉增强与会话工作台：实时 Markdown 呈现与光标行源码还原、确定性本地补全与语法诊断；超长粘贴自动收纳为持久化引用 chip，支持直接内联或文件送达（支持 50+ 种扩展名），并在右栏抽屉提供大模型智能改写（支持中止、预览对比、应用与撤销重做）；集成实时上下文地图，包含 Token 仪表盘、构成穿透钻取、逐轮增长图与锚定刻线、一键 /compact 及会话分叉。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CheeseFox259__dsh-better-composer"
+    },
+    {
+      "id": "ColorlessBoy__dsh-opencode-usage",
+      "name": "ColorlessBoy/dsh-opencode-usage",
+      "url": "https://github.com/ColorlessBoy/dsh-opencode-usage",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 的 Web 输入框 dock 显示 OpenCode Go 套餐的 5 小时 / 每周 / 每月剩余额度。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ColorlessBoy__dsh-opencode-usage"
+    },
+    {
+      "id": "DanZai233__dsh-webask",
+      "name": "DanZai233/dsh-webask",
+      "url": "https://github.com/DanZai233/dsh-webask",
+      "category": "其他",
+      "description": "在输入框旁加一个按钮，并提供全局快捷键（默认 mod+shift+k）浮层，把一次性的小问题交给网页版对话而不是送进 harness 上下文：草稿会从输入框取出、复制到剪贴板并打开模板 URL。内置目标站点预设（DeepSeek、Kimi、Qwen、豆包、腾讯元宝、GLM、Gemini），带本地问题历史（可重新打开、复制或回填到输入框），以及设置页（站点、URL 模板、快捷键、剪贴板、历史）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DanZai233__dsh-webask"
+    },
+    {
+      "id": "Hercules-debug__huixuan-assistant",
+      "name": "Hercules-debug/huixuan-assistant",
+      "url": "https://github.com/Hercules-debug/huixuan-assistant",
+      "category": "其他",
+      "description": "在 DSH 对话里搜索、对比并挑选拼多多商品，数据来自拼多多开放平台官方 API，含价格、销量、服务标签、商品图与推广链接。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Hercules-debug__huixuan-assistant"
+    },
+    {
+      "id": "Jaylor-Wang__dsh-awesome-agent-preset",
+      "name": "Jaylor-Wang/dsh-awesome-agent-preset",
+      "url": "https://github.com/Jaylor-Wang/dsh-awesome-agent-preset",
+      "category": "其他",
+      "description": "专为日常编码打造的极简 Agent 预设插件：移除沉重编排机制与冗余组件，直达核心工具循环，响应迅速。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Jaylor-Wang__dsh-awesome-agent-preset"
+    },
+    {
+      "id": "Lixiuxiu559__AgentForge",
+      "name": "Lixiuxiu559/AgentForge",
+      "url": "https://github.com/Lixiuxiu559/AgentForge",
+      "category": "其他",
+      "description": "同一个仓库同时可装为 Claude Code 插件与 DSH 插件：6 个工程技能（调研、架构侦察、实施编排、三轴 diff 评审、复杂度审计、突变测试），外加一个 agentforge 工具派发 5 个子 agent。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Lixiuxiu559__AgentForge"
+    },
+    {
+      "id": "Zoria-Lind__dsh-behavior-enhancer",
+      "name": "Zoria-Lind/dsh-behavior-enhancer",
+      "url": "https://github.com/Zoria-Lind/dsh-behavior-enhancer",
+      "category": "其他",
+      "description": "工具调用纪律：注入静态行为约束段、工具失败后并行池收敛到 1（连续 3 次成功恢复）、连续失败提醒模型停止重试、写后检查与 .bak 回滚、高风险命令闸门、/behavior-status 遵守度统计。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Zoria-Lind__dsh-behavior-enhancer"
+    },
+    {
+      "id": "Zoria-Lind__dsh-token-optimizer",
+      "name": "Zoria-Lind/dsh-token-optimizer",
+      "url": "https://github.com/Zoria-Lind/dsh-token-optimizer",
+      "category": "其他",
+      "description": "token 优化管道：按上下文压力分层压缩（40% 以下无损投影、以上 LLM 摘要）、按 agent 裁剪工具列表、长文本转图片视觉摘要、/token-status 查看压力与节省量。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Zoria-Lind__dsh-token-optimizer"
+    },
+    {
+      "id": "azazo1__dsh-reduce-effects",
+      "name": "azazo1/dsh-reduce-effects",
+      "url": "https://github.com/azazo1/dsh-reduce-effects",
+      "category": "其他",
+      "description": "在设置里新增 \"前端特效\" 页, 按分类关掉 DSH Web 的动画与过渡, 加载与进度动画, 毛玻璃, 平滑滚动, 标题 hover 滚动, 阴影, 渐变与 JS 动效, 降低浏览器渲染负担.",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/azazo1__dsh-reduce-effects"
+    },
+    {
+      "id": "bakasbk__dsh-connect-comate",
+      "name": "bakasbk/dsh-connect-comate",
+      "url": "https://github.com/bakasbk/dsh-connect-comate",
+      "category": "其他",
+      "description": "通过安全回环 shim，将本机已登录的 WPS Comate 桌面端账号接入 DeepSeek Harness 作为模型来源。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/bakasbk__dsh-connect-comate"
+    },
+    {
+      "id": "bonerush__dsh-obsidian-mem",
+      "name": "bonerush/dsh-obsidian-mem",
+      "url": "https://github.com/bonerush/dsh-obsidian-mem",
+      "category": "其他",
+      "description": "把项目文档与长期记忆以纯 Markdown 存进专用 Obsidian 仓库：六个 mem_* 工具（search / read / write / log / brief / admin）、会话第一步的一次带预算召回注入，以及已完成回合的自动蒸馏。Obsidian 无需运行，卸载插件后仓库内容照常可读。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/bonerush__dsh-obsidian-mem"
+    },
+    {
+      "id": "btsd321__dsh-oh-my-terminal",
+      "name": "btsd321/dsh-oh-my-terminal",
+      "url": "https://github.com/btsd321/dsh-oh-my-terminal",
+      "category": "其他",
+      "description": "DSH Web GUI 底部终端面板插件，基于 node-pty 提供多标签交互式终端（Windows ConPTY / POSIX openpty），支持拆分面板、右侧终端列表与下拉新建/拆分菜单。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/btsd321__dsh-oh-my-terminal"
+    },
+    {
+      "id": "curtainsmall__dsh-reckoner",
+      "name": "curtainsmall/dsh-reckoner",
+      "url": "https://github.com/curtainsmall/dsh-reckoner",
+      "category": "其他",
+      "description": "面向 DeepSeek Harness 的确定性计算引擎，附带一个预设：引导 LLM 通过引擎而非文本生成来完成计算。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/curtainsmall__dsh-reckoner"
+    },
+    {
+      "id": "fakeNihilist__dsh-plugin-usage-stats",
+      "name": "fakeNihilist/dsh-plugin-usage-stats",
+      "url": "https://github.com/fakeNihilist/dsh-plugin-usage-stats",
+      "category": "其他",
+      "description": "在 DSH 中新增整页用量统计，提供每日与累计 token、缓存命中率、分模型明细以及一年期活动热力图，全部数字取自 provider 上报的 usage。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/fakeNihilist__dsh-plugin-usage-stats"
+    },
+    {
+      "id": "idoall__dsh-lan-guard",
+      "name": "idoall/dsh-lan-guard",
+      "url": "https://github.com/idoall/dsh-lan-guard",
+      "category": "其他",
+      "description": "把官方 DSH Web UI 安全地开放到局域网：不改动 DSH 自身的回环绑定，另开一个带密码门禁、自签 HTTPS 与可逐个吊销的设备配对的反向代理端口，并提供手机扫码入口。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/idoall__dsh-lan-guard"
+    },
+    {
+      "id": "itchenshi__dsh-gateway-models",
+      "name": "itchenshi/dsh-gateway-models",
+      "url": "https://github.com/itchenshi/dsh-gateway-models",
+      "category": "其他",
+      "description": "为 opencode-go 与 Command Code 路由声明 wire 协议和 API 地址（不用手填地址）；把 DeepSeek V4.1 模型补进 opencode-go 路由并排到最前；从公开目录补齐 Command Code 的模型清单；并为发往 OpenCode 的请求附加按会话的 x-opencode-session 头（修 400 MissingSessionID）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/itchenshi__dsh-gateway-models"
+    },
+    {
+      "id": "itchenshi__dsh-gui-last-session",
+      "name": "itchenshi/dsh-gui-last-session",
+      "url": "https://github.com/itchenshi/dsh-gui-last-session",
+      "category": "其他",
+      "description": "重启 DeepSeek Harness 后自动回到最近一次对话；实现方式是在 DSH 数据目录里保存一个指针文件，不修改引擎文件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/itchenshi__dsh-gui-last-session"
     }
   ]
 }
