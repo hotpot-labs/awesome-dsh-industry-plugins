@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-09-26",
+  "updatedAt": "2026-09-27",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -43225,6 +43225,171 @@
       "auditedAt": "2026-09-26",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/itchenshi__dsh-gui-last-session"
+    },
+    {
+      "id": "Andersen216__dsh-whale-girl-live2d",
+      "name": "Andersen216/dsh-whale-girl-live2d",
+      "url": "https://github.com/Andersen216/dsh-whale-girl-live2d",
+      "category": "其他",
+      "description": "DSH 里的 Live2D 桌宠「鲸鱼娘」：模型常驻 Web 界面，跟着 agent 的真实状态换表情与动作（思考、调工具、逐字输出、报错、收工庆祝），点一下就能直接给 agent 发消息、回复逐字冒进气泡；右键菜单可换表情、戴眼镜贴纸、摆桌面场景、演一次性小动作，动作全部照模型作者自己的按键表设计，互不冲突、到点自动收回。模型素材非商业（CC BY-NC-SA 4.0），代码 MIT，作者 Andersen216。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Andersen216__dsh-whale-girl-live2d"
+    },
+    {
+      "id": "Archaofan__dsh-notify-relay",
+      "name": "Archaofan/dsh-notify-relay",
+      "url": "https://github.com/Archaofan/dsh-notify-relay",
+      "category": "其他",
+      "description": "把 DSH 的八类生命周期事件过去重、免打扰、摘要合批三道关后外发到七个通道。严重度映射到 Bark、ntfy、Telegram 和 webhook 真正支持的字段；失败投递带抖动退避重试并可跨重启恢复；单通道熔断避免反复敲一个已死的地址；自检发现中继降级时主动报告而不是静默。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Archaofan__dsh-notify-relay"
+    },
+    {
+      "id": "Henta111__dsh-more-models-thinking-level",
+      "name": "Henta111/dsh-more-models-thinking-level",
+      "url": "https://github.com/Henta111/dsh-more-models-thinking-level",
+      "category": "其他",
+      "description": "为 GPT、Codex、Gemini 与 OpenAI-compatible 模型提供按模型的推理等级（off/minimal/low/medium/high/xhigh）。装的是 helper 而不是运行时适配器：需按 profile 手动跑一次 enable-capabilities.ps1（Windows）并重启——它把等级声明写进 ~/.dsh/settings.yaml，附带还原脚本与备份。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Henta111__dsh-more-models-thinking-level"
+    },
+    {
+      "id": "LeemanCheung__dsh-agent-arena",
+      "name": "LeemanCheung/dsh-agent-arena",
+      "url": "https://github.com/LeemanCheung/dsh-agent-arena",
+      "category": "计算机",
+      "description": "在隔离的 Git 工作树中比较编码智能体，并提供确定性验证、评分和显式胜者应用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/LeemanCheung__dsh-agent-arena"
+    },
+    {
+      "id": "LeemanCheung__dsh-skin-studio",
+      "name": "LeemanCheung/dsh-skin-studio",
+      "url": "https://github.com/LeemanCheung/dsh-skin-studio",
+      "category": "其他",
+      "description": "本地语义令牌主题编辑器，支持色板提取、WCAG 审计、预览和导出。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/LeemanCheung__dsh-skin-studio"
+    },
+    {
+      "id": "LeemanCheung__dsh-vibe-pack",
+      "name": "LeemanCheung/dsh-vibe-pack",
+      "url": "https://github.com/LeemanCheung/dsh-vibe-pack",
+      "category": "其他",
+      "description": "仅数据的事务式配置包管理器，提供完整性、归属、预览、差异和回滚保护。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/LeemanCheung__dsh-vibe-pack"
+    },
+    {
+      "id": "azazo1__dsh-deep-diving-back",
+      "name": "azazo1/dsh-deep-diving-back",
+      "url": "https://github.com/azazo1/dsh-deep-diving-back",
+      "category": "其他",
+      "description": "恢复 DSH 0.1.6 及以前在对话流末尾显示的蓝色流光深度求索中回合状态行.",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/azazo1__dsh-deep-diving-back"
+    },
+    {
+      "id": "guooo1380__dsh-team-panel",
+      "name": "guooo1380/dsh-team-panel",
+      "url": "https://github.com/guooo1380/dsh-team-panel",
+      "category": "其他",
+      "description": "每台机器只统计选定的那一个项目的 Token 用量并汇总到自建团队服务器，在侧栏面板中逐人显示所选项目、花费与最后消耗时间。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/guooo1380__dsh-team-panel"
+    },
+    {
+      "id": "huzhengbang2007__dsh-orca-glass",
+      "name": "huzhengbang2007/dsh-orca-glass",
+      "url": "https://github.com/huzhengbang2007/dsh-orca-glass",
+      "category": "其他",
+      "description": "DSH 网页端插件：注入 SVG（feTurbulence + feDisplacementMap）折射滤镜，并用 backdrop-filter 作用到面板、气泡与输入卡上；同时附带 orca-scene 皮肤（主题 token 与明暗两套背景）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/huzhengbang2007__dsh-orca-glass"
+    },
+    {
+      "id": "itchenshi__dsh-keys-setting",
+      "name": "itchenshi/dsh-keys-setting",
+      "url": "https://github.com/itchenshi/dsh-keys-setting",
+      "category": "其他",
+      "description": "在设置窗口的通用页配置 Enter、Shift+Enter、Ctrl/Cmd+Enter 是发送消息还是换行；未改动前完全保持引擎默认行为。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/itchenshi__dsh-keys-setting"
+    },
+    {
+      "id": "itchenshi__dsh-model-surplus",
+      "name": "itchenshi/dsh-model-surplus",
+      "url": "https://github.com/itchenshi/dsh-model-surplus",
+      "category": "其他",
+      "description": "在会话标题右侧显示当前模型的用量与余量：OpenCode Go 套餐用量、选中模型所对应的月上限、Command Code 的 5 小时与周窗口用量及剩余额度，以及 DeepSeek 账户余额。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/itchenshi__dsh-model-surplus"
+    },
+    {
+      "id": "jackControls__dsh-telegram-control",
+      "name": "jackControls/dsh-telegram-control",
+      "url": "https://github.com/jackControls/dsh-telegram-control",
+      "category": "其他",
+      "description": "Telegram 远程控制插件：会话列表（标题+工作目录）、按需恢复暂停的持久化会话（重挂 preset）、按回合精准回传回复、💭 思考摘要、✅/❌ 内联按钮审批（结果回写原消息）、bot 命令菜单。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jackControls__dsh-telegram-control"
+    },
+    {
+      "id": "jacket-sikaha__dsh-market-gist-autosync",
+      "name": "jacket-sikaha/dsh-market-gist-autosync",
+      "url": "https://github.com/jacket-sikaha/dsh-market-gist-autosync",
+      "category": "计算机",
+      "description": "定时把 DSH 配置备份到私有 GitHub Gist，支持合并恢复。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jacket-sikaha__dsh-market-gist-autosync"
+    },
+    {
+      "id": "jarvisluk__dsh-projectless-session",
+      "name": "jarvisluk/dsh-projectless-session",
+      "url": "https://github.com/jarvisluk/dsh-projectless-session",
+      "category": "其他",
+      "description": "在 DSH 工作区选择器中添加无工作区会话入口，创建按日期整理的独立目录，并让已开始的会话在未分组区域保持可恢复。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jarvisluk__dsh-projectless-session"
+    },
+    {
+      "id": "jianghu-lao-yao__sh-volume-knob",
+      "name": "jianghu-lao-yao/sh-volume-knob",
+      "url": "https://github.com/jianghu-lao-yao/sh-volume-knob",
+      "category": "其他",
+      "description": "输入框话筒旁的扬声器按钮——单击翻到「你最新提问的开头」并闪烁光标，从那里读到最新回复结尾（走 dsh-tts，回退浏览器语音）；按住右滑可在页面上挑选任意朗读起点，按住上滑调出竖式混音台，分别控制页内媒体音量与系统输出音量。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jianghu-lao-yao__sh-volume-knob"
     }
   ]
 }
