@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-28",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -21214,7 +21214,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/yunxiiQwQ__dsh-maid-whale-webUI--maid-whale-webui"
+      "dir": "plugins/yunxiiQwQ__dsh-maid-whale-webUI--maid-whale-webui",
+      "removed": true
     },
     {
       "id": "yushi-xxh__dsh-homepage-skin",
@@ -43390,6 +43391,116 @@
       "auditedAt": "2026-09-27",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/jianghu-lao-yao__sh-volume-knob"
+    },
+    {
+      "id": "Iambatman1928__dsh-lawkb-ui",
+      "name": "Iambatman1928/dsh-lawkb-ui",
+      "url": "https://github.com/Iambatman1928/dsh-lawkb-ui",
+      "category": "其他",
+      "description": "法律知识库工作台：直读本地法规 .doc/.docx 语料，关键词/统计语义/向量三路融合检索、双维度筛选、案名索引与民事案由树、文书编辑器，以及引用核验/合同审查/AI 分析/AI 文书生成四件套。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Iambatman1928__dsh-lawkb-ui"
+    },
+    {
+      "id": "NativeDog1__dsh-boot-animation",
+      "name": "NativeDog1/dsh-boot-animation",
+      "url": "https://github.com/NativeDog1/dsh-boot-animation",
+      "category": "其他",
+      "description": "打开新对话、或每次打开你钉住的那个会话时，铺满窗口播放一段片头动画。插件自带四段片头，直接内嵌在代码里（不带独立的视频文件）；界面里的片库可切换、可预览，也能随时换成你自己的片子；设置旁一键钉住会话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/NativeDog1__dsh-boot-animation"
+    },
+    {
+      "id": "damlys99__dsh-morning-paper",
+      "name": "damlys99/dsh-morning-paper",
+      "url": "https://github.com/damlys99/dsh-morning-paper",
+      "category": "其他",
+      "description": "把跑着的会话排成一张报纸式头版，作为 Chat 与 Trajectory 旁的 Conversation View 标签页：逐轮时间线（耗时、步数、工具、token、结果）、按文件统计的改动热度、墙钟时间去向以及其中多少是模型而非工具、哪一轮吃掉了花费、无人重试的失败（附失败命令），以及对照该路由模型自报容量的上下文压力仪表。简报由持久会话日志折算而成、从不调用模型：零 token、不会编造、同一份日志与时钟下字节一致；不向会话追加任何内容、也不触达模型，只报告待批准项而绝不代为应答。仅在某一页有内容时才提供该页；标签页在轮次结束时自刷新，并用只读日志尾部的探针做两档轮询。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/damlys99__dsh-morning-paper"
+    },
+    {
+      "id": "etony668__dsh-balance",
+      "name": "etony668/dsh-balance",
+      "url": "https://github.com/etony668/dsh-balance",
+      "category": "其他",
+      "description": "侧边栏底部「设置」旁常驻显示 DeepSeek API 余额——读取 DSH 已保存的密钥，悬停查看赠送/充值明细，余额低于 ¥2 变红告警，每 60 秒自动刷新或点击刷新。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/etony668__dsh-balance"
+    },
+    {
+      "id": "john-walks-slow__dsh-message-datetime",
+      "name": "john-walks-slow/dsh-message-datetime",
+      "url": "https://github.com/john-walks-slow/dsh-message-datetime",
+      "category": "其他",
+      "description": "每轮对话开始向模型上下文注入单行时间戳读数（星期 / 日期 / 时间 / UTC 偏移 / IANA 时区），收尾再注入 Turn ended 关闭读数——模型始终知道现在几点、今天星期几、上一轮何时结束，日期运算与跨轮间隔不再靠猜；轻量时钟感知，每条约 30 token。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/john-walks-slow__dsh-message-datetime"
+    },
+    {
+      "id": "john-walks-slow__dsh-simulated-life",
+      "name": "john-walks-slow/dsh-simulated-life",
+      "url": "https://github.com/john-walks-slow/dsh-simulated-life",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 的 Agent 提供拟真生活上下文：每轮对话自动注入工作区 .life/ 目录近 24 小时的生活事件（滑动窗口过滤、会话内智能去重与增量更新、世界近况），并提供 life_react 工具让 Agent 把感受、思考与行动回填到自己的生活日志，反哺下一轮世界演化——把 DSH Agent 变成有日常生活的角色扮演人设（适合酒馆式 RP、AI 陪伴）；配合每日世界演算工作流可获得持续的模拟人生式生活轨迹。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/john-walks-slow__dsh-simulated-life"
+    },
+    {
+      "id": "john-walks-slow__dsh-wait-subagent",
+      "name": "john-walks-slow/dsh-wait-subagent",
+      "url": "https://github.com/john-walks-slow/dsh-wait-subagent",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 提供后台子代理的主动等待：注册 wait_subagent 模型工具，阻塞等待指定的后台 continuable（可续会话）子代理收尾（settlement），返回停止原因与收尾消息——可选超时、成员资格门控拒绝未知 id、事件驱动零轮询。补齐 run_in_background 发后不管与异步收尾通知之间的缺口：等待后台子代理（subagent wait）不再轮询 list_agents、不再靠猜。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/john-walks-slow__dsh-wait-subagent"
+    },
+    {
+      "id": "kahomesl__dsh-chat-diff-summary-legacy",
+      "name": "kahomesl/dsh-chat-diff-summary-legacy",
+      "url": "https://github.com/kahomesl/dsh-chat-diff-summary-legacy",
+      "category": "其他",
+      "description": "输入框上方的本轮改动统计条，显示这一轮改了哪些文件、增删多少行，适配 DeepSeek Harness 0.1.5-rc.1 至 0.1.7。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/kahomesl__dsh-chat-diff-summary-legacy"
+    },
+    {
+      "id": "kai-GitHubaccount__dsh-usage-panel",
+      "name": "kai-GitHubaccount/dsh-usage-panel",
+      "url": "https://github.com/kai-GitHubaccount/dsh-usage-panel",
+      "category": "其他",
+      "description": "会话头部显示 DeepSeek 余额与本会话 Token 用量：三级余额预警、自定义阈值、一键充值入口、分段 Token 条与缓存命中率，并采用可见时才轮询的省流策略。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/kai-GitHubaccount__dsh-usage-panel"
+    },
+    {
+      "id": "kenz1117__dsh-ui-rainbowspeak",
+      "name": "kenz1117/dsh-ui-rainbowspeak",
+      "url": "https://github.com/kenz1117/dsh-ui-rainbowspeak",
+      "category": "其他",
+      "description": "虹语（RainbowSpeak）——沿聊天输入框边界持续流动的彩虹跑马灯，由锥形渐变环带驱动。支持流速、宽度、七种配色、方向、边与呼吸效果的实时设置，并具备会话状态感知：运行中加速、需关注变琥珀、出错红脉冲、庆祝闪动。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-28",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/kenz1117__dsh-ui-rainbowspeak"
     }
   ]
 }
