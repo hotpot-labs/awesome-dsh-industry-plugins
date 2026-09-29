@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-09-29",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -23807,7 +23807,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-08-26",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/shaun5297__dsh-launcher"
+      "dir": "plugins/shaun5297__dsh-launcher",
+      "removed": true
     },
     {
       "id": "shyuan-hub__dsh-compact-button",
@@ -32357,7 +32358,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-05",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Frank-NF__dsh-drop-md"
+      "dir": "plugins/Frank-NF__dsh-drop-md",
+      "removed": true
     },
     {
       "id": "Icstick__dsh-context-maid",
@@ -35228,7 +35230,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-09",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Frank-NF__dsh-memory-nexus"
+      "dir": "plugins/Frank-NF__dsh-memory-nexus",
+      "removed": true
     },
     {
       "id": "GooDAnDReaDY__dsh-session-control",
@@ -39537,7 +39540,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-19",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/1Ecc__dsh-lenovo-toolkit"
+      "dir": "plugins/1Ecc__dsh-lenovo-toolkit",
+      "removed": true
     },
     {
       "id": "2002XiaoYu__dsh-session-diff",
@@ -43501,6 +43505,105 @@
       "auditedAt": "2026-09-28",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/kenz1117__dsh-ui-rainbowspeak"
+    },
+    {
+      "id": "18569663yz-web__dsh-plugin-crypto-ticker",
+      "name": "18569663yz-web/dsh-plugin-crypto-ticker",
+      "url": "https://github.com/18569663yz-web/dsh-plugin-crypto-ticker",
+      "category": "其他",
+      "description": "DSH 侧边栏左下角的实时加密货币行情卡片，位于余额与设置上方，显示 BTC、ETH、SOL、JUP 的价格、24 小时涨跌幅与 24 点迷你走势图，价格跳动时有脉冲反馈，零依赖、免密钥。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/18569663yz-web__dsh-plugin-crypto-ticker"
+    },
+    {
+      "id": "2333hutao__dsh-ls125-uv-probe",
+      "name": "2333hutao/dsh-ls125-uv-probe",
+      "url": "https://github.com/2333hutao/dsh-ls125-uv-probe",
+      "category": "其他",
+      "description": "为林上 LS125 紫外辐照计与 UVALED-X3 探头提供技能：逆向出的 9600 8N1 链路（28 字节帧、CRC-16/MODBUS、轮询与清零命令）、抓取解码工具链，以及已验证的 STM32F103 主机固件，可在脱离原装表的情况下读取探头。全部代码与文档均由 AI agent（DeepSeek Harness）编写。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/2333hutao__dsh-ls125-uv-probe"
+    },
+    {
+      "id": "Au1314__dsh-style-hub",
+      "name": "Au1314/dsh-style-hub",
+      "url": "https://github.com/Au1314/dsh-style-hub",
+      "category": "其他",
+      "description": "DSH Web GUI 主题工坊：可切换预设风格、强调色与面板透明度微调、宿主壁纸首帧绘制；wallpaper-engine 玻璃色把浅色主题洗灰时一键改为白色玻璃。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Au1314__dsh-style-hub"
+    },
+    {
+      "id": "HapyRain__dsh-router-laya",
+      "name": "HapyRain/dsh-router-laya",
+      "url": "https://github.com/HapyRain/dsh-router-laya",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 提供自动思考档位路由：本地微调的 7 题分类模型（ModernBERT，842MB，CPU 推理 <1s）对无档位指令的消息自动选择 low/high/max；会话内检测到重试自动沿阶梯升档，受「别用 max」类排除约束压制；判定服务不可达时熔断降级，会话不断。前端档位芯片实时显示当前档位与最近 20 轮判断原因。判定全程本地推理，任务文本不出本机。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/HapyRain__dsh-router-laya"
+    },
+    {
+      "id": "Iambatman1928__dsh-lawagent-ui",
+      "name": "Iambatman1928/dsh-lawagent-ui",
+      "url": "https://github.com/Iambatman1928/dsh-lawagent-ui",
+      "category": "其他",
+      "description": "法学学习实训工作台：三栏学术风界面，直读「明律」（lawagent preset）的学习档案（案件卷宗/背诵卡/错题本/笔记），并可一键把指令送进明律会话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Iambatman1928__dsh-lawagent-ui"
+    },
+    {
+      "id": "LeemanCheung__dsh-whale-companion",
+      "name": "LeemanCheung/dsh-whale-companion",
+      "url": "https://github.com/LeemanCheung/dsh-whale-companion",
+      "category": "其他",
+      "description": "可拖拽的鲸鱼伙伴，提供本地成长、成就、皮肤和隐私安全的活动统计。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/LeemanCheung__dsh-whale-companion"
+    },
+    {
+      "id": "TianJie52009__Tdsh-emoji",
+      "name": "TianJie52009/Tdsh-emoji",
+      "url": "https://github.com/TianJie52009/Tdsh-emoji",
+      "category": "其他",
+      "description": "给 dsh 回复在内容最匹配的位置添加标准 emoji，并避免与颜文字出现在同一句。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/TianJie52009__Tdsh-emoji"
+    },
+    {
+      "id": "baifagg__dsh-plugin-busy-workspace",
+      "name": "baifagg/dsh-plugin-busy-workspace",
+      "url": "https://github.com/baifagg/dsh-plugin-busy-workspace",
+      "category": "其他",
+      "description": "把含运行中会话的工作区提到侧栏会话列表最前，并为运行中的会话行加强调边框与着色标题；会话停止运行时播放一次短促的收敛动效。颜色取自当前主题自身的变量，其中运行中强调色用的是状态点绘制 ongoing 时的那个变量。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/baifagg__dsh-plugin-busy-workspace"
+    },
+    {
+      "id": "keyiadiannao__dsh-power-button",
+      "name": "keyiadiannao/dsh-power-button",
+      "url": "https://github.com/keyiadiannao/dsh-power-button",
+      "category": "计算机",
+      "description": "一个小而自洽的 DSH 电源控制插件：侧边栏电源按钮 + 上拉「重启/关机」菜单 + Windows 关机风格过渡遮罩。自带重启/关机引擎（不依赖其它插件），动态端口适配。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-29",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/keyiadiannao__dsh-power-button"
     }
   ]
 }
