@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-09-29",
+  "updatedAt": "2026-09-30",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -43604,6 +43604,105 @@
       "auditedAt": "2026-09-29",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/keyiadiannao__dsh-power-button"
+    },
+    {
+      "id": "AIcivilization__deepseek-harness-vps",
+      "name": "AIcivilization/deepseek-harness-vps",
+      "url": "https://github.com/AIcivilization/deepseek-harness-vps",
+      "category": "其他",
+      "description": "一条命令把 DeepSeek Harness 部署到自有 VPS：零依赖登录网关加自动 HTTPS，反向代理原生 Web 界面，令牌保护的初始化向导，DSH 一键升级且失败自动回滚；作为插件在设置中新增「VPS 部署」页，显示版本、升级与网关状态，DSH 尚未上 VPS 时则给出一键部署命令。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-30",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AIcivilization__deepseek-harness-vps"
+    },
+    {
+      "id": "Aicksion__dsh-clean-desktop-shell-pro",
+      "name": "Aicksion/dsh-clean-desktop-shell-pro",
+      "url": "https://github.com/Aicksion/dsh-clean-desktop-shell-pro",
+      "category": "其他",
+      "description": "DSH 桌面壳增强版：启动即自动拉起后端（不弹浏览器）、退出时询问是否关闭后端、后端与窗口并行启动加速冷启动。基于 dsh-clean-desktop-shell 的 fork。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-30",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Aicksion__dsh-clean-desktop-shell-pro"
+    },
+    {
+      "id": "NamesMT__dsh-home-hosted",
+      "name": "NamesMT/dsh-home-hosted",
+      "url": "https://github.com/NamesMT/dsh-home-hosted",
+      "category": "计算机",
+      "description": "通过 home-hosted 让 dsh web 随开机自动启动：用随包固定版本的依赖运行该面板，安装或移除其开机自启项（systemd、launchd、XDG autostart、Windows 运行键或任务计划程序），并通过 dsh 设置页与 6 个 agent 工具管理其服务器、自启项与界面。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-30",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/NamesMT__dsh-home-hosted"
+    },
+    {
+      "id": "YUNmengyuan__Herta-dsh",
+      "name": "YUNmengyuan/Herta-dsh",
+      "url": "https://github.com/YUNmengyuan/Herta-dsh",
+      "category": "其他",
+      "description": "把 Herta（黑塔）作为 DeepSeek Harness 智能体装入：携带人格与记忆提示词段的 preset、六个记忆与语音工具、区分内心与发言的叙述层、80 条随包语音、本地与 MiniMax 两条语音合成链路，以及两个用她自己的组件渲染会话的对话视图。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-30",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/YUNmengyuan__Herta-dsh"
+    },
+    {
+      "id": "eghrhegpe__dsh-connect-qoder",
+      "name": "eghrhegpe/dsh-connect-qoder",
+      "url": "https://github.com/eghrhegpe/dsh-connect-qoder",
+      "category": "其他",
+      "description": "把本机已登录的 Qoder 应用中的模型接入 DeepSeek Harness，无需配置任何令牌，并在设置卡片上显示每个模型的费率与错峰窗口。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-30",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/eghrhegpe__dsh-connect-qoder"
+    },
+    {
+      "id": "ethanwong-hk__dsh-thinking-guard",
+      "name": "ethanwong-hk/dsh-thinking-guard",
+      "url": "https://github.com/ethanwong-hk/dsh-thinking-guard",
+      "category": "计算机",
+      "description": "空转回合熔断器：监听 agent/assistant-stream，对只产出 reasoning、零文本零工具调用的回合实施三重熔断——45 秒无进展、单次思考超 80000 字符、或命中退化重复模式（精确重复单元/句模重复/稀疏复读/6-gram 密度）。熔断后注入继续指令，要求下一个动作必须是工具调用；附 11 个回归用例与逐档调参。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-30",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ethanwong-hk__dsh-thinking-guard"
+    },
+    {
+      "id": "iceriverlin__dsh-session-upload",
+      "name": "iceriverlin/dsh-session-upload",
+      "url": "https://github.com/iceriverlin/dsh-session-upload",
+      "category": "其他",
+      "description": "DSH Web 输入框附件按钮：多选文件以内联草稿胶囊形式插入；文件存储到工作区 uploads 目录并自动生成 UTF-8 .txt 提取件（txt/docx/xlsx/pptx/zip/odt，零依赖），任何纯文本 Agent 都能直接读取；发送消息只带文件名，不泄漏路径。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-30",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/iceriverlin__dsh-session-upload"
+    },
+    {
+      "id": "jameswatt139240-crypto__dsh-ATLAS",
+      "name": "jameswatt139240-crypto/dsh-ATLAS",
+      "url": "https://github.com/jameswatt139240-crypto/dsh-ATLAS",
+      "category": "其他",
+      "description": "在 DSH Web 输入框里统一 @ 提及：五个内置类别（文件、文件夹、Skill、过去的聊天、插件），任何插件都能注册的数据源 seam，工作区外绝对路径引用，以及可被草稿中先写下的文件夹限定作用域、并用 PageUp/PageDown 翻页而不隐藏候选行的菜单。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-30",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jameswatt139240-crypto__dsh-ATLAS"
+    },
+    {
+      "id": "knighthongyu__dsh-handoff-compaction",
+      "name": "knighthongyu/dsh-handoff-compaction",
+      "url": "https://github.com/knighthongyu/dsh-handoff-compaction",
+      "category": "其他",
+      "description": "将较早的 DSH 上下文压缩为结构化交接，保留最近消息，并让会话历史保持可搜索。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-09-30",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/knighthongyu__dsh-handoff-compaction"
     }
   ]
 }
