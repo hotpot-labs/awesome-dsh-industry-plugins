@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -43703,6 +43703,94 @@
       "auditedAt": "2026-09-30",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/knighthongyu__dsh-handoff-compaction"
+    },
+    {
+      "id": "AllenWES365__dsh-local-memory",
+      "name": "AllenWES365/dsh-local-memory",
+      "url": "https://github.com/AllenWES365/dsh-local-memory",
+      "category": "其他",
+      "description": "给 DeepSeek Harness 的跨项目长期记忆：每个项目各存各的库，另有一次性看遍全部的查询视图；还能不打开会话就直接从项目的 git 历史播种记忆。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-01",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AllenWES365__dsh-local-memory"
+    },
+    {
+      "id": "MurasakiIzumi__dsh-quake-alert",
+      "name": "MurasakiIzumi/dsh-quake-alert",
+      "url": "https://github.com/MurasakiIzumi/dsh-quake-alert",
+      "category": "其他",
+      "description": "DeepSeek Harness 的实时灾害预警：日本地震（P2PQuake）与 JMA 紧急地震速报、海啸、气象电文，全球地震（EMSC/USGS）与 NOAA 海啸，中国大陆地震（CENC via Wolfx）及 nmc.cn 暴雨、地质灾害预警，美国 NWS 与加拿大 ECCC 的洪水、降雨、风暴潮预警——按你关注的地域与阈值匹配播报。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-01",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/MurasakiIzumi__dsh-quake-alert"
+    },
+    {
+      "id": "Ray144165154__dsh-memory-loom",
+      "name": "Ray144165154/dsh-memory-loom",
+      "url": "https://github.com/Ray144165154/dsh-memory-loom",
+      "category": "其他",
+      "description": "跨会话长期记忆：从每轮对话抽取持久事实、按共享标签与实体自动建立联想关联，并以 BM25 加关联图激活传播进行召回；提供六个模型可调用工具与一张设置卡片。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-01",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Ray144165154__dsh-memory-loom"
+    },
+    {
+      "id": "WDahah__portable-dsh-multi-agent-plugin",
+      "name": "WDahah/portable-dsh-multi-agent-plugin",
+      "url": "https://github.com/WDahah/portable-dsh-multi-agent-plugin",
+      "category": "其他",
+      "description": "把任务派给一个模型、把评审交给另一个模型，并带有资格证据、故障转移与持久日志。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-01",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/WDahah__portable-dsh-multi-agent-plugin"
+    },
+    {
+      "id": "hbgdjb__dsh-mimo-quota",
+      "name": "hbgdjb/dsh-mimo-quota",
+      "url": "https://github.com/hbgdjb/dsh-mimo-quota",
+      "category": "其他",
+      "description": "模型额度面板：自动统计 Token 用量、消费金额、请求次数与趋势构成，内置可编辑定价。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-01",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/hbgdjb__dsh-mimo-quota"
+    },
+    {
+      "id": "jide315__dsh-reasoning-language",
+      "name": "jide315/dsh-reasoning-language",
+      "url": "https://github.com/jide315/dsh-reasoning-language",
+      "category": "其他",
+      "description": "通过可配置的系统提示词章节要求模型使用指定语言推理（默认简体中文），并默认展开思考行，同时保留用户手动折叠的状态。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-01",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jide315__dsh-reasoning-language"
+    },
+    {
+      "id": "konglong87__dsh-input-list",
+      "name": "konglong87/dsh-input-list",
+      "url": "https://github.com/konglong87/dsh-input-list",
+      "category": "其他",
+      "description": "DSH 常用内容、提示词收藏与 Prompt 管理插件：在 composer 输入框旁保存、编辑、删除和一键回填常用提示词、Prompt 模板、工作流指令与可复用文本，不自动发送。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-01",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/konglong87__dsh-input-list"
+    },
+    {
+      "id": "konglong87__dsh-skills-input",
+      "name": "konglong87/dsh-skills-input",
+      "url": "https://github.com/konglong87/dsh-skills-input",
+      "category": "其他",
+      "description": "DSH composer 界面：搜索当前会话可手动调用的 Skill，并将宿主可识别的斜杠命令写入草稿，不自动发送。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-01",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/konglong87__dsh-skills-input"
     }
   ]
 }
