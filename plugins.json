@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-01",
+  "updatedAt": "2026-10-02",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -43791,6 +43791,61 @@
       "auditedAt": "2026-10-01",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/konglong87__dsh-skills-input"
+    },
+    {
+      "id": "GitHub-Xzhi__dsh-simple-worktree-plus",
+      "name": "GitHub-Xzhi/dsh-simple-worktree-plus",
+      "url": "https://github.com/GitHub-Xzhi/dsh-simple-worktree-plus",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 管理 Git Worktree，提供分支删除控制和指定工作区管理。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-02",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/GitHub-Xzhi__dsh-simple-worktree-plus"
+    },
+    {
+      "id": "JoblessJoe__smart-compaction",
+      "name": "JoblessJoe/smart-compaction",
+      "url": "https://github.com/JoblessJoe/smart-compaction",
+      "category": "其他",
+      "description": "Lets the model trigger compaction itself at a safe point via a compact_now tool (works mid-turn), plus a context_status tool reporting real token usage against the session's actual context window.",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-02",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/JoblessJoe__smart-compaction"
+    },
+    {
+      "id": "Paimonshen__dsh-coding-plugin",
+      "name": "Paimonshen/dsh-coding-plugin",
+      "url": "https://github.com/Paimonshen/dsh-coding-plugin",
+      "category": "其他",
+      "description": "编程学习悬浮面板：编辑并运行 Python/JavaScript/TypeScript/PowerShell（含退出码与耗时），JSON 课程包关卡自动评判并可导出进度，提供 Markdown 笔记与代码片段库；代码分析以用户消息直投当前对话，由对话主模型直接输出。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-02",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Paimonshen__dsh-coding-plugin"
+    },
+    {
+      "id": "hbgdjb__dsh-session-shield",
+      "name": "hbgdjb/dsh-session-shield",
+      "url": "https://github.com/hbgdjb/dsh-session-shield",
+      "category": "其他",
+      "description": "让会话日志永远不会因为一次畸形 tool call 而打不开：坏调用自动修复，正常调用原样通过，历史永远可加载。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-02",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/hbgdjb__dsh-session-shield"
+    },
+    {
+      "id": "kangtsang__dsh-worktree-space",
+      "name": "kangtsang/dsh-worktree-space",
+      "url": "https://github.com/kangtsang/dsh-worktree-space",
+      "category": "其他",
+      "description": "Worktree Space：将一个可包含多个 Git 仓库的工作区任务放进独立的任务空间目录——参与的每个仓库使用同一个任务分支各开一个 worktree；空间自动注册为 DSH 工作区，会话直接在其中开工，多个任务并行推进、互不干扰。收尾时可合并回各仓库目标分支、移除 worktree，并把 Git 未跟踪的文件归档到指定目录；结束任务时可选把未提交的变更和合并冲突交给 agent 处理。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-02",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/kangtsang__dsh-worktree-space"
     }
   ]
 }
