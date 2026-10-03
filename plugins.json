@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-03",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -43846,6 +43846,61 @@
       "auditedAt": "2026-10-02",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/kangtsang__dsh-worktree-space"
+    },
+    {
+      "id": "l956615272-hub__dsh-token-usage",
+      "name": "l956615272-hub/dsh-token-usage",
+      "url": "https://github.com/l956615272-hub/dsh-token-usage",
+      "category": "其他",
+      "description": "统计本机全部 DSH 会话的历史 token 消耗，按 message.id 去重，支持自定义日期区间与按接入方的月度额度剩余。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-03",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/l956615272-hub__dsh-token-usage"
+    },
+    {
+      "id": "lalalaleo__dsh-draft",
+      "name": "lalalaleo/dsh-draft",
+      "url": "https://github.com/lalalaleo/dsh-draft",
+      "category": "其他",
+      "description": "基于 Markdown 的 dsh 草稿板插件，支持实时预览编辑，本地持久化。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-03",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/lalalaleo__dsh-draft"
+    },
+    {
+      "id": "latte03__dsh-select-quote",
+      "name": "latte03/dsh-select-quote",
+      "url": "https://github.com/latte03/dsh-select-quote",
+      "category": "其他",
+      "description": "在 dsh 网页版对话里划词，把选中文本作为批注附到下一条消息。原文位置保留虚线高亮和序号角标，输入框上方的批注摘要可查看、编辑并跳回每一条批注。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-03",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/latte03__dsh-select-quote"
+    },
+    {
+      "id": "lau4tin1__dsh-skill-router",
+      "name": "lau4tin1/dsh-skill-router",
+      "url": "https://github.com/lau4tin1/dsh-skill-router",
+      "category": "其他",
+      "description": "DeepSeek Harness 的 skill 路由插件：用本地模型为 skill 和用户任务生成向量，按基于分差的规则保留明确相关的 skill，并自动把它们的完整正文注入提示词。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-03",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/lau4tin1__dsh-skill-router"
+    },
+    {
+      "id": "leeyoung1__dsh-advisor-plugin",
+      "name": "leeyoung1/dsh-advisor-plugin",
+      "url": "https://github.com/leeyoung1/dsh-advisor-plugin",
+      "category": "其他",
+      "description": "通过零参数 advisor() 咨询和按步巡逻检查，为执行模型接入更强的审查模型，返回计划、纠偏或停止信号。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-03",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/leeyoung1__dsh-advisor-plugin"
     }
   ]
 }
