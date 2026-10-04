@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-04",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -43901,6 +43901,50 @@
       "auditedAt": "2026-10-03",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/leeyoung1__dsh-advisor-plugin"
+    },
+    {
+      "id": "lemonxiny55__dsh-composition-doctor",
+      "name": "lemonxiny55/dsh-composition-doctor",
+      "url": "https://github.com/lemonxiny55/dsh-composition-doctor",
+      "category": "计算机",
+      "description": "只读的 DSH/Cordis 组合诊断与升级预检工具：扫描 profile manifest 与 patch，发现重复 row、hook 顺序和 UI 所有权冲突，比较脱敏快照，分析插件/row/hook 变化，并在明确证据边界的前提下预检目标 DSH release——不会修改真实 profile。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-04",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/lemonxiny55__dsh-composition-doctor"
+    },
+    {
+      "id": "let-mi-think__agent-manager",
+      "name": "let-mi-think/agent-manager",
+      "url": "https://github.com/let-mi-think/agent-manager",
+      "category": "其他",
+      "description": "在一个设置分区里新建与配置 Agent 预设——人格提示词、勾选后注入系统提示的知识库条目清单、四个知识库工具的独立开关、按 Agent 收窄 MCP 连接，以及知识库批量导入。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-04",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/let-mi-think__agent-manager"
+    },
+    {
+      "id": "let-mi-think__wechat-agent-router",
+      "name": "let-mi-think/wechat-agent-router",
+      "url": "https://github.com/let-mi-think/wechat-agent-router",
+      "category": "其他",
+      "description": "按群名把每个微信群会话路由到不同的 Agent 预设，不改动 dsh-wechat-assistant 的任何代码。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-04",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/let-mi-think__wechat-agent-router"
+    },
+    {
+      "id": "liaowenqi123__dsh-meeting-coordinator",
+      "name": "liaowenqi123/dsh-meeting-coordinator",
+      "url": "https://github.com/liaowenqi123/dsh-meeting-coordinator",
+      "category": "其他",
+      "description": "给 DSH 会话装上会议室：加入会议室即同时获得召集权与参会义务，且一个会话只能属于一个会议室。召集时把每位参会者 fork 进场——带着它自己已完成的轮上下文，同时剥掉全部工具；主持人自身不带任何上下文，只负责挑下一位发言者；每条发言在说出的当下就落盘。散会后每人拿到一份只属于自己的纪要，作为一条用户输入送回工作区继续干活。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-04",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/liaowenqi123__dsh-meeting-coordinator"
     }
   ]
 }
