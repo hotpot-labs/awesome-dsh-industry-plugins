@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -43945,6 +43945,50 @@
       "auditedAt": "2026-10-04",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/liaowenqi123__dsh-meeting-coordinator"
+    },
+    {
+      "id": "libre-webui__dsh-native-provider",
+      "name": "libre-webui/dsh-native-provider",
+      "url": "https://github.com/libre-webui/dsh-native-provider",
+      "category": "其他",
+      "description": "在 [Libre WebUI](https://github.com/libre-webui/libre-webui) 中使用 DSH 模型进行聊天、沙箱 Work 任务和用量统计，提供商凭据保留在 DSH 中。需要 Libre WebUI 0.37.0 或更高版本。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-05",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/libre-webui__dsh-native-provider"
+    },
+    {
+      "id": "lifangjin__dsh-paoding",
+      "name": "lifangjin/dsh-paoding",
+      "url": "https://github.com/lifangjin/dsh-paoding",
+      "category": "其他",
+      "description": "DSH 编排模式预设生成器：主 agent 指挥，四个内置帮手各只带本行工具；Web 面板按工作区增删帮手，可给自定角色配专属工具、技能与模型——零 DSH 源码改动。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-05",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/lifangjin__dsh-paoding"
+    },
+    {
+      "id": "liguobao__ds-harness-remote",
+      "name": "liguobao/ds-harness-remote",
+      "url": "https://github.com/liguobao/ds-harness-remote",
+      "category": "其他",
+      "description": "DeepSeek Harness 多端远程访问：从手机、平板、浏览器或另一台电脑继续进行中的会话，端到端加密通道（Noise IK + 自适应 Relay/WebRTC 传输），设备授权管理；远程端仅开放 ApiProxy 能力，支持 dsh-file-viewer 只读文件预览，不提供 Shell、远程桌面或写入权限。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-05",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/liguobao__ds-harness-remote"
+    },
+    {
+      "id": "lijiawei255__dsh-status-chime",
+      "name": "lijiawei255/dsh-status-chime",
+      "url": "https://github.com/lijiawei255/dsh-status-chime",
+      "category": "其他",
+      "description": "DSH 状态变化时读出一句简短提示——本轮完成、本轮出错、后台任务结束、后台任务失败、目标完成、目标受阻、等待批准、等待你回答——中文（默认）与英文各八条预录语音。音频由宿主进程播放（ffplay，或系统自带的 Windows PowerShell 播放器），不依赖浏览器 Web Audio。仅支持 Windows。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-05",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/lijiawei255__dsh-status-chime"
     }
   ]
 }
