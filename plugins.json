@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -2901,7 +2901,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Fro2en12__dsh-download-progress"
+      "dir": "plugins/Fro2en12__dsh-download-progress",
+      "removed": true
     },
     {
       "id": "Frog755__dsh-client-auto-retry",
@@ -15879,7 +15880,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/maxwell-feng__dsh-tesseract-ocr"
+      "dir": "plugins/maxwell-feng__dsh-tesseract-ocr",
+      "removed": true
     },
     {
       "id": "maxwell-feng__dsh-windows-ocr",
@@ -15890,7 +15892,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/maxwell-feng__dsh-windows-ocr"
+      "dir": "plugins/maxwell-feng__dsh-windows-ocr",
+      "removed": true
     },
     {
       "id": "mayf3__dsh-session-doctor",
@@ -22160,7 +22163,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/zoumutou__dsh-cost-balance"
+      "dir": "plugins/zoumutou__dsh-cost-balance",
+      "removed": true
     },
     {
       "id": "zoumutou__dsh-web-preview",
@@ -22171,7 +22175,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/zoumutou__dsh-web-preview"
+      "dir": "plugins/zoumutou__dsh-web-preview",
+      "removed": true
     },
     {
       "id": "zp-home__dsh-recommend",
@@ -22967,7 +22972,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-08-25",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/maxwell-feng__dsh-searxng-web"
+      "dir": "plugins/maxwell-feng__dsh-searxng-web",
+      "removed": true
     },
     {
       "id": "modusensus__dsh-mneme",
@@ -29437,7 +29443,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-01",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/KLRSL__dsh-fuse"
+      "dir": "plugins/KLRSL__dsh-fuse",
+      "removed": true
     },
     {
       "id": "LAU-MARS__dsh-cad",
@@ -36479,7 +36486,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-12",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Nanmu-del__dsh-plan-toggle"
+      "dir": "plugins/Nanmu-del__dsh-plan-toggle",
+      "removed": true
     },
     {
       "id": "NoneadChina__dsh-nonead-universal-robots",
@@ -43152,7 +43160,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-26",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/bakasbk__dsh-connect-comate"
+      "dir": "plugins/bakasbk__dsh-connect-comate",
+      "removed": true
     },
     {
       "id": "bonerush__dsh-obsidian-mem",
@@ -43989,6 +43998,149 @@
       "auditedAt": "2026-10-05",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/lijiawei255__dsh-status-chime"
+    },
+    {
+      "id": "BOWLUNA__dsh-custom-mode",
+      "name": "BOWLUNA/dsh-custom-mode",
+      "url": "https://github.com/BOWLUNA/dsh-custom-mode",
+      "category": "其他",
+      "description": "自定义模式管理器 / 多助手管理器：在设置页里给每个模式写一份自己的系统提示词——自定义提示词就是普通文件，agent loop 每次模型调用前重新读取，改完对正在运行的会话下一步即生效；模式以官方 standard / PTC / 极简 / Cordis 的组成为底子，可逐行开关它挂载哪些插件，等于每个模式一份自定义插件组合，也能改模式名。多个助手可并存、各有各的提示词，所以一台机器上可以同时留一个编码助手、一个聊天搭子、一个角色扮演（RP）人格，新建会话时挑一个。没碰过的行与出厂行逐字节相同（含平台条件）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BOWLUNA__dsh-custom-mode"
+    },
+    {
+      "id": "Centaurea5547196__dsh-page-zoom",
+      "name": "Centaurea5547196/dsh-page-zoom",
+      "url": "https://github.com/Centaurea5547196/dsh-page-zoom",
+      "category": "其他",
+      "description": "DSH Web UI 页面缩放：Ctrl+鼠标滚轮以 5% 步长缩放整个界面（30%-200%），在本地记住缩放比例，并在右下角显示放大镜与百分比。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Centaurea5547196__dsh-page-zoom"
+    },
+    {
+      "id": "EIGHTfs__dsh-session-conductor",
+      "name": "EIGHTfs/dsh-session-conductor",
+      "url": "https://github.com/EIGHTfs/dsh-session-conductor",
+      "category": "其他",
+      "description": "DSH 会话管理增强：归档/恢复、批量与条件删除、AI 自动重命名、中断自动续跑、按工作区分组、撤回最后一条消息、三类损坏日志修复（seq-gap/EIO/双格式）、价值分析与全文搜索——另含方案/收尾模板注入（系统提示词 + 上下文）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EIGHTfs__dsh-session-conductor"
+    },
+    {
+      "id": "G57651__dsh-dual-checkin",
+      "name": "G57651/dsh-dual-checkin",
+      "url": "https://github.com/G57651/dsh-dual-checkin",
+      "category": "其他",
+      "description": "从本机登录文件完成 Trae 与 WorkBuddy 每日签到，侧边栏展示状态与积分。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/G57651__dsh-dual-checkin"
+    },
+    {
+      "id": "G57651__dsh-one-click-restart",
+      "name": "G57651/dsh-one-click-restart",
+      "url": "https://github.com/G57651/dsh-one-click-restart",
+      "category": "计算机",
+      "description": "DeepSeek Harness 一键重启：侧边栏按钮、模型工具与独立守护进程。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/G57651__dsh-one-click-restart"
+    },
+    {
+      "id": "G57651__dsh-session-manager",
+      "name": "G57651/dsh-session-manager",
+      "url": "https://github.com/G57651/dsh-session-manager",
+      "category": "其他",
+      "description": "侧边栏会话管理面板：浏览、归档、软删除与批量管理 DeepSeek Harness 会话，附可恢复回收站。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/G57651__dsh-session-manager"
+    },
+    {
+      "id": "MoruTeaven__dsh-key-panel",
+      "name": "MoruTeaven/dsh-key-panel",
+      "url": "https://github.com/MoruTeaven/dsh-key-panel",
+      "category": "其他",
+      "description": "为 DSH Desktop 提供密钥库，集中保管 API 密钥并以 $DSH_* 变量注入助手的 shell 中。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/MoruTeaven__dsh-key-panel"
+    },
+    {
+      "id": "ZhaoZeW__dsh-rollback",
+      "name": "ZhaoZeW/dsh-rollback",
+      "url": "https://github.com/ZhaoZeW/dsh-rollback",
+      "category": "其他",
+      "description": "TRAE 式「回退到本轮对话发起前」：按轮次建立文件检查点，回滚工作区文件并在同一 session id 下原位截断模型上下文，已适配 DSH 0.1.7-rc.2。新增 /rollback doctor 契约自检、按当前磁盘状态实时计算的受影响文件 diff 预览（重启后依然准确）、一键「回退最近一轮」（快捷键 Ctrl+Shift+Z）、「回退后隐藏已回退消息」开关，以及英文界面文案。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ZhaoZeW__dsh-rollback"
+    },
+    {
+      "id": "ZiYuan258__dsh-prompt-enhance",
+      "name": "ZiYuan258/dsh-prompt-enhance",
+      "url": "https://github.com/ZiYuan258/dsh-prompt-enhance",
+      "category": "其他",
+      "description": "dsh-prompt-enhance 的维护分支，已适配 DSH 0.1.7——此前的版本在当前宿主上甚至无法加载（InputState.imageIds 已更名为 attachmentIds，输入框按钮会让整个输入区崩溃；settings.get() 已被移除；/enhance 读取了 agent 不再暴露的会话 id）。改写默认使用 reasoningEffort off：实测同一段草稿为 252 输出 token，而模型自身默认档要 2897；并内置覆盖全部 17 个字段的设置页。已在真实的 0.1.7-rc.2 宿主上验证：插件激活、真实 HTTP 增强请求、GUI 中 /enhance 执行，以及设置页读取并持久化配置。204 项测试。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ZiYuan258__dsh-prompt-enhance"
+    },
+    {
+      "id": "ardesp0630__dsh-work-progress",
+      "name": "ardesp0630/dsh-work-progress",
+      "url": "https://github.com/ardesp0630/dsh-work-progress",
+      "category": "其他",
+      "description": "输入框下方常驻的工作进度行：任务完成度、进度条，以及此刻正在做什么（生成回复或执行工具）；展开可见完整任务清单与轮次、步骤、耗时、上下文占用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ardesp0630__dsh-work-progress"
+    },
+    {
+      "id": "copylee711__dsh-proxy",
+      "name": "copylee711/dsh-proxy",
+      "url": "https://github.com/copylee711/dsh-proxy",
+      "category": "其他",
+      "description": "DeepSeek Harness 网络代理设置页：配置全局 HTTP(S) 代理及免代理主机，或为单个 LLM 提供商单独指定代理或直连；保存即生效，无需重启。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/copylee711__dsh-proxy"
+    },
+    {
+      "id": "gordan-code__dsh-jev-advisor",
+      "name": "gordan-code/dsh-jev-advisor",
+      "url": "https://github.com/gordan-code/dsh-jev-advisor",
+      "category": "其他",
+      "description": "为 DSH 的选择题提示添加面向用户的 TypeSafe Jev 第二意见卡片，展示推荐、概率分布、置信度、原始 JSON 与一键采纳。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/gordan-code__dsh-jev-advisor"
+    },
+    {
+      "id": "hiJoeLee__dsh-suggest-actions",
+      "name": "hiJoeLee/dsh-suggest-actions",
+      "url": "https://github.com/hiJoeLee/dsh-suggest-actions",
+      "category": "其他",
+      "description": "在每条回复下方给出可点的下一步建议，点一下就把那句话作为你的消息发出去。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-06",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/hiJoeLee__dsh-suggest-actions"
     }
   ]
 }
