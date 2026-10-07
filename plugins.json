@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -44141,6 +44141,28 @@
       "auditedAt": "2026-10-06",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/hiJoeLee__dsh-suggest-actions"
+    },
+    {
+      "id": "liudapeng0311__dsh-pwa-launcher",
+      "name": "liudapeng0311/dsh-pwa-launcher",
+      "url": "https://github.com/liudapeng0311/dsh-pwa-launcher",
+      "category": "其他",
+      "description": "接管你桌面上已有的浏览器 PWA 快捷方式（保留原图标），双击即静默拉起 dsh web 并以应用窗口打开界面；网页右上角提供重启与 dsh 自助升级（失败自动回滚）两个控件。仅 Windows。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-07",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/liudapeng0311__dsh-pwa-launcher"
+    },
+    {
+      "id": "liujianqiao701__dsh-ask-notify",
+      "name": "liujianqiao701/dsh-ask-notify",
+      "url": "https://github.com/liujianqiao701/dsh-ask-notify",
+      "category": "其他",
+      "description": "当 agent 停下来等你作答时，在 DSH Web 界面右下角弹出提醒卡；若你切到了别的标签或窗口，再补一条系统通知并让标签标题闪烁。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-07",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/liujianqiao701__dsh-ask-notify"
     }
   ]
 }
