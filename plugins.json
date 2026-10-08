@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-08",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -32477,7 +32477,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-05",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/OMSociety__kimi-ppt-skill"
+      "dir": "plugins/OMSociety__kimi-ppt-skill",
+      "removed": true
     },
     {
       "id": "PartinGQAQ__dsh-web-search-zhipu",
@@ -44163,6 +44164,72 @@
       "auditedAt": "2026-10-07",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/liujianqiao701__dsh-ask-notify"
+    },
+    {
+      "id": "MuzeWinter__dscomputer-control",
+      "name": "MuzeWinter/dscomputer-control",
+      "url": "https://github.com/MuzeWinter/dscomputer-control",
+      "category": "其他",
+      "description": "为 dsh 提供 Windows 桌面自动化：14 个工具，可枚举应用与窗口、抓取被遮挡也能截的窗口截图、读取无障碍树，并执行真实输入——点击、输入文字（含中文）、按组合键、滚动与拖拽。加载机器上已安装的官方电脑控制运行时（@oai/sky），按厂商目录枚举发现，引擎升级换目录也不会失效。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-08",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/MuzeWinter__dscomputer-control"
+    },
+    {
+      "id": "Neo65536-engineer__dsh-agent-log",
+      "name": "Neo65536-engineer/dsh-agent-log",
+      "url": "https://github.com/Neo65536-engineer/dsh-agent-log",
+      "category": "计算机",
+      "description": "从本机会话日志只读还原的工作报告：用了哪些工具、各调用多少次、执行了哪些命令、读写哪些文件、测试有没有通过、失败了几次及原因、消耗多少 Token，以及最后完成了没有。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-08",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Neo65536-engineer__dsh-agent-log"
+    },
+    {
+      "id": "OMSociety__dsh-kimi-ppt",
+      "name": "OMSociety/dsh-kimi-ppt",
+      "url": "https://github.com/OMSociety/dsh-kimi-ppt",
+      "category": "其他",
+      "description": "内含 kimi-ppt 技能的 DSH 插件：创建、编辑与导出 PPT 幻灯片和演示文稿，本地生成 .pptx，Pillow 渲染预览图，不需要浏览器。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-08",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/OMSociety__dsh-kimi-ppt"
+    },
+    {
+      "id": "ShiXiangYu2__dsh-feishu-remote",
+      "name": "ShiXiangYu2/dsh-feishu-remote",
+      "url": "https://github.com/ShiXiangYu2/dsh-feishu-remote",
+      "category": "其他",
+      "description": "从飞书/Lark 操作 DeepSeek Harness：私聊发送任务，agent 用你配置的模型执行并把结果回到会话；feishu_send 工具可让 agent 主动推送结果。基于 lark-cli 的 WebSocket 长连接，无需公网 webhook，并附常驻启动器。注意：插件不校验发送者身份，因此任何能私聊到该机器人的人（默认即该飞书应用所属企业内的成员）都能驱动一个使用宿主机自身模型凭据与文件权限运行的 agent。安装不是一条 `dsh plugin add` 就完事：需要先全局安装并登录一次 `lark-cli`，并在飞书开放平台建一个带 README 所列权限的自建应用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-08",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ShiXiangYu2__dsh-feishu-remote"
+    },
+    {
+      "id": "TetraSsky__dsh-hold",
+      "name": "TetraSsky/dsh-hold",
+      "url": "https://github.com/TetraSsky/dsh-hold",
+      "category": "其他",
+      "description": "暂缓发送一条消息，直到主智能体空闲、没有子智能体在运行、也没有后台任务，然后再发出。每条暂缓可以设置发送时间，并选择排队、等待空闲或立即插话，消息与附件都保存在宿主端，重启也不会丢失。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-08",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/TetraSsky__dsh-hold"
+    },
+    {
+      "id": "functy23__dsh-mcp-studio",
+      "name": "functy23/dsh-mcp-studio",
+      "url": "https://github.com/functy23/dsh-mcp-studio",
+      "category": "其他",
+      "description": "在 DSH 侧边栏的面板里管理 MCP 服务器与技能：编辑 profile 或全局 cordis.patch.yml 中的行、启用停用、探测 HTTP 服务器是否响应、扫描 Claude Code / Codex / Cursor / Gemini 的配置并导入其中声明的服务器，以及浏览、新建、编辑、启停与删除技能（直接重写 SKILL.md 的 user-invocable 策略位）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-08",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/functy23__dsh-mcp-studio"
     }
   ]
 }
