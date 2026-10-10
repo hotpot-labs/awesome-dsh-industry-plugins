@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-10",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -44539,6 +44539,105 @@
       "auditedAt": "2026-10-09",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/hanbernate__dsh-save-button"
+    },
+    {
+      "id": "643048695__dsh-compaction-route",
+      "name": "643048695/dsh-compaction-route",
+      "url": "https://github.com/643048695/dsh-compaction-route",
+      "category": "其他",
+      "description": "在 Web 设置页里为会话压缩指定摘要模型，并在主模型出错时改用配置的兜底模型重试。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/643048695__dsh-compaction-route"
+    },
+    {
+      "id": "MaybeJustLikeThis__rainbow-fart-dsh",
+      "name": "MaybeJustLikeThis/rainbow-fart-dsh",
+      "url": "https://github.com/MaybeJustLikeThis/rainbow-fart-dsh",
+      "category": "其他",
+      "description": "为 DSH Web 会话添加连击计分、活动明细、轮次评价和可选的 Jev 辅助鼓励。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/MaybeJustLikeThis__rainbow-fart-dsh"
+    },
+    {
+      "id": "Theflowyears__dsh-arknights-theme",
+      "name": "Theflowyears/dsh-arknights-theme",
+      "url": "https://github.com/Theflowyears/dsh-arknights-theme",
+      "category": "其他",
+      "description": "明日方舟主题：12 张整屏壁纸，边缘虚化、羽化与玻璃浓度按每张图分别计算；文字色以 OKLCH 求解并守住 WCAG AA 下限；界面图标换成罗德岛素材；授权卡与选项卡带干员签名。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Theflowyears__dsh-arknights-theme"
+    },
+    {
+      "id": "bigbigtooth__DSH-DevOps-Plugin",
+      "name": "bigbigtooth/DSH-DevOps-Plugin",
+      "url": "https://github.com/bigbigtooth/DSH-DevOps-Plugin",
+      "category": "其他",
+      "description": "DSH Web 远程运维插件：管理 SSH 服务器、采集硬件与进程指标、以只读 AI 巡检日志，并通过 SSH 部署 Git 仓库（git pull --ff-only 加健康检查）。凭据 AES-256-GCM 加密存储。支持 Linux 与 macOS，不支持 Windows。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/bigbigtooth__DSH-DevOps-Plugin"
+    },
+    {
+      "id": "flyhigao__dsh-file-transfer",
+      "name": "flyhigao/dsh-file-transfer",
+      "url": "https://github.com/flyhigao/dsh-file-transfer",
+      "category": "其他",
+      "description": "在文档预览工具栏与 Files 文件树添加下载按钮（文件夹下载打包为流式 ZIP），并在文件树增加上传按钮：逐个文件流式写入 Host，单文件上限 1 GiB，重名自动改为 (n) 后缀而不覆盖。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/flyhigao__dsh-file-transfer"
+    },
+    {
+      "id": "goodjin__dsh-superpowers",
+      "name": "goodjin/dsh-superpowers",
+      "url": "https://github.com/goodjin/dsh-superpowers",
+      "category": "其他",
+      "description": "把 Superpowers 作为 Agent 预设运行，并在设置表里为每个技能单独指定子代理模型，测试、系统调试与收尾验证不再全部沿用父会话的模型。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/goodjin__dsh-superpowers"
+    },
+    {
+      "id": "jetformat__dsh-plugin",
+      "name": "jetformat/dsh-plugin",
+      "url": "https://github.com/jetformat/dsh-plugin",
+      "category": "其他",
+      "description": "基于本地 jetformat CLI 的工具：将 DOCX、XLSX、PPTX 转为 PDF，提取文本，校验文件，以及查看、合并、抽页或渲染 PDF。需要安装 jetformat CLI。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jetformat__dsh-plugin"
+    },
+    {
+      "id": "johnsonspirit__ocean-wave-theme",
+      "name": "johnsonspirit/ocean-wave-theme",
+      "url": "https://github.com/johnsonspirit/ocean-wave-theme",
+      "category": "其他",
+      "description": "整个应用背景铺设动态海浪特效，一条鲸鱼在页面后面游泳，界面各层变为半透明。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/johnsonspirit__ocean-wave-theme"
+    },
+    {
+      "id": "jypjypjypjyp__dsh-music-studio",
+      "name": "jypjypjypjyp/dsh-music-studio",
+      "url": "https://github.com/jypjypjypjyp/dsh-music-studio",
+      "category": "其他",
+      "description": "在对话里作曲：模型按内置作曲规范写出乐谱 JSON，play_score 工具校验后渲染成对话内的卡片，含卷帘图、Web Audio 实时播放与 WAV/JSON 导出。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jypjypjypjyp__dsh-music-studio"
     }
   ]
 }
