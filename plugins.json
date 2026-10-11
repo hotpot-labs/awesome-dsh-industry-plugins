@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-10-11",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -44638,6 +44638,127 @@
       "auditedAt": "2026-10-10",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/jypjypjypjyp__dsh-music-studio"
+    },
+    {
+      "id": "Aeroscis__dsh-temptask",
+      "name": "Aeroscis/dsh-temptask",
+      "url": "https://github.com/Aeroscis/dsh-temptask",
+      "category": "其他",
+      "description": "DeepSeek Harness 的临时任务模式：一键创建一次性的时间戳工作区并开会话，直接成为侧边栏原生工作区节点。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Aeroscis__dsh-temptask"
+    },
+    {
+      "id": "GIN0076__cross-session-memory",
+      "name": "GIN0076/cross-session-memory",
+      "url": "https://github.com/GIN0076/cross-session-memory",
+      "category": "其他",
+      "description": "跨会话记忆「错题本」插件：每轮把 ≤2 KB 的记忆索引原文注入提示词；mem_recall / mem_save 模型工具，写入闸要求四段结构 + 可定位引用 + 人工批准才落盘；注册 /memory 命令；所有教训以零依赖 Markdown 条目存放在 .memory/ 目录。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/GIN0076__cross-session-memory"
+    },
+    {
+      "id": "GIN0076__dsh-token-usage",
+      "name": "GIN0076/dsh-token-usage",
+      "url": "https://github.com/GIN0076/dsh-token-usage",
+      "category": "其他",
+      "description": "DSH 设置面板词元用量统计：从会话日志折叠出日/周/月 × 模型（或按厂商合并）的词元统计，storage-domain 持久化、经同源 /token-usage-rpc 路由出数；SVG 折线图（十字线悬浮按日拆到每个模型）+ 占比排行（含可选金额）+ 缓存命中率与缓存读写卡片 + 用户自备的每百万 token 价目表 + 日/月预算告警 + 当前区间导出 CSV/JSON + 可见时自动刷新 + 预设与自定义起止日期 + 重建（存储里存在日志已不存在的历史时先要一次确认）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/GIN0076__dsh-token-usage"
+    },
+    {
+      "id": "HERO476__dsh-sidecard-ask",
+      "name": "HERO476/dsh-sidecard-ask",
+      "url": "https://github.com/HERO476/dsh-sidecard-ask",
+      "category": "其他",
+      "description": "在 DSH Web 界面划词就地追问（浮出按钮，或 Alt+Q 快捷键）：答案由不继承父上下文的独立子代理流式产出到侧边卡片，承载面为原生右侧栏 / dsh-better-sidebar / 内置浮层，也可把问题改为落回主对话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/HERO476__dsh-sidecard-ask"
+    },
+    {
+      "id": "LeiSureYu__dsh-smart-download",
+      "name": "LeiSureYu/dsh-smart-download",
+      "url": "https://github.com/LeiSureYu/dsh-smart-download",
+      "category": "其他",
+      "description": "DSH 多线程下载插件，内置 aria2：先探测目标是否支持 Range，再按文件大小选择 aria2（4 或 8 连接）或回退 curl 单线程下载。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/LeiSureYu__dsh-smart-download"
+    },
+    {
+      "id": "MerkurevSergei__dsh-notion-oauth-ui",
+      "name": "MerkurevSergei/dsh-notion-oauth-ui",
+      "url": "https://github.com/MerkurevSergei/dsh-notion-oauth-ui",
+      "category": "其他",
+      "description": "在图形界面中以 OAuth 2.0 + PKCE 连接 Notion —— 官方 Notion MCP，无需集成令牌。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/MerkurevSergei__dsh-notion-oauth-ui"
+    },
+    {
+      "id": "OMSociety__dsh-git-forge",
+      "name": "OMSociety/dsh-git-forge",
+      "url": "https://github.com/OMSociety/dsh-git-forge",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 提供项目级 Git 凭据：forge 账号（GitHub、Gitea、GitLab、Bitbucket 或自定义域名）在右侧栏「Git 凭据」标签页里管理并可按项目授权，再由生成的凭据 helper 交给 agent 走 HTTPS 推送，token 不进对话；未授权 host 的推送会被拦截器直接拒绝。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/OMSociety__dsh-git-forge"
+    },
+    {
+      "id": "chintoleung__dsh-ping",
+      "name": "chintoleung/dsh-ping",
+      "url": "https://github.com/chintoleung/dsh-ping",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 的提问、审批请求与回合完成发送 Telegram 通知。仅通知不改交互：单运行时文件、零运行时依赖、不自建问题卡片。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/chintoleung__dsh-ping"
+    },
+    {
+      "id": "danieldu168__dsh-stash",
+      "name": "danieldu168/dsh-stash",
+      "url": "https://github.com/danieldu168/dsh-stash",
+      "category": "其他",
+      "description": "把外部数据库与文献语料登记成模型可调用的取数工具；每条库声明取数边界，钥匙台账只记引用名不存值，取数台账只留指纹与内容哈希而不留响应体。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/danieldu168__dsh-stash"
+    },
+    {
+      "id": "jeffreyren1__dsh-custom-js",
+      "name": "jeffreyren1/dsh-custom-js",
+      "url": "https://github.com/jeffreyren1/dsh-custom-js",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 中加载、编辑、管理和热重载可信的 JavaScript / TypeScript 用户脚本。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jeffreyren1__dsh-custom-js"
+    },
+    {
+      "id": "jgao9906-droid__dsh-task-toast",
+      "name": "jgao9906-droid/dsh-task-toast",
+      "url": "https://github.com/jgao9906-droid/dsh-task-toast",
+      "category": "其他",
+      "description": "右上角状态提示板，覆盖六种会话状态（完成、出错、待授权、待回答、会话打不开、子 agent 在跑），不在看 DSH 时发系统通知。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-11",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jgao9906-droid__dsh-task-toast"
     }
   ]
 }

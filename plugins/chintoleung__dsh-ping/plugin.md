@@ -1,0 +1,12 @@
+# chintoleung/dsh-ping
+
+- **仓库地址**: https://github.com/chintoleung/dsh-ping
+- **收录分类**: 其他
+- **插件简介**: 为 DeepSeek Harness 的提问、审批请求与回合完成发送 Telegram 通知。仅通知不改交互：单运行时文件、零运行时依赖、不自建问题卡片。
+- **收录来源**: awesome-dsh-plugin
+- **审核日期**: 2026-10-11
+- **审核定级**: 🔴 黑名单 (禁止使用)
+
+完整审核报告见同目录 [security-report.md](./security-report.md)。
+
+> ⚠️ 自动审核不等于人工审计，报告中标注「需人工复核」的检查项以人工复核结论为准。
