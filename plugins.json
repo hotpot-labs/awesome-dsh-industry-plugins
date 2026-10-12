@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -24146,7 +24146,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-08-27",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/J0ss077__dsh-always-require-tools-approval"
+      "dir": "plugins/J0ss077__dsh-always-require-tools-approval",
+      "removed": true
     },
     {
       "id": "JasonQQ__dsh-btw-plugin",
@@ -44759,6 +44760,83 @@
       "auditedAt": "2026-10-11",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/jgao9906-droid__dsh-task-toast"
+    },
+    {
+      "id": "Asheblog__dsh-ollama-cloud",
+      "name": "Asheblog/dsh-ollama-cloud",
+      "url": "https://github.com/Asheblog/dsh-ollama-cloud",
+      "category": "其他",
+      "description": "Ollama Cloud 供应商：安装即配好路由，按 Ollama 模型自身元数据公布每个模型的思维链档位（供 composer 的推理强度选择），并在 Models 页与侧栏显示账号用量、提供 API Key 输入。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-12",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Asheblog__dsh-ollama-cloud"
+    },
+    {
+      "id": "MicroSharpAnt__dsh-theme-presets",
+      "name": "MicroSharpAnt/dsh-theme-presets",
+      "url": "https://github.com/MicroSharpAnt/dsh-theme-presets",
+      "category": "其他",
+      "description": "在 DSH Web GUI 的主题选择中加入 Nord、Dracula、Catppuccin、Tokyo Night、One Dark、Gruvbox、Solarized、GitHub、Everforest、Kanagawa、Rosé Pine 十一套配色预设，与内置的浅色/深色/跟随系统正交叠加。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-12",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/MicroSharpAnt__dsh-theme-presets"
+    },
+    {
+      "id": "PhysicalAI-0__dsh-paperforge",
+      "name": "PhysicalAI-0/dsh-paperforge",
+      "url": "https://github.com/PhysicalAI-0/dsh-paperforge",
+      "category": "其他",
+      "description": "论文阅读工作台：论文库、PDF 与 Markdown 笔记并排、每篇论文一个专属 AI 会话。高亮与框选截图自动写入笔记；划词 Ask AI 附带页码与选段；笔记可原地编辑、自动保存；多个会话可汇总成 Summary。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-12",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/PhysicalAI-0__dsh-paperforge"
+    },
+    {
+      "id": "Utmotc__dsh-balance-card",
+      "name": "Utmotc/dsh-balance-card",
+      "url": "https://github.com/Utmotc/dsh-balance-card",
+      "category": "其他",
+      "description": "在当前会话所用模型的厂商 API 余额，以 dsh Web 侧边栏卡片常驻展示，含每套餐进度条、货币/积分单位区分、设置页，以及订阅与积分额度监测。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-12",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Utmotc__dsh-balance-card"
+    },
+    {
+      "id": "dzwalker__dsh-session-keepwarm",
+      "name": "dzwalker/dsh-session-keepwarm",
+      "url": "https://github.com/dzwalker/dsh-session-keepwarm",
+      "category": "其他",
+      "description": "让浏览器最近用过的会话保持常驻：切走再切回来直接复用已加载的历史、不再重新读取；常驻数量可配置，并可整体关闭。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-12",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/dzwalker__dsh-session-keepwarm"
+    },
+    {
+      "id": "hyperion2144__dsh-desktop-tauriapp",
+      "name": "hyperion2144/dsh-desktop-tauriapp",
+      "url": "https://github.com/hyperion2144/dsh-desktop-tauriapp",
+      "category": "其他",
+      "description": "把 DeepSeek Harness 封装成 Tauri 2 桌面应用（macOS + Windows，安装包见仓库 Releases，内置 dsh 运行时）：托盘常驻启动器（按 profile 分端口与窗口）、最多自愈 3 次的进程守护、本地或远程 dsh、带 Dock 角标的任务完成通知、实时启动控制台。本插件是该应用的页面内半区——桌面 chrome 与通知桥只在 DSH 运行于桌面应用内时生效；在普通 DSH 里用 `dsh plugin add` 安装时，提供的是随附的「把 DSH Web GUI 打包成 Tauri 应用」技能。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-12",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/hyperion2144__dsh-desktop-tauriapp"
+    },
+    {
+      "id": "jaychang1989__dsh-webchat",
+      "name": "jaychang1989/dsh-webchat",
+      "url": "https://github.com/jaychang1989/dsh-webchat",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 内打开 chat.deepseek.com 官方网页版：点侧边栏入口，真实页面通过桌面端的原生浏览器访客渲染在中栏，并且重启后保持登录。模型选择、深度思考、智能搜索、历史记录、附件上传仍是官方那一套；宿主没有该访客桥接时降级为打开窗口。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-12",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/jaychang1989__dsh-webchat"
     }
   ]
 }
