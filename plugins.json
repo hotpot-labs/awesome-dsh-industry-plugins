@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-10-15",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -43661,7 +43661,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-30",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/YUNmengyuan__Herta-dsh"
+      "dir": "plugins/YUNmengyuan__Herta-dsh",
+      "removed": true
     },
     {
       "id": "eghrhegpe__dsh-connect-qoder",
@@ -45565,6 +45566,314 @@
       "auditedAt": "2026-10-14",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/ctianye__dsh_gearbox"
+    },
+    {
+      "id": "1344738825__ai-look-up",
+      "name": "1344738825/ai-look-up",
+      "url": "https://github.com/1344738825/ai-look-up",
+      "category": "其他",
+      "description": "AI 抬头：检测空跑（重复命令 / 连续失败 / 久跑零产出）并在运行中途注入自我审查提醒，同时定期注入真实本地时间，校准 AI 的时间感。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1344738825__ai-look-up"
+    },
+    {
+      "id": "439436269-ctrl__dsh-pinned-sessions",
+      "name": "439436269-ctrl/dsh-pinned-sessions",
+      "url": "https://github.com/439436269-ctrl/dsh-pinned-sessions",
+      "category": "其他",
+      "description": "侧栏「工作区」上方的一个置顶分组：跨工作区汇总所有置顶会话，可折叠、可就地搜索，点行打开、悬停出现取消置顶按钮。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/439436269-ctrl__dsh-pinned-sessions"
+    },
+    {
+      "id": "AKS1st__dock-spreadsheet",
+      "name": "AKS1st/dock-spreadsheet",
+      "url": "https://github.com/AKS1st/dock-spreadsheet",
+      "category": "其他",
+      "description": "dock-files 的只读表格查看器，支持 XLSX、XLS、ODS、CSV、TSV 格式以及工作表切换、排序、筛选、搜索和单元格链接。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AKS1st__dock-spreadsheet"
+    },
+    {
+      "id": "Ame-Choo__dsh-study-coach",
+      "name": "Ame-Choo/dsh-study-coach",
+      "url": "https://github.com/Ame-Choo/dsh-study-coach",
+      "category": "其他",
+      "description": "DSH 的学习教练：把一门课拆成知识地图（大类 / 模块 / 最小单元），逐单元记六档掌握度，按资料索引排每日任务，带错题本与记忆卡，并自带一个网页面板。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Ame-Choo__dsh-study-coach"
+    },
+    {
+      "id": "Erbsen16__dsh-client-ui-dracula",
+      "name": "Erbsen16/dsh-client-ui-dracula",
+      "url": "https://github.com/Erbsen16/dsh-client-ui-dracula",
+      "category": "其他",
+      "description": "DSH Web GUI 的 Dracula（VS Code 吸血鬼）深色主题：把产品自身的配色令牌映射到德古拉调色板，并附更紧的字号阶梯、1080px 正文列宽与不折行的代码块。仅深色模式。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Erbsen16__dsh-client-ui-dracula"
+    },
+    {
+      "id": "HerTa-st__Herta-dsh",
+      "name": "HerTa-st/Herta-dsh",
+      "url": "https://github.com/HerTa-st/Herta-dsh",
+      "category": "其他",
+      "description": "把 Herta（黑塔）作为 DeepSeek Harness 智能体装入：携带人格与记忆提示词段的 preset、六个记忆与语音工具、区分内心与发言的叙述层、80 条随包语音、本地与 MiniMax 两条语音合成链路，以及两个用她自己的组件渲染会话的对话视图。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/HerTa-st__Herta-dsh"
+    },
+    {
+      "id": "JauLukNgai__dsh-on-phone",
+      "name": "JauLukNgai/dsh-on-phone",
+      "url": "https://github.com/JauLukNgai/dsh-on-phone",
+      "category": "其他",
+      "description": "让手机浏览器直接使用电脑上的 DSH 网页界面，远程通道建立在 Tailscale Serve 之上。两边除了 Tailscale 不用再装任何东西：没有专用 App、没有二维码、没有登录页，插件不设账号，也不中转你的内容。电脑端支持 macOS、Windows 与 Linux。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/JauLukNgai__dsh-on-phone"
+    },
+    {
+      "id": "LR611415__visionforge",
+      "name": "LR611415/visionforge",
+      "url": "https://github.com/LR611415/visionforge",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 提供读图与生图/编辑能力（Qwen/OpenAI/Anthropic/Gemini 读图，Qwen-Image 生图与编辑）。基于 liustack/modlens（MIT）改造；请先卸载 @liustack/modlens——两者会注册同一批 vision provider 与图片拦截钩子，并存会导致读图失灵。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/LR611415__visionforge"
+    },
+    {
+      "id": "LUX09947-CMYK__dsh-re",
+      "name": "LUX09947-CMYK/dsh-re",
+      "url": "https://github.com/LUX09947-CMYK/dsh-re",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 桌面端顶部标题栏「编辑」右边加一个「刷新」按钮，只重载界面、不重启应用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/LUX09947-CMYK__dsh-re"
+    },
+    {
+      "id": "Leafyezi233__dsh-model-gateway",
+      "name": "Leafyezi233/dsh-model-gateway",
+      "url": "https://github.com/Leafyezi233/dsh-model-gateway",
+      "category": "其他",
+      "description": "把 DeepSeek Harness 里已配置好的模型通过 OpenAI 兼容网关中转出去，其他本地项目 用标准 OpenAI 客户端即可调用。多个供应商候选共享一个具名分组，支持顺序、均衡、 随机三种调度；上游在产出任何内容前失败时自动切换下一候选，客户端无感，被限流的 请求按供应商指示的退避时间自动重试。每条候选的调用统计（尝试、应答、失败、 token/TTFT 累计）以徽章形式显示在设置页，按天聚合的数据落盘为本地文件，附 30 天 热力图与趋势视图。在界面创建密钥之前，接口对任何能访问到它的人开放；创建密钥 （仅存 SHA-256 哈希）后开启校验，且删掉最后一个密钥仍保持锁定，需显式关闭鉴权 才会重新开放。若启用可选的局域网监听而未配密钥，该端口对整个局域网开放。支持 DSH 0.1.2-rc.1 至 0.1.7-alpha.1 及以后。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Leafyezi233__dsh-model-gateway"
+    },
+    {
+      "id": "Longxiangjunlin__dsh-endfield-theme",
+      "name": "Longxiangjunlin/dsh-endfield-theme",
+      "url": "https://github.com/Longxiangjunlin/dsh-endfield-theme",
+      "category": "其他",
+      "description": "《明日方舟：终末地》主题：炭黑与警戒黄的工业 HUD、在外壳渲染前注入的开屏动画、对话区背景，以及重新配色的 Windows 标题栏。侧栏品牌会改为「终末地工业 / ENDFIELD INDUSTRIES」，可用 URL 参数还原。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Longxiangjunlin__dsh-endfield-theme"
+    },
+    {
+      "id": "MYanhui__DSH-plug-in",
+      "name": "MYanhui/DSH-plug-in",
+      "url": "https://github.com/MYanhui/DSH-plug-in",
+      "category": "其他",
+      "description": "给 DeepSeek Harness 增加三页设置界面：增删改查与启停 MCP 服务；手写 Skill 技能或从 GitHub 仓库安装；维护多人设库并启用其中一份。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/MYanhui__DSH-plug-in"
+    },
+    {
+      "id": "NickyWooden__dsh-scrapling",
+      "name": "NickyWooden/dsh-scrapling",
+      "url": "https://github.com/NickyWooden/dsh-scrapling",
+      "category": "其他",
+      "description": "把官方 Scrapling 技能包进 DeepSeek Harness profile：反反爬绕过、隐身浏览、spiders 框架、自适应解析与 JS 渲染，通过宿主技能目录发现。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/NickyWooden__dsh-scrapling"
+    },
+    {
+      "id": "TixAn9__DSHdesktop-restart-bottom",
+      "name": "TixAn9/DSHdesktop-restart-bottom",
+      "url": "https://github.com/TixAn9/DSHdesktop-restart-bottom",
+      "category": "其他",
+      "description": "用于重启 DSH 桌面的按钮，直接放在侧边栏账号按钮上方。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/TixAn9__DSHdesktop-restart-bottom"
+    },
+    {
+      "id": "TwinsEarth__dsh-windows2macos",
+      "name": "TwinsEarth/dsh-windows2macos",
+      "url": "https://github.com/TwinsEarth/dsh-windows2macos",
+      "category": "其他",
+      "description": "一条指令同时下发给所有在线的 Windows 与 macOS 机器，可跨网络跨区域：零依赖中继只通过出站连接与各机通信（Tailscale 内网、公网 VPS + TLS、或隧道），各机在各自的项目副本上执行，结果连同 commit、工作区指纹与命令哈希一并回传，因此\"环境不一致\"会被判为 unverifiable，而不会被误当成结果分歧。下发指令需要独立于设备令牌的 operator token。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/TwinsEarth__dsh-windows2macos"
+    },
+    {
+      "id": "Ushio155__dsh-verify-cheap",
+      "name": "Ushio155/dsh-verify-cheap",
+      "url": "https://github.com/Ushio155/dsh-verify-cheap",
+      "category": "其他",
+      "description": "携带一份技能：用仍然能给出确定结论的最便宜手段验证改动——L0–L3 成本阶梯（静态检查到单个测试套件）、用条件轮询加超时替代固定延时、断言必须能失败、耗时必须实测而不是凭印象。包里还带着这份技能调用的两个零依赖 Node 工具：wait-until.mjs（轮询命令 / 文件 / 端口直到就绪）与 measure-runtime.mjs（测任意命令的墙钟耗时，库模式下提供分段计时）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Ushio155__dsh-verify-cheap"
+    },
+    {
+      "id": "WihteCo__dsh-opencode-go-quota",
+      "name": "WihteCo/dsh-opencode-go-quota",
+      "url": "https://github.com/WihteCo/dsh-opencode-go-quota",
+      "category": "其他",
+      "description": "在侧边栏「工作区」列表下方显示 OpenCode Go 的滚动 5 小时 / 每周 / 每月额度百分比与重置倒计时，每档带用量条与时间进度标记，60 秒从 OpenCode 官方用量接口刷新，密钥复用 DSH 凭据库。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/WihteCo__dsh-opencode-go-quota"
+    },
+    {
+      "id": "XialerMoies__dsh-prompt-easymanager",
+      "name": "XialerMoies/dsh-prompt-easymanager",
+      "url": "https://github.com/XialerMoies/dsh-prompt-easymanager",
+      "category": "其他",
+      "description": "可以自行选择在全局范围或单独会话中增加个人提示词、修改系统提示词来工作，各会话互不影响。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/XialerMoies__dsh-prompt-easymanager"
+    },
+    {
+      "id": "Yokira404__dsh-thinking-highlight",
+      "name": "Yokira404/dsh-thinking-highlight",
+      "url": "https://github.com/Yokira404/dsh-thinking-highlight",
+      "category": "其他",
+      "description": "统计思考行里的关键词并在展开后按词标红；标题行上每个词一个计数徽章，点徽章即单独开关这个词；每个词可设底色、文字颜色、字号（10-22px，与宿主正文尺寸同一区间）、字体、加粗/斜体/下划线与「完整词」匹配；插件有独立的设置分区。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Yokira404__dsh-thinking-highlight"
+    },
+    {
+      "id": "ZilongYang__dsh-session-titler",
+      "name": "ZilongYang/dsh-session-titler",
+      "url": "https://github.com/ZilongYang/dsh-session-titler",
+      "category": "其他",
+      "description": "手动触发的「先确认再改名」标题生成器：顶栏按钮与会话行菜单各一个入口，让模型总结整段会话给出标题，在可编辑弹窗里确认后才重命名会话；不注册标题 provider，不影响自带的自动标题。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ZilongYang__dsh-session-titler"
+    },
+    {
+      "id": "ashllll__dsh-open-code-review",
+      "name": "ashllll/dsh-open-code-review",
+      "url": "https://github.com/ashllll/dsh-open-code-review",
+      "category": "其他",
+      "description": "用 Open Code Review 评审代码：确定性的范围与规则解析，由你自己的 DSH 模型判断，无需 API Key。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ashllll__dsh-open-code-review"
+    },
+    {
+      "id": "chen112233usa__dsh-typesafe-ai-skill",
+      "name": "chen112233usa/dsh-typesafe-ai-skill",
+      "url": "https://github.com/chen112233usa/dsh-typesafe-ai-skill",
+      "category": "其他",
+      "description": "把 TypeSafe / Jev（System One 判断模型）的构建技能注册进 DeepSeek Harness 的全局技能层，让每个会话都能用带类型的判断做分类、路由、打分、抽取和置信度门控，取代「调大模型再解析回复」。不含任何密钥，API key 由使用者通过 OPENROUTER_API_KEY 提供。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/chen112233usa__dsh-typesafe-ai-skill"
+    },
+    {
+      "id": "dsh-plugin-lab__dsh-workbuddy-bridge",
+      "name": "dsh-plugin-lab/dsh-workbuddy-bridge",
+      "url": "https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge",
+      "category": "其他",
+      "description": "把 WorkBuddy 桌面 App 的模型接进 DSH 模型选择器：国内版与国际版各自成组，带上游声明的推理档位、每条回复的积分消耗与剩余积分、按账号分别保存的模型显隐，以及在支持的模型上的图片输入。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/dsh-plugin-lab__dsh-workbuddy-bridge"
+    },
+    {
+      "id": "eghrhegpe__dsh-connect-agnes-token-plan",
+      "name": "eghrhegpe/dsh-connect-agnes-token-plan",
+      "url": "https://github.com/eghrhegpe/dsh-connect-agnes-token-plan",
+      "category": "其他",
+      "description": "在 Harness 的 Plugins 页以插件卡显示 Agnes 控制台的 Token Plan 额度：账号级四类额度窗口（5 小时请求、每周请求、每日图片、每日视频）、账号累计用量与按日柱图、以及公开套餐目录，支持面板内登录与令牌失效后自动重登。另有四个默认关闭的可选开关：把 Agnes 模型注册为 DSH 推理提供方、接入 AgnesCode 桌面端上游，并向 agent 暴露图片与视频生成工具。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/eghrhegpe__dsh-connect-agnes-token-plan"
+    },
+    {
+      "id": "eryi-lab__dsh-gsap",
+      "name": "eryi-lab/dsh-gsap",
+      "url": "https://github.com/eryi-lab/dsh-gsap",
+      "category": "其他",
+      "description": "把 GSAP 官方的 8 个 AI 技能注册进 DeepSeek Harness；技能正文随包分发，装完重启即可使用，无需配置、账号或密钥。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/eryi-lab__dsh-gsap"
+    },
+    {
+      "id": "ethanrise__dsh-privacy-gateway",
+      "name": "ethanrise/dsh-privacy-gateway",
+      "url": "https://github.com/ethanrise/dsh-privacy-gateway",
+      "category": "其他",
+      "description": "在对话消息发给模型前，把个人信息替换为占位符（按上下文识别的中文姓名、大陆手机号与身份证号、邮箱、银行卡号，以及用户词库中的词），原文只在本机界面还原显示；并可生成 CSV/XLSX 的脱敏副本。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ethanrise__dsh-privacy-gateway"
+    },
+    {
+      "id": "f-e-n-g-0531__dsh-code-review",
+      "name": "f-e-n-g-0531/dsh-code-review",
+      "url": "https://github.com/f-e-n-g-0531/dsh-code-review",
+      "category": "其他",
+      "description": "复用当前 DSH Agent 模型只读审查 Git 与 SVN 变更，支持变更预览、显式上下文及经审批的模型请求。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/f-e-n-g-0531__dsh-code-review"
+    },
+    {
+      "id": "f-e-n-g-0531__dsh-vcs",
+      "name": "f-e-n-g-0531/dsh-vcs",
+      "url": "https://github.com/f-e-n-g-0531/dsh-vcs",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 内只读审阅 Git 与 SVN 变更，支持仓库浏览和并排差异对比。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-10-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/f-e-n-g-0531__dsh-vcs"
     }
   ]
 }
