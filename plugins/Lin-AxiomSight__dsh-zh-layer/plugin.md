@@ -1,0 +1,12 @@
+# Lin-AxiomSight/dsh-zh-layer
+
+- **仓库地址**: https://github.com/Lin-AxiomSight/dsh-zh-layer
+- **收录分类**: 其他
+- **插件简介**: DSH的双语覆盖层：为插件、命令与技能叠加中文名和功能说明，支持三种显示模式与纯手动触发的AI翻译，且不修改一行DSH源码。
+- **收录来源**: awesome-dsh-plugin
+- **审核日期**: 2026-11-04
+- **审核定级**: 🔴 黑名单 (禁止使用)
+
+完整审核报告见同目录 [security-report.md](./security-report.md)。
+
+> ⚠️ 自动审核不等于人工审计，报告中标注「需人工复核」的检查项以人工复核结论为准。
