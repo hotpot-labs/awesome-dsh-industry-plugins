@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -14157,7 +14157,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/keepermttl__dsh-archive-viewer"
+      "dir": "plugins/keepermttl__dsh-archive-viewer",
+      "removed": true
     },
     {
       "id": "keke050__dsh-wallpaper",
@@ -43176,7 +43177,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-26",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Jaylor-Wang__dsh-awesome-agent-preset"
+      "dir": "plugins/Jaylor-Wang__dsh-awesome-agent-preset",
+      "removed": true
     },
     {
       "id": "Lixiuxiu559__AgentForge",
@@ -60040,6 +60042,424 @@
       "auditedAt": "2026-11-09",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/HonestShine__dsh-desktop-notify"
+    },
+    {
+      "id": "101011001101Q__dsh-execution-narration",
+      "name": "101011001101Q/dsh-execution-narration",
+      "url": "https://github.com/101011001101Q/dsh-execution-narration",
+      "category": "其他",
+      "description": "把 Agent 执行过程中的英文过程叙述原位翻译成简体中文；最终回答、工具记录与思考内容保持原样，因此官方思考翻译插件可同时启用。某一步是否属于过程叙述由渲染期结构信号判定，而非依据英文句式；拿不到该信号时不自动翻译。围栏代码、行内代码、URL 与文件路径在请求前打码。复用宿主的翻译服务（默认 Bing，无需 API Key）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/101011001101Q__dsh-execution-narration"
+    },
+    {
+      "id": "1250589385__dsh-rescue-guard",
+      "name": "1250589385/dsh-rescue-guard",
+      "url": "https://github.com/1250589385/dsh-rescue-guard",
+      "category": "计算机",
+      "description": "在 DSH 打不开时救回配置：不依赖 DSH 的命令行工具，把崩溃日志归类（六类原因，全部来自真实事故），启动前预检命令名冲突与插件构造期读取的文件，布防安全模式（只加载官方 bundle，启动正常后自动还原），并保留清单快照供回滚。另有一个常驻守护进程，用操作系统文件事件盯着崩溃日志目录——空闲零开销，加载器一死几秒内写出自检报告，每次崩溃只覆盖一份文件。仅限 Windows：崩溃日志读自 %APPDATA%，守护进程经 Windows「启动」文件夹自启。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1250589385__dsh-rescue-guard"
+    },
+    {
+      "id": "132465798978__dsh-text-highlight",
+      "name": "132465798978/dsh-text-highlight",
+      "url": "https://github.com/132465798978/dsh-text-highlight",
+      "category": "其他",
+      "description": "用 CSS Highlight API 给 DSH 消息里的关键词和关键句上色（不重写 DOM，流式输出也不掉），再一键换掉界面/正文字体；配置在小浮窗里，代码块和公式不受影响。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/132465798978__dsh-text-highlight"
+    },
+    {
+      "id": "15060899827__dsh-audio-player",
+      "name": "15060899827/dsh-audio-player",
+      "url": "https://github.com/15060899827/dsh-audio-player",
+      "category": "其他",
+      "description": "对话内音频播放器：play_audio 工具把生成的语音和歌曲直接渲染成播放器（宿主支持时提升到正文，否则留在工具折叠里）。只服务白名单目录，支持 Range 拖动与 HEAD，单文件上限 512 MB。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/15060899827__dsh-audio-player"
+    },
+    {
+      "id": "2039108952x-lab__image-scout",
+      "name": "2039108952x-lab/image-scout",
+      "url": "https://github.com/2039108952x-lab/image-scout",
+      "category": "其他",
+      "description": "在 Wikimedia Commons 与 Openverse 搜索真实照片，下载后校验来源、魔数与尺寸，再交给 Agent 使用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/2039108952x-lab__image-scout"
+    },
+    {
+      "id": "6600788__dsh-token-ledger",
+      "name": "6600788/dsh-token-ledger",
+      "url": "https://github.com/6600788/dsh-token-ledger",
+      "category": "其他",
+      "description": "按轮次记录 token 用量，分为安装前导入的历史账与安装后的新账两本，并在侧边栏展示精确的分桶合计、按模型和会话的明细，以及按日、周、月的筛选。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/6600788__dsh-token-ledger"
+    },
+    {
+      "id": "991206772-debug__dsh-agentrix",
+      "name": "991206772-debug/dsh-agentrix",
+      "url": "https://github.com/991206772-debug/dsh-agentrix",
+      "category": "其他",
+      "description": "DSH Agentrix 提供多 Agent 编排与验收，主控拆分任务，子代理按角色模型执行和审查，展示进度并保留验证证据。目前仅在 Windows + PowerShell 7（pwsh）+ Git 环境验证，其他系统未验证。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/991206772-debug__dsh-agentrix"
+    },
+    {
+      "id": "AAxium__dsh-usage",
+      "name": "AAxium/dsh-usage",
+      "url": "https://github.com/AAxium/dsh-usage",
+      "category": "其他",
+      "description": "模型额度与账户余额表盘，支持额度分组和自定义用量阈值。基于 dougen/dsh-deepseek-usage 的分支，沿用上游的插件行 id 与 /api/deepseek-usage 路由，不能与上游同装。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AAxium__dsh-usage"
+    },
+    {
+      "id": "ACGNnsj__dsh-plugin-versions",
+      "name": "ACGNnsj/dsh-plugin-versions",
+      "url": "https://github.com/ACGNnsj/dsh-plugin-versions",
+      "category": "其他",
+      "description": "插件页新增「版本一览」标签页：列出每个已安装组合包的当前版本、最新发布版本与状态（可更新、已是最新、随 DSH 版本更新、来源不支持更新）。点一行跳到官方组合包页，更新仍在官方页面完成；检查结果会缓存，并按缓存时间从旧到新重新核对。组合包页另加「到底部」与「回到顶部」两个按钮。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ACGNnsj__dsh-plugin-versions"
+    },
+    {
+      "id": "AhYi8__dsh-key-managment",
+      "name": "AhYi8/dsh-key-managment",
+      "url": "https://github.com/AhYi8/dsh-key-managment",
+      "category": "其他",
+      "description": "面向 DeepSeek Harness 的分提供商 API 密钥池，支持手动切换、后台可达性探测与 DeepSeek、Kimi、MiniMax、智谱、OpenRouter 等多家服务商的套餐用量适配器。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AhYi8__dsh-key-managment"
+    },
+    {
+      "id": "AkarinLiu__dsh-plugin-discourse",
+      "name": "AkarinLiu/dsh-plugin-discourse",
+      "url": "https://github.com/AkarinLiu/dsh-plugin-discourse",
+      "category": "其他",
+      "description": "一个为 DeepSeek Harness 而设计的 Discourse 论坛管理和 AI Agent 插件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AkarinLiu__dsh-plugin-discourse"
+    },
+    {
+      "id": "AomiRaku__dsh-ui-alt",
+      "name": "AomiRaku/dsh-ui-alt",
+      "url": "https://github.com/AomiRaku/dsh-ui-alt",
+      "category": "其他",
+      "description": "在保持原版 UI 大风格不变的情况下，进行减小圆角、紧凑化、秩序化、整洁化改进。使 UI 视觉更加冷静、专业、高效。多数改动可在设置中单独开关。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AomiRaku__dsh-ui-alt"
+    },
+    {
+      "id": "AshenSeeker__agent-web-sandbox",
+      "name": "AshenSeeker/agent-web-sandbox",
+      "url": "https://github.com/AshenSeeker/agent-web-sandbox",
+      "category": "其他",
+      "description": "在内容进入模型之前净化抓取的网页：剥离隐藏文本、站外图片与内联数据，其余内容用带金丝雀的不可信分隔符包裹，并标记提示注入。",
+      "verdict": "whitelist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AshenSeeker__agent-web-sandbox"
+    },
+    {
+      "id": "AshenSeeker__dsh-group-meeting-slides",
+      "name": "AshenSeeker/dsh-group-meeting-slides",
+      "url": "https://github.com/AshenSeeker/dsh-group-meeting-slides",
+      "category": "其他",
+      "description": "把英文论文 PDF 做成中文组会汇报 PPT，图表用原文真实像素。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AshenSeeker__dsh-group-meeting-slides"
+    },
+    {
+      "id": "AshenSeeker__dsh-mind",
+      "name": "AshenSeeker/dsh-mind",
+      "url": "https://github.com/AshenSeeker/dsh-mind",
+      "category": "其他",
+      "description": "给 DeepSeek Harness 加一套心情系统：33 种心情，每 3~6 小时一次周期判定，并随消息小幅增减；另有跨会话记忆、审美品味库、加密日记。心情、记忆、品味、日记四个工具都可由模型调用，五个模块各有独立开关。心情底分全为 0，平静的日子就显示平静，不会永远挂着某个心情在跑。日记只由模型自己写，不生成系统总结模板。本插件是 JMX-4869/dsh-mood 的精简 fork：二者注册同名的心情 / 日记 / 品味 / 记忆工具，不能同时安装，只能二选一。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AshenSeeker__dsh-mind"
+    },
+    {
+      "id": "AshenSeeker__dsh-subagent-switch",
+      "name": "AshenSeeker/dsh-subagent-switch",
+      "url": "https://github.com/AshenSeeker/dsh-subagent-switch",
+      "category": "其他",
+      "description": "未由调用方指定模型时，按任务类型从本机模型目录为每个子代理挑一个模型。免费与额度档合并后按逐模型能力标签排序；只有当便宜档里没有任何模型声明擅长这类工作时，才升到更贵的档。只有余额可读或账号接入的 provider 进候选池，其余仍列出但不参与路由。面板提供盖过自动顺序的逐模型手动优先级，以及放行/收回开关。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AshenSeeker__dsh-subagent-switch"
+    },
+    {
+      "id": "AshenSeeker__lit-report-ppt",
+      "name": "AshenSeeker/lit-report-ppt",
+      "url": "https://github.com/AshenSeeker/lit-report-ppt",
+      "category": "其他",
+      "description": "把一篇期刊论文默认做成三份产物 —— 中文组会文献汇报 PPT（南阳师范学院物理模板）、配套 Word 讲稿、双色答辩预测问答 HTML（十题左右，答案简短直接）。需本机 Python 3 及 python-pptx、python-docx、Pillow、pymupdf（pypdf 兜底）依赖，可用 pip install -r requirements.txt 安装。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AshenSeeker__lit-report-ppt"
+    },
+    {
+      "id": "Beellix-dev__beellix-dsh-ui",
+      "name": "Beellix-dev/beellix-dsh-ui",
+      "url": "https://github.com/Beellix-dev/beellix-dsh-ui",
+      "category": "其他",
+      "description": "Beelli X UI 为 Windows 上的 DSH NEXT 提供一套可搜索的设置。左栏按用途导航，「外观」内分为主题、皮肤、字体、吉祥物和效果，「模型」单独管理服务连接。皮肤支持图片或 MP4 壁纸、磨砂面板与方案保存。桌宠可以添加多只、切换显示，并为每只上传默认和额外动作，右键播放。启动动画支持 MP4 或 GIF，可预览、设定时长和跳过。模型可用厂商预设或自定义接口，从服务获取型号后勾选，也能手动填写模型 ID。还支持按原工作区恢复或批量删除归档聊天，以及在插件页直接切换和添加市场。会替换内置设置页与侧栏（停用 ui-settings-general 与 ui-sidebar），请勿与其他接管设置页或侧栏的插件同装。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Beellix-dev__beellix-dsh-ui"
+    },
+    {
+      "id": "BuyukBang__dsh-browser-bookmarks",
+      "name": "BuyukBang/dsh-browser-bookmarks",
+      "url": "https://github.com/BuyukBang/dsh-browser-bookmarks",
+      "category": "其他",
+      "description": "侧边栏浏览器的书签管理器：工具栏星标按钮，下拉列表一键打开书签，支持就地编辑与排序。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BuyukBang__dsh-browser-bookmarks"
+    },
+    {
+      "id": "Byton-Patrica__dsh-super-image",
+      "name": "Byton-Patrica/dsh-super-image",
+      "url": "https://github.com/Byton-Patrica/dsh-super-image",
+      "category": "其他",
+      "description": "通过两个独立配置的 OpenAI Images 兼容或 ComfyUI 后端并行生成图像，比较候选图并可选择融合。视觉比较需要 DSH 中有支持图像输入的模型；没有时候选图只列出、不打分。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Byton-Patrica__dsh-super-image"
+    },
+    {
+      "id": "CadilarcZhang__dsh-constitution",
+      "name": "CadilarcZhang/dsh-constitution",
+      "url": "https://github.com/CadilarcZhang/dsh-constitution",
+      "category": "其他",
+      "description": "侧栏里的「全局宪法」：把跨会话生效的做事准则沉淀到一个 Markdown 文件，每次模型调用都会注入系统提示，相当于 dsh 里的 AGENTS.md／CLAUDE.md；文件为空时不注入任何内容。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CadilarcZhang__dsh-constitution"
+    },
+    {
+      "id": "Chang-Tong__dsh-unified-context",
+      "name": "Chang-Tong/dsh-unified-context",
+      "url": "https://github.com/Chang-Tong/dsh-unified-context",
+      "category": "其他",
+      "description": "把 pi、opencode、codex、claude-code 与 WorkBuddy 的会话导入 DSH，用符号链接在各 Harness 间共享同一份 AGENTS.md、技能、项目与 Agent 记忆，并把 Codex / WorkBuddy 自动化迁移为 DSH 定时任务。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Chang-Tong__dsh-unified-context"
+    },
+    {
+      "id": "Cillivian__wecom-file-dsh",
+      "name": "Cillivian/wecom-file-dsh",
+      "url": "https://github.com/Cillivian/wecom-file-dsh",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 输入条添加企业微信微盘选择器：可拖动的浮动窗口提供列表、分栏、画廊三种查看方式，支持搜索、排序与多选，把选中的文件 / 文档 / 文件夹写成官方 `@` 引用 chip。数据来自本机 wecom-cli，缺少 CLI 时回退到官方 doc.weixin.qq.com 选择器；附带 wecom-wedrive-ref 技能，按 id 前缀把 chip 路由到对应的 wecomcli-* 文档技能。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Cillivian__wecom-file-dsh"
+    },
+    {
+      "id": "DarknessLED__dsh-loom",
+      "name": "DarknessLED/dsh-loom",
+      "url": "https://github.com/DarknessLED/dsh-loom",
+      "category": "其他",
+      "description": "人在环的自我改进循环：给一个目标，工作链在子会话里一轮轮迭代，主 agent 始终保持空闲。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DarknessLED__dsh-loom"
+    },
+    {
+      "id": "Dclef__dsh-coding-time",
+      "name": "Dclef/dsh-coding-time",
+      "url": "https://github.com/Dclef/dsh-coding-time",
+      "category": "其他",
+      "description": "本地编码活动计时：按项目统计墙钟活跃区间并集、基于真实 diff 元数据的 AI 增删行、按文件时长占比、设置页仪表盘与 CSV 导出。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Dclef__dsh-coding-time"
+    },
+    {
+      "id": "Dippppper__dsh-hero-motto",
+      "name": "Dippppper/dsh-hero-motto",
+      "url": "https://github.com/Dippppper/dsh-hero-motto",
+      "category": "其他",
+      "description": "新会话鲸鱼旁轮播格言，另含可独立开关的输入框边框跑马灯：色带沿输入框边缘流动、外圈带辉光，速度、亮度、宽度、呼吸、生效范围与仅聚焦可在设置中调节。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Dippppper__dsh-hero-motto"
+    },
+    {
+      "id": "DragonHorizon-xtihc__dsh-optimized-tools",
+      "name": "DragonHorizon-xtihc/dsh-optimized-tools",
+      "url": "https://github.com/DragonHorizon-xtihc/dsh-optimized-tools",
+      "category": "其他",
+      "description": "按会话控制模型能看到哪些技能与 MCP 工具/服务器（不碰内置工具）：default 全部可见，auto 每轮由模型判定保留哪些，smart 从你建好的分组里选，也可手动勾选分组；输入框下方可随时切换，任何出错都回到全部可见。默认状态为 auto，每轮多一次模型调用（默认沿用当前会话模型，可用 judgeModel 指定）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DragonHorizon-xtihc__dsh-optimized-tools"
+    },
+    {
+      "id": "ET921__dsh-git-management",
+      "name": "ET921/dsh-git-management",
+      "url": "https://github.com/ET921/dsh-git-management",
+      "category": "其他",
+      "description": "DSH 右侧栏 Git 面板：暂存、提交、切换分支、fetch/pull/push、工作树、Cursor 风格提交图与 GitHub PR（GitHub 卡片需要 GitHub 令牌）。直接调用系统 git，面板与终端状态保持一致。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ET921__dsh-git-management"
+    },
+    {
+      "id": "EchoTint__dsh-pomodoro",
+      "name": "EchoTint/dsh-pomodoro",
+      "url": "https://github.com/EchoTint/dsh-pomodoro",
+      "category": "其他",
+      "description": "番茄钟侧栏工作台与独立桌面悬浮窗，支持任务、专注统计和 WebDAV/S3 备份。桌面悬浮窗需另备 Electron 运行时。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EchoTint__dsh-pomodoro"
+    },
+    {
+      "id": "Edsenpai__page-between",
+      "name": "Edsenpai/page-between",
+      "url": "https://github.com/Edsenpai/page-between",
+      "category": "其他",
+      "description": "贴一个链接，把文章读成结构导图、加粗要点、逐段精读与读后评论；任意一句可收成拍立得便签（可拖动、缩放、改字），全文可一键复制成 Notion 版，简/繁/英三种语言可随时切换。导图图片依赖本机 Edge/Chrome，仅 Windows 自动识别（其他系统需设置环境变量 DSH_MINDMAP_BROWSER），不影响其余功能。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Edsenpai__page-between"
+    },
+    {
+      "id": "EviMing__dsh-balance",
+      "name": "EviMing/dsh-balance",
+      "url": "https://github.com/EviMing/dsh-balance",
+      "category": "其他",
+      "description": "利用简单的HTTP接口，让 DSH 可以直接获取自己剩余的余额",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EviMing__dsh-balance"
+    },
+    {
+      "id": "FGCGDroid__blue",
+      "name": "FGCGDroid/blue",
+      "url": "https://github.com/FGCGDroid/blue",
+      "category": "其他",
+      "description": "CTF 网络攻防蓝队防御模式：30 个防御工具、六个执行角色、SQLite 事实库与任务队列，以及带全面浏览的独立控制台。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FGCGDroid__blue"
+    },
+    {
+      "id": "FlameSky-S__dsh-plugin-porter",
+      "name": "FlameSky-S/dsh-plugin-porter",
+      "url": "https://github.com/FlameSky-S/dsh-plugin-porter",
+      "category": "其他",
+      "description": "将已安装的 DSH 插件连同依赖闭包与文档导出到移动介质，在隔离内网中扫描目录并离线安装或更新插件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FlameSky-S__dsh-plugin-porter"
+    },
+    {
+      "id": "FogStop__whale-mind",
+      "name": "FogStop/whale-mind",
+      "url": "https://github.com/FogStop/whale-mind",
+      "category": "其他",
+      "description": "面向长期陪伴型智能体的记忆引擎：门控、固化、存储、检索、注入、衰减六个模块组成闭环——判断什么值得记住，把原始对话提炼成长期条目，召回时融合短期与长期记忆，并让不再被用到的条目逐渐淡忘。默认离线运行；设置了 DEEPSEEK_API_KEY 时，会把每条消息另发给 DeepSeek API 做判断与提炼。零运行时依赖、无需构建；同一份记忆库配三块可切换的面板——神经脑、记忆环、记忆星系——让你看得见它记住了什么。非商业许可：商用需获得作者授权。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FogStop__whale-mind"
+    },
+    {
+      "id": "Free-swallow1__dsh-onmyoji-guide",
+      "name": "Free-swallow1/dsh-onmyoji-guide",
+      "url": "https://github.com/Free-swallow1/dsh-onmyoji-guide",
+      "category": "其他",
+      "description": "阴阳师游戏助手：五个工具，提供式神/御魂查询、技能全文、满暴与面板计算、网易大神攻略检索和介绍图卡路径。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Free-swallow1__dsh-onmyoji-guide"
+    },
+    {
+      "id": "FzqxDedafeiyu__dsh-approval-reason-dock",
+      "name": "FzqxDedafeiyu/dsh-approval-reason-dock",
+      "url": "https://github.com/FzqxDedafeiyu/dsh-approval-reason-dock",
+      "category": "其他",
+      "description": "在审批卡上增加可选的拒绝理由：理由会先作为 steering 消息进入当前轮，再把审批答成拒绝；浮层只跟随你正在查看的会话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FzqxDedafeiyu__dsh-approval-reason-dock"
+    },
+    {
+      "id": "Geng-zy__aurabot-qq-mac",
+      "name": "Geng-zy/aurabot-qq-mac",
+      "url": "https://github.com/Geng-zy/aurabot-qq-mac",
+      "category": "其他",
+      "description": "把 aureth-labs/dsh-aurabot-qq 移植到 macOS（Apple 芯片）的分叉：同样是住进 QQ 的人设机器人（聊天、语音条、表情包、记忆、翻唱、模块），删掉了 Windows 专用代码。接 OrbStack 或 Docker 里的 SnowLuma 等 OneBot v11 网关，语音兜底用 macOS 自带的 say，超过 30 MB 的文件通过只对本机开放的临时下载口发给容器里的网关，翻唱环境（Applio、audio-separator、uv、Rubber Band、分离模型）按固定版本一键安装。与上游同包名、同插件 id（dsh-aurabot-qq），安装即替换上游，不能与上游同装；Windows 请用上游。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Geng-zy__aurabot-qq-mac"
+    },
+    {
+      "id": "GnaneshKunal__dsh-session-coldstore",
+      "name": "GnaneshKunal/dsh-session-coldstore",
+      "url": "https://github.com/GnaneshKunal/dsh-session-coldstore",
+      "category": "其他",
+      "description": "DSH 会话的分层冷存储：闲置会话移出实时根目录、转入磁盘冷层而不被删除；冷层上的 FTS5 索引让它们仍可检索，需要时可将会话恢复回实时根目录。默认为演练模式，在设置页关闭后才会真正移动会话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-10",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/GnaneshKunal__dsh-session-coldstore"
     }
   ]
 }
