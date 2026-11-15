@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -2482,7 +2482,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Devin-AXIS__deepseek-design--packages-deepseek-idesign"
+      "dir": "plugins/Devin-AXIS__deepseek-design--packages-deepseek-idesign",
+      "removed": true
     },
     {
       "id": "Devin-AXIS__deepseek-design--packages-deepseek-ivideo",
@@ -2493,7 +2494,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Devin-AXIS__deepseek-design--packages-deepseek-ivideo"
+      "dir": "plugins/Devin-AXIS__deepseek-design--packages-deepseek-ivideo",
+      "removed": true
     },
     {
       "id": "DietCokewithSugar__dsh-user-experience",
@@ -4447,7 +4449,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Kenerlee__dsh-moments-aieo"
+      "dir": "plugins/Kenerlee__dsh-moments-aieo",
+      "removed": true
     },
     {
       "id": "KinGao294__dsh-skin",
@@ -11572,7 +11575,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/dk33333333__dsh-deepseek-quota-left"
+      "dir": "plugins/dk33333333__dsh-deepseek-quota-left",
+      "removed": true
     },
     {
       "id": "domparent__OLEDCare",
@@ -13018,7 +13022,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/huasheng33991__dsh-power-button"
+      "dir": "plugins/huasheng33991__dsh-power-button",
+      "removed": true
     },
     {
       "id": "huaxiren6__dsh-email-reader",
@@ -42981,7 +42986,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-25",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/heyadhithya__fullstack-expert"
+      "dir": "plugins/heyadhithya__fullstack-expert",
+      "removed": true
     },
     {
       "id": "hongxin__dsh-tvision",
@@ -46181,7 +46187,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-10-16",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Lostforest7__dsh-revise"
+      "dir": "plugins/Lostforest7__dsh-revise",
+      "removed": true
     },
     {
       "id": "Lostforest7__dsh-sheetflow",
@@ -46192,7 +46199,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-10-16",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Lostforest7__dsh-sheetflow"
+      "dir": "plugins/Lostforest7__dsh-sheetflow",
+      "removed": true
     },
     {
       "id": "LoveDoLove__Veyra",
@@ -47556,7 +47564,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-10-18",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/2384418321__dsh-integration-settings"
+      "dir": "plugins/2384418321__dsh-integration-settings",
+      "removed": true
     },
     {
       "id": "27painter__dsh-moli",
@@ -48042,7 +48051,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-10-18",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Audrey-cn__dsh-bot-codex-ui"
+      "dir": "plugins/Audrey-cn__dsh-bot-codex-ui",
+      "removed": true
     },
     {
       "id": "Azetus__dsh-quorfloat",
@@ -49112,7 +49122,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-10-19",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/HuiHuangDDFS__dsh-codex-mini-pet"
+      "dir": "plugins/HuiHuangDDFS__dsh-codex-mini-pet",
+      "removed": true
     },
     {
       "id": "HumXC__dsh-nestquay",
@@ -57237,7 +57248,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-03",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/0xyxy__codex-collab"
+      "dir": "plugins/0xyxy__codex-collab",
+      "removed": true
     },
     {
       "id": "0xyxy__dsh-maid-atelier-tod",
@@ -57248,7 +57260,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-03",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/0xyxy__dsh-maid-atelier-tod"
+      "dir": "plugins/0xyxy__dsh-maid-atelier-tod",
+      "removed": true
     },
     {
       "id": "0xyxy__dsh-purge",
@@ -57259,7 +57272,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-03",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/0xyxy__dsh-purge"
+      "dir": "plugins/0xyxy__dsh-purge",
+      "removed": true
     },
     {
       "id": "1207291706__dsh-restart-foot",
@@ -57523,7 +57537,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-03",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Dcmwfg__dsh-deepseek-sidebar"
+      "dir": "plugins/Dcmwfg__dsh-deepseek-sidebar",
+      "removed": true
     },
     {
       "id": "Dcmwfg__dsh-session-menu-delete",
@@ -57534,7 +57549,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-03",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Dcmwfg__dsh-session-menu-delete"
+      "dir": "plugins/Dcmwfg__dsh-session-menu-delete",
+      "removed": true
     },
     {
       "id": "Deiael__dsh-live-vibeCoding",
@@ -59340,7 +59356,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-07",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/JiangHuai24__dsh-agent-sync"
+      "dir": "plugins/JiangHuai24__dsh-agent-sync",
+      "removed": true
     },
     {
       "id": "JiangHuai24__dsh-github-flow",
@@ -59351,7 +59368,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-07",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/JiangHuai24__dsh-github-flow"
+      "dir": "plugins/JiangHuai24__dsh-github-flow",
+      "removed": true
     },
     {
       "id": "JonyFang__dsh-plugin-custom-profile",
@@ -61960,6 +61978,259 @@
       "auditedAt": "2026-11-14",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/Fadegentle__dsh-session-booth"
+    },
+    {
+      "id": "1015677515__dsh-cyberegg",
+      "name": "1015677515/dsh-cyberegg",
+      "url": "https://github.com/1015677515/dsh-cyberegg",
+      "category": "其他",
+      "description": "一个侧栏面板，显示本机已配置的全部白嫖平台的剩余积分与今日签到状态（Loomy、MiniMax Code、Trae、Qoder、Raccoon、WorkBuddy、CodeArts、WPS 灵犀、MobileClaw）；数据通过各平台既有的插件读取，另带两个只读读取器。只做查询与手动签到：不提供登录界面、不保存凭据，且手动签到只有在实测余额确实增加时才显示成功。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1015677515__dsh-cyberegg"
+    },
+    {
+      "id": "1334104926__dsh-row-multiselect",
+      "name": "1334104926/dsh-row-multiselect",
+      "url": "https://github.com/1334104926/dsh-row-multiselect",
+      "category": "其他",
+      "description": "侧栏会话多选，一次归档一批；走的是行内「归档」同一条接口。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1334104926__dsh-row-multiselect"
+    },
+    {
+      "id": "439436269-ctrl__dsh-superagent",
+      "name": "439436269-ctrl/dsh-superagent",
+      "url": "https://github.com/439436269-ctrl/dsh-superagent",
+      "category": "其他",
+      "description": "以 DSH bundle 形式发布的主动式编码智能体：监听 GitHub 的 issue 与评论，也可接入飞书、钉钉、企业微信，把有权限的人提出的请求开成工单，每条工单在自己的 DSH 会话与 git worktree 里执行，并回到原话题以分支或 PR 回话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/439436269-ctrl__dsh-superagent"
+    },
+    {
+      "id": "AAACherryCandy__dsh-stock-strip",
+      "name": "AAACherryCandy/dsh-stock-strip",
+      "url": "https://github.com/AAACherryCandy/dsh-stock-strip",
+      "category": "其他",
+      "description": "贴在 DeepSeek Harness 底边的一条常驻行情条，显示自选股价格与每只持仓的浮动盈亏，字段可勾选、放不下时自动变成两行。行情取自腾讯财经与东方财富。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AAACherryCandy__dsh-stock-strip"
+    },
+    {
+      "id": "AdamsShen__dsh-autopilot-harness",
+      "name": "AdamsShen/dsh-autopilot-harness",
+      "url": "https://github.com/AdamsShen/dsh-autopilot-harness",
+      "category": "其他",
+      "description": "给 DSH 加上「先规划再执行」的闭环：/autopilot-on 通过追问轮次产出 brief、plan、checklist 三个文件，/autopilot-run 按清单逐项执行；产品代码被修改后拦截回合边界，用 steer 让 agent 轮换多个自审视角再推进。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AdamsShen__dsh-autopilot-harness"
+    },
+    {
+      "id": "AvenYQ__dsh-dune",
+      "name": "AvenYQ/dsh-dune",
+      "url": "https://github.com/AvenYQ/dsh-dune",
+      "category": "其他",
+      "description": "暖纸质感的 DSH 皮肤：七套内置配色外加 AI 生成主题，克制的字号与字重，侧栏回弹动效，逐字浮现与彗星光标可开关，工作区自定义图标，侧栏入口可拖动排序、也能收进「更多」。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AvenYQ__dsh-dune"
+    },
+    {
+      "id": "AvenYQ__dsh-vellum",
+      "name": "AvenYQ/dsh-vellum",
+      "url": "https://github.com/AvenYQ/dsh-vellum",
+      "category": "其他",
+      "description": "DSH 回复里的原生卡片：模型写一个 vellum 代码块，就渲染成跟随主题的指标、图表、方案对比、清单、步骤、时间线、表单、小测和可排序表格；点选、提交、答题的结果作为下一条消息回到对话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AvenYQ__dsh-vellum"
+    },
+    {
+      "id": "Avenger233__dsh-session-cost-board",
+      "name": "Avenger233/dsh-session-cost-board",
+      "url": "https://github.com/Avenger233/dsh-session-cost-board",
+      "category": "其他",
+      "description": "按会话统计 DeepSeek Harness 花费：只读本机会话日志，把每条 assistant 消息的 usage 按 DeepSeek 官方价目逐笔计价（峰谷时段、缓存命中 / 未命中 / 输出三个桶，web_search 与 web_fetch 成功调用按次计费），在「设置 → 会话花费」按金额列出每个会话，并在输入框下方显示当前会话的实时花费标签（可在同一页开关隐藏）。不联网、不上传。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Avenger233__dsh-session-cost-board"
+    },
+    {
+      "id": "AwenJackson__dsh-volc-balance-card",
+      "name": "AwenJackson/dsh-volc-balance-card",
+      "url": "https://github.com/AwenJackson/dsh-volc-balance-card",
+      "category": "其他",
+      "description": "侧边栏常驻卡片，显示火山引擎账户充值余额与方舟 Coding/Agent 套餐窗口，内置 AK/SK 配置与逐项显示开关。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AwenJackson__dsh-volc-balance-card"
+    },
+    {
+      "id": "BeckChiang__dsh-cost-meter",
+      "name": "BeckChiang/dsh-cost-meter",
+      "url": "https://github.com/BeckChiang/dsh-cost-meter",
+      "category": "其他",
+      "description": "把每一步都按请求发出时的峰谷价计价，历史金额不随后续时段或模型切换漂移；在输入框下方给出累计成本拆分、本轮成本，以及「上下文或预算是否到了该交接」的判据与预测。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BeckChiang__dsh-cost-meter"
+    },
+    {
+      "id": "CY-W-2000__dsh-lan-access",
+      "name": "CY-W-2000/dsh-lan-access",
+      "url": "https://github.com/CY-W-2000/dsh-lan-access",
+      "category": "其他",
+      "description": "DSH 局域网/远程访问网关：把 Web 界面开放在本机或 0.0.0.0（密码保护或显式无密码模式，带过期快捷选项），并单独开放仅对话端口，供其他 Agent 通过 HTTP 接入，支持选择工作区、Token 或免 Token 认证与独立生效时间。局域网分享需要主动开启：它把 Web UI 端口改绑到 0.0.0.0，让其他设备使用完整的 DSH 界面，默认需要密码；不设密码的模式要先确认安全警告。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CY-W-2000__dsh-lan-access"
+    },
+    {
+      "id": "CarlCN2003__dsh-model-fallback",
+      "name": "CarlCN2003/dsh-model-fallback",
+      "url": "https://github.com/CarlCN2003/dsh-model-fallback",
+      "category": "其他",
+      "description": "DeepSeek Harness 主力模型与多级备用模型自动故障转移插件，支持跨提供商推理强度自适应对齐、指数退避冷却、按轮次恢复及可视化设置面板。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CarlCN2003__dsh-model-fallback"
+    },
+    {
+      "id": "Char-AAA__dsh-inbox-planner",
+      "name": "Char-AAA/dsh-inbox-planner",
+      "url": "https://github.com/Char-AAA/dsh-inbox-planner",
+      "category": "其他",
+      "description": "把所有 dsh-email 邮箱的新邮件变成带日期的待办：验证码、登录提醒、订阅推广不调用模型直接过滤；用 DSH 默认模型提取要做的事和截止时间（失败时退回规则）；仅抄送的邮件不建待办；跨邮箱去重并标注时间冲突。待办写入内置的待办面板（带月历，改编自 dsh-sidebar-todo，沿用同一数据文件），可选同步到 dsh-calendar；面板刷新图标、/inbox-sync 和 inbox_planner 工具可立即检查。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Char-AAA__dsh-inbox-planner"
+    },
+    {
+      "id": "CheinTian__dsh-glab-kanban",
+      "name": "CheinTian/dsh-glab-kanban",
+      "url": "https://github.com/CheinTian/dsh-glab-kanban",
+      "category": "其他",
+      "description": "基于 glab 命令行的 GitLab Issue 看板：项目 Issue 看板的每个标签列变成一列，拖拽卡片即切换状态标签。提供侧边栏面板（项目选择、筛选、卡片详情抽屉：Markdown 描述、评论与动态、评论、关闭、重开），以及按工作区 origin 远程自动绑定项目的会话视图标签页，并通过同一个 glab_kanban 工具让 Agent 执行相同操作。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CheinTian__dsh-glab-kanban"
+    },
+    {
+      "id": "ChimeSky__dsh-a2ui",
+      "name": "ChimeSky/dsh-a2ui",
+      "url": "https://github.com/ChimeSky/dsh-a2ui",
+      "category": "其他",
+      "description": "在 DSH 对话内渲染 Google A2UI 1.0 界面（卡片、表格、图表、表单、滑块与函数图像）；本地交互不产生模型调用，按钮与表单把一次动作回传给 Agent。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ChimeSky__dsh-a2ui"
+    },
+    {
+      "id": "Cnily03__dsh-delete-archived-session",
+      "name": "Cnily03/dsh-delete-archived-session",
+      "url": "https://github.com/Cnily03/dsh-delete-archived-session",
+      "category": "其他",
+      "description": "从侧边栏行悬浮按钮与「更多」菜单两步确认永久删除已归档会话（第一次点击进入待确认状态，再点一次删除）；删除会停止会话正在运行的任务，并移除其日志目录、投影缓存记录与工作区记账。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Cnily03__dsh-delete-archived-session"
+    },
+    {
+      "id": "Cnily03__dsh-session-tags",
+      "name": "Cnily03/dsh-session-tags",
+      "url": "https://github.com/Cnily03/dsh-session-tags",
+      "category": "其他",
+      "description": "会话彩色标签：侧边栏行与会话标题旁均可显示，提供预设颜色、固定到侧边栏、悬停移除与拖拽排序；标签存于宿主侧存储域，重启后保留。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Cnily03__dsh-session-tags"
+    },
+    {
+      "id": "DHLlib__online_model_discovery",
+      "name": "DHLlib/online_model_discovery",
+      "url": "https://github.com/DHLlib/online_model_discovery",
+      "category": "其他",
+      "description": "为第三方 pi-ai 提供商提供在线模型列表发现与逐模型思考强度编辑。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DHLlib__online_model_discovery"
+    },
+    {
+      "id": "Donglin027__dsh-session-cleanup",
+      "name": "Donglin027/dsh-session-cleanup",
+      "url": "https://github.com/Donglin027/dsh-session-cleanup",
+      "category": "其他",
+      "description": "清理 DSH 删除会话后的残留：孤儿附件、会话投影缓存、dsh-spill 临时目录，以及 cost-meter 账本里 已不存在会话的行。宿主插件监听 api-session/removed 自动清理（去抖 800 ms，启动补扫一次）， 另带预览优先的 CLI。默认 dry-run，真删只移入 DSH_HOME\\trash\\session-cleanup\\<时间戳>\\ 并写 journal.json。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Donglin027__dsh-session-cleanup"
+    },
+    {
+      "id": "Dreamaniax__dsh-weekly-retro",
+      "name": "Dreamaniax/dsh-weekly-retro",
+      "url": "https://github.com/Dreamaniax/dsh-weekly-retro",
+      "category": "其他",
+      "description": "DSH 周报复盘：会话画像、重复劳动、技能候选与五 Tab 洞察页，数据只在本机。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Dreamaniax__dsh-weekly-retro"
+    },
+    {
+      "id": "Dried-Persimmon-JPG__dsh-plugin-publisher",
+      "name": "Dried-Persimmon-JPG/dsh-plugin-publisher",
+      "url": "https://github.com/Dried-Persimmon-JPG/dsh-plugin-publisher",
+      "category": "计算机",
+      "description": "把本地 DSH 插件一键发布到 GitHub：先做本地体检，再用 Git Data API 推送快照、加上 dsh-plugin 标签，并自动给插件市场开收录 PR。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Dried-Persimmon-JPG__dsh-plugin-publisher"
+    },
+    {
+      "id": "Fictional-Historians__dsh-villager-widget",
+      "name": "Fictional-Historians/dsh-villager-widget",
+      "url": "https://github.com/Fictional-Historians/dsh-villager-widget",
+      "category": "其他",
+      "description": "小鲸鱼记账挂件的社区分支：村民外观与音效由插件启动时从你本机的 Minecraft Java 版客户端现场生成（仓库不附带任何游戏素材）——绿衣村民与沼泽图书管理员两套外观，随 DeepSeek 峰谷价自动切换；点击角色会按「打招呼 → 受击 → 阵亡」六下一循环播放原版村民音效（各高 1Hz），并按 Minecraft 生物受击的方式整体泛红。需要本机安装 Minecraft Java 版，没装则不含村民外观与音效，其余功能与上游一致。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Fictional-Historians__dsh-villager-widget"
+    },
+    {
+      "id": "Fouxiuan__dsh-free-xianyu",
+      "name": "Fouxiuan/dsh-free-xianyu",
+      "url": "https://github.com/Fouxiuan/dsh-free-xianyu",
+      "category": "其他",
+      "description": "托管闲鱼二手市场监控后端 ai-goofish-monitor：管理其进程生命周期，提供十三个 goofish_* agent 工具与侧边栏面板，并把商品分析默认接到 dsh-our-free-model 的免费模型网关。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-15",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Fouxiuan__dsh-free-xianyu"
     }
   ]
 }
