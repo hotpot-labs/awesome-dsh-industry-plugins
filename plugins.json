@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -62231,6 +62231,215 @@
       "auditedAt": "2026-11-15",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/Fouxiuan__dsh-free-xianyu"
+    },
+    {
+      "id": "1010231693__dsh-bat-runner",
+      "name": "1010231693/dsh-bat-runner",
+      "url": "https://github.com/1010231693/dsh-bat-runner",
+      "category": "计算机",
+      "description": "浮在 DSH 界面上的本地脚本日志面板：从面板直接运行 .bat / .cmd，输出逐字实时显示（不加时间戳、不分级、不着色），正在跑的条目旁边显示它已运行多久；也可接收 BatRunner 启动器转发的日志。面板可拖动、可改大小，字体 / 字号 / 颜色 / 文字特效 / 外边框跟随 DSH 浅深外观，支持启动延迟自动运行与退出即停。仅支持 Windows。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1010231693__dsh-bat-runner"
+    },
+    {
+      "id": "18874530790__dsh-default-full-permission",
+      "name": "18874530790/dsh-default-full-permission",
+      "url": "https://github.com/18874530790/dsh-default-full-permission",
+      "category": "其他",
+      "description": "让每个新建与已有会话都解析为 danger-full-access 沙箱与 never 审批策略，并为仍带着较弱权限的会话补写覆盖。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/18874530790__dsh-default-full-permission"
+    },
+    {
+      "id": "27Synthesis__dsh-go-fish-panel",
+      "name": "27Synthesis/dsh-go-fish-panel",
+      "url": "https://github.com/27Synthesis/dsh-go-fish-panel",
+      "category": "其他",
+      "description": "大肥鱼在 DSH Go 手机上的原生面板：观测台看一眼她最近做了什么，另有作息、上网、说话与记忆三页设置，57 项配置可以直接改。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/27Synthesis__dsh-go-fish-panel"
+    },
+    {
+      "id": "3418244301q-star__dsh-session-log-upload",
+      "name": "3418244301q-star/dsh-session-log-upload",
+      "url": "https://github.com/3418244301q-star/dsh-session-log-upload",
+      "category": "其他",
+      "description": "把非官方模型渠道（ollama-local、pi-ai、OpenAI 兼容 adapter）的 DSH 会话日志补传到 DeepSeek，复用内置上传器的水位事件，两条路径不会重发同一条记录；可设为纯手动，不点按钮就不发任何请求。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/3418244301q-star__dsh-session-log-upload"
+    },
+    {
+      "id": "349840432m-dev__dsh-session-tidy",
+      "name": "349840432m-dev/dsh-session-tidy",
+      "url": "https://github.com/349840432m-dev/dsh-session-tidy",
+      "category": "其他",
+      "description": "一键整理 DSH 侧栏会话列表：归档空白会话与超过 N 天未活动的会话、每个工作区只保留最近 N 条、清洗被截断或带角色设定开头的标题、区分重名标题；带预览、档位选择与整批撤销。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/349840432m-dev__dsh-session-tidy"
+    },
+    {
+      "id": "43aquarius__dsh-auto-continue",
+      "name": "43aquarius/dsh-auto-continue",
+      "url": "https://github.com/43aquarius/dsh-auto-continue",
+      "category": "其他",
+      "description": "模型请求失败时，按用户配置的模型链切到下一条可用的备选模型，并自动续接被打断的任务。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/43aquarius__dsh-auto-continue"
+    },
+    {
+      "id": "AgentTools-Cloud__agent-tools-dsh",
+      "name": "AgentTools-Cloud/agent-tools-dsh",
+      "url": "https://github.com/AgentTools-Cloud/agent-tools-dsh",
+      "category": "其他",
+      "description": "通过 DSH 自带的 MCP 客户端接入 agent-tools.cloud 托管的 MCP 服务，并附带一个使用说明 skill：按意图搜索 x402 付费 API、远程 MCP 服务和 A2A 智能体，查看在线状态与质量评级，并在接入某个 MCP 服务前对它做恶意代码和提示词注入的静态扫描。搜索不需要 key。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AgentTools-Cloud__agent-tools-dsh"
+    },
+    {
+      "id": "Apauto-to-all__dsh-hindsight-control-plane",
+      "name": "Apauto-to-all/dsh-hindsight-control-plane",
+      "url": "https://github.com/Apauto-to-all/dsh-hindsight-control-plane",
+      "category": "其他",
+      "description": "把 Hindsight 记忆控制台嵌进 DSH 主面板：侧栏一键打开整块控制台，由 npx 拉起、随插件起停。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它通过 npx 启动 Hindsight 控制台（默认版本是 latest），控制台默认监听 0.0.0.0:9999，不设置主机名时整个局域网都能访问。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Apauto-to-all__dsh-hindsight-control-plane"
+    },
+    {
+      "id": "Asya903__dsh-voice-deepseek",
+      "name": "Asya903/dsh-voice-deepseek",
+      "url": "https://github.com/Asya903/dsh-voice-deepseek",
+      "category": "其他",
+      "description": "每条助手回复的操作条里加一个朗读按钮，点击用 DeepSeek 官方 TTS 念出来；默认女声 stella，可切男声 tide。同一句重复播放走本地缓存、不重复计费。需要自备 DeepSeek API key，按现价五折约 1.5 元/万字符。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Asya903__dsh-voice-deepseek"
+    },
+    {
+      "id": "Azhu9701__dsh-nearby",
+      "name": "Azhu9701/dsh-nearby",
+      "url": "https://github.com/Azhu9701/dsh-nearby",
+      "category": "其他",
+      "description": "在 DSH 里开一间临时分享房：同一 Wi-Fi 下的人用浏览器就能收发文件、提示词卡片和技能包；支持附近实例自动发现，远程宿主可选 Cloudflare 隧道。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。开启房间会在 0.0.0.0 的随机端口上起一个服务，局域网内持有带随机令牌链接的人都能访问。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Azhu9701__dsh-nearby"
+    },
+    {
+      "id": "BearingSteel__dsh-enter-newline",
+      "name": "BearingSteel/dsh-enter-newline",
+      "url": "https://github.com/BearingSteel/dsh-enter-newline",
+      "category": "其他",
+      "description": "调换 DSH 输入框的回车键位：Enter 插入换行，Shift+Enter 发送消息。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BearingSteel__dsh-enter-newline"
+    },
+    {
+      "id": "BearingSteel__dsh-inline-download",
+      "name": "BearingSteel/dsh-inline-download",
+      "url": "https://github.com/BearingSteel/dsh-inline-download",
+      "category": "其他",
+      "description": "在用户消息里的上传文件气泡上添加下载按钮，同时覆盖 present 交付卡片，把原始文件流式下载到浏览器；附件下载通过会话日志与鉴权坐标定位文件，URL 中不携带路径。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BearingSteel__dsh-inline-download"
+    },
+    {
+      "id": "BeckChiang__dsh-tool-budget",
+      "name": "BeckChiang/dsh-tool-budget",
+      "url": "https://github.com/BeckChiang/dsh-tool-budget",
+      "category": "其他",
+      "description": "会话级工具预算：按方案开关模型可见的工具、三种级别、切换前缀缓存的成本估算，以及基于本会话调用情况的调整建议。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BeckChiang__dsh-tool-budget"
+    },
+    {
+      "id": "CalmAndFocused__dsh-prompt-template",
+      "name": "CalmAndFocused/dsh-prompt-template",
+      "url": "https://github.com/CalmAndFocused/dsh-prompt-template",
+      "category": "其他",
+      "description": "在输入框里用三种模式改写提示词草稿（系统提示词、用户提示词、迭代改进），{{变量}} 占位符逐字保留，同一操作也作为 optimize_prompt agent 工具提供。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CalmAndFocused__dsh-prompt-template"
+    },
+    {
+      "id": "Chriszzx__dsh-bookshelf",
+      "name": "Chriszzx/dsh-bookshelf",
+      "url": "https://github.com/Chriszzx/dsh-bookshelf",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 中管理和阅读本地 PDF、EPUB，保存阅读进度与书签，并将 EPUB 当前页带入会话讨论。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Chriszzx__dsh-bookshelf"
+    },
+    {
+      "id": "Chsw-CC__dsh-connect-doubao-plus",
+      "name": "Chsw-CC/dsh-connect-doubao-plus",
+      "url": "https://github.com/Chsw-CC/dsh-connect-doubao-plus",
+      "category": "其他",
+      "description": "Wahwayhale/dsh-connect-doubao 的 fork，扫码登录一次即可把豆包账号接入 DeepSeek Harness。保留上游的菜单式模型发现、对话框计费倍率、逐模型思考档位、走会员额度的任务模型、思考链透传、Seedream 生图与只读额度看板，并加入 Windows / macOS / Linux 跨平台会话密封与流式加固：被拒会话不再复用、同 turn 回退改发新会话、连续三次失败触发本地熔断阀、流中断时停掉服务端生成。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Chsw-CC__dsh-connect-doubao-plus"
+    },
+    {
+      "id": "CloudSen__dsh-browser-annotation",
+      "name": "CloudSen/dsh-browser-annotation",
+      "url": "https://github.com/CloudSen/dsh-browser-annotation",
+      "category": "其他",
+      "description": "在内置浏览器中批注页面元素或拖拽框选的区域：紧凑输入框贴着选择位置，属性修改会写入评论，编号标签带悬停预览插入输入框；不截图，也不替换官方 Provider。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CloudSen__dsh-browser-annotation"
+    },
+    {
+      "id": "Clusm__dsh-trading-workbench",
+      "name": "Clusm/dsh-trading-workbench",
+      "url": "https://github.com/Clusm/dsh-trading-workbench",
+      "category": "其他",
+      "description": "面向 DeepSeek Harness 的交易工作台：AI 决策链与按日归档的轮次历史、Demo 执行与风控视图，数据来自本机 Python 交易服务，首次运行可一键初始化环境。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Clusm__dsh-trading-workbench"
+    },
+    {
+      "id": "Dream-swift__dsh-cursor-suite",
+      "name": "Dream-swift/dsh-cursor-suite",
+      "url": "https://github.com/Dream-swift/dsh-cursor-suite",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 中接入 Cursor 订阅，并附带 read_image 视觉桥：浏览器 PKCE 登录、模型发现、DSH 本地工具，以及 Cursor 路由丢弃像素时的读图能力。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-16",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Dream-swift__dsh-cursor-suite"
     }
   ]
 }
