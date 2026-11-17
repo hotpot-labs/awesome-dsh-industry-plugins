@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -39275,7 +39275,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-18",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/SiriusWJ__dsh-lite-memory"
+      "dir": "plugins/SiriusWJ__dsh-lite-memory",
+      "removed": true
     },
     {
       "id": "TiChuXiXi__dsh-git-vcs",
@@ -62440,6 +62441,204 @@
       "auditedAt": "2026-11-16",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/Dream-swift__dsh-cursor-suite"
+    },
+    {
+      "id": "01TY10__dsh-pin-window",
+      "name": "01TY10/dsh-pin-window",
+      "url": "https://github.com/01TY10/dsh-pin-window",
+      "category": "其他",
+      "description": "在 Windows 桌面版标题栏添加置顶按钮，让应用始终显示在其他窗口之上；窗口最大化时按钮禁用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/01TY10__dsh-pin-window"
+    },
+    {
+      "id": "2648782102__dsh-edit-message",
+      "name": "2648782102/dsh-edit-message",
+      "url": "https://github.com/2648782102/dsh-edit-message",
+      "category": "其他",
+      "description": "编辑自己的消息并在新分支中重发，回复过程中也能改（会先停止当前回复，被替换的对话归档而非删除）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/2648782102__dsh-edit-message"
+    },
+    {
+      "id": "7starsseeker__dsh-task-anchor",
+      "name": "7starsseeker/dsh-task-anchor",
+      "url": "https://github.com/7starsseeker/dsh-task-anchor",
+      "category": "其他",
+      "description": "中途插话时把计划保住：未完成的 todo 落盘，插话落地的当回合就把「被挂起的项 + 插话原文 + 取消 / 补充 / 另起一件事」摆到模型面前，之后以「挂起工作」段继续渲染，直到完成或取消；回合收尾再兜底催一次，让剩余工作被明确交代，而不是被静默丢掉——它缓解注意力漂移，但不消除。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/7starsseeker__dsh-task-anchor"
+    },
+    {
+      "id": "ACAneSe1__dsh-work-guard",
+      "name": "ACAneSe1/dsh-work-guard",
+      "url": "https://github.com/ACAneSe1/dsh-work-guard",
+      "category": "其他",
+      "description": "给编程 agent 的闸门与台账：没读过的源码文件拒绝写入，读过之后又被改动的也拒绝；每次写入与验证都记下真实退出码；修之前红着的那批测试，在它们真正变绿之前会一直显示出来；脚本改了源码却没申报会一直记在台账里。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ACAneSe1__dsh-work-guard"
+    },
+    {
+      "id": "APFSDS-Dog__dsh-api-free-image",
+      "name": "APFSDS-Dog/dsh-api-free-image",
+      "url": "https://github.com/APFSDS-Dog/dsh-api-free-image",
+      "category": "其他",
+      "description": "DSH 免费 API 图像生成插件。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/APFSDS-Dog__dsh-api-free-image"
+    },
+    {
+      "id": "AZ-666316__dsh-ask-aside",
+      "name": "AZ-666316/dsh-ask-aside",
+      "url": "https://github.com/AZ-666316/dsh-ask-aside",
+      "category": "其他",
+      "description": "划词提问：选中回答里的文字，在继承主对话上下文的右侧栏会话里追问，支持流式回答与图片、文件附件。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AZ-666316__dsh-ask-aside"
+    },
+    {
+      "id": "Akiyuki1130__dsh-observer",
+      "name": "Akiyuki1130/dsh-observer",
+      "url": "https://github.com/Akiyuki1130/dsh-observer",
+      "category": "其他",
+      "description": "用另一个模型在悬浮窗或「观察」栏里实时播报主对话进度（做了什么、接下来做什么、是否卡住），不干涉主会话。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Akiyuki1130__dsh-observer"
+    },
+    {
+      "id": "AvenYQ__dsh-knowledge",
+      "name": "AvenYQ/dsh-knowledge",
+      "url": "https://github.com/AvenYQ/dsh-knowledge",
+      "category": "其他",
+      "description": "DSH 左侧栏知识库：把本地 Obsidian 库和项目文件夹建成 SQLite FTS5 索引，文件改动自动入库；边打字边出原文片段，也能让 AI 读完资料再回答，结论带 [n] 角标，点开就是原文与行号。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AvenYQ__dsh-knowledge"
+    },
+    {
+      "id": "Azheyc__novaflow-dsh-plugin",
+      "name": "Azheyc/novaflow-dsh-plugin",
+      "url": "https://github.com/Azheyc/novaflow-dsh-plugin",
+      "category": "其他",
+      "description": "通过浏览器登录 NovaFlow，在原生模型页管理模型，查看个人及企业余额，并通过内置 MCP 服务生成图片和视频。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Azheyc__novaflow-dsh-plugin"
+    },
+    {
+      "id": "AzureKyrielight__dsh-mingyuanhu",
+      "name": "AzureKyrielight/dsh-mingyuanhu",
+      "url": "https://github.com/AzureKyrielight/dsh-mingyuanhu",
+      "category": "其他",
+      "description": "面向 DeepSeek Harness 的四川大学校园服务，支持账号登录以及成绩、课表和已绑定房间电费的只读查询。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AzureKyrielight__dsh-mingyuanhu"
+    },
+    {
+      "id": "Baimacao__dsh-pipem",
+      "name": "Baimacao/dsh-pipem",
+      "url": "https://github.com/Baimacao/dsh-pipem",
+      "category": "其他",
+      "description": "DSH 的错误账本与长期记忆：把每次踩的坑记成可检索的 guard，重试前先查；工具失败自动提醒；检测思考复读；内置 bash 工具与人格/心事本。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Baimacao__dsh-pipem"
+    },
+    {
+      "id": "BrightStonebody__dsh-native-tools",
+      "name": "BrightStonebody/dsh-native-tools",
+      "url": "https://github.com/BrightStonebody/dsh-native-tools",
+      "category": "其他",
+      "description": "截图、剪贴板历史、划词翻译、系统监控（菜单栏网络上下行 / CPU / 内存三个控件，点开看该指标占用最高的进程）四合一原生插件；四个功能共用一个 AppKit 进程，各自独立开关，改设置即时生效，不重启插件也不重拉进程。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BrightStonebody__dsh-native-tools"
+    },
+    {
+      "id": "DanceElephant__dsh-codex-bridge",
+      "name": "DanceElephant/dsh-codex-bridge",
+      "url": "https://github.com/DanceElephant/dsh-codex-bridge",
+      "category": "其他",
+      "description": "把本机 Codex 的技能导入 DSH 技能目录，且不执行其中代码：扫描 ~/.codex/skills 与插件缓存，按引用或快照两种方式登记（快照会改写副本正文里写死的 Codex 主目录路径，并保留上游 LICENSE/NOTICE），超长描述默认压到 220 字符预算，导入项记在原子锁文件里并在 DSH 启动时重放。同样六个操作以 codex_scan、codex_inspect、codex_import、codex_list、codex_remove、codex_doctor 工具和 bridge CLI 提供；零运行时依赖、无构建步骤，Node.js 20 或更新。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DanceElephant__dsh-codex-bridge"
+    },
+    {
+      "id": "Darkhe55__dsh-plugin-middle-panel",
+      "name": "Darkhe55/dsh-plugin-middle-panel",
+      "url": "https://github.com/Darkhe55/dsh-plugin-middle-panel",
+      "category": "其他",
+      "description": "在对话旁增加一个文档面板，可预览 HTML、Markdown、PDF、图片、视频与 3D 模型，并把选中的文字、点选元素、框选区域与 3D 打点变成带编号的标注，一次性回填到对话。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Darkhe55__dsh-plugin-middle-panel"
+    },
+    {
+      "id": "Darkhe55__dsh-plugin-models-fingerprint",
+      "name": "Darkhe55/dsh-plugin-models-fingerprint",
+      "url": "https://github.com/Darkhe55/dsh-plugin-models-fingerprint",
+      "category": "其他",
+      "description": "通过对比 DSH 会话中的协议指纹与行为统计，监控模型路由变化，提供逐轮卡片、路由等价性、官方基线和漂移/质量信号；指纹是证据，不是模型身份证明。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Darkhe55__dsh-plugin-models-fingerprint"
+    },
+    {
+      "id": "Elgwia-dsh__dsh-comfy-suite",
+      "name": "Elgwia-dsh/dsh-comfy-suite",
+      "url": "https://github.com/Elgwia-dsh/dsh-comfy-suite",
+      "category": "其他",
+      "description": "把三个 MIT 许可的 ComfyUI 插件合并成一个 bundle：工作流库、经本机 ComfyUI 的本地出图与修图（出图、局部重绘、扩图、捏人、放大），外加服务启停、作品库、风格库与提示词衣柜。个人整合项目，非上游官方版本。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Elgwia-dsh__dsh-comfy-suite"
+    },
+    {
+      "id": "Endorphin1203__dsh-side-chat",
+      "name": "Endorphin1203/dsh-side-chat",
+      "url": "https://github.com/Endorphin1203/dsh-side-chat",
+      "category": "其他",
+      "description": "把多次选中的文字攒进草稿区（计数、悬停预览、一键清除），再在只读的临时侧边聊天里追问：只放行 read/glob/grep/read_image，可单独选择模型与推理强度，关闭标签即归档。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Endorphin1203__dsh-side-chat"
+    },
+    {
+      "id": "EnzoX__dsh-dee-mate",
+      "name": "EnzoX/dsh-dee-mate",
+      "url": "https://github.com/EnzoX/dsh-dee-mate",
+      "category": "其他",
+      "description": "DeepSeek Harness 界面里的功能性斗鱼桌宠：可同时查看多个并行会话的进展，必要时一键临时提权到完全访问、任务完成自动恢复默认权限；面板可直接递话、喊停、就地报批，大小与配色可调。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-17",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EnzoX__dsh-dee-mate"
     }
   ]
 }
