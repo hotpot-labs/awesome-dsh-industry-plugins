@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -62639,6 +62639,347 @@
       "auditedAt": "2026-11-17",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/EnzoX__dsh-dee-mate"
+    },
+    {
+      "id": "13711018663__DeepSeek-Harness-BT-",
+      "name": "13711018663/DeepSeek-Harness-BT-",
+      "url": "https://github.com/13711018663/DeepSeek-Harness-BT-",
+      "category": "其他",
+      "description": "在左侧栏提供 BT / 磁力资源搜索面板，聚合 磁力猫 与 动漫花园（动漫花园、蜜柑计划、萌番组、ANi）两个来源，支持广泛/精准匹配、类型筛选、排序、搜索历史与收藏。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/13711018663__DeepSeek-Harness-BT-"
+    },
+    {
+      "id": "180lisilence__dsh-floating-ball",
+      "name": "180lisilence/dsh-floating-ball",
+      "url": "https://github.com/180lisilence/dsh-floating-ball",
+      "category": "其他",
+      "description": "一颗挂在 DSH 外壳最上层的可拖拽快捷悬浮球，一键新建会话、切换侧栏、切主题、回到对话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/180lisilence__dsh-floating-ball"
+    },
+    {
+      "id": "2005-626__dsh-github-access-guide",
+      "name": "2005-626/dsh-github-access-guide",
+      "url": "https://github.com/2005-626/dsh-github-access-guide",
+      "category": "其他",
+      "description": "侧栏面板，用来修复受限网络下的 GitHub 访问：本机竞速代理可逆接管 Windows 系统代理、以原生地址验证的 git 加速重写、实时通道状态与地址转换器。也如实写明修不了什么——能修时通时断的链路，修不了整段被封的地址。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/2005-626__dsh-github-access-guide"
+    },
+    {
+      "id": "27Synthesis__dsh-xiumi-studio",
+      "name": "27Synthesis/dsh-xiumi-studio",
+      "url": "https://github.com/27Synthesis/dsh-xiumi-studio",
+      "category": "其他",
+      "description": "把 Word 文稿与配图排成公众号图文：右侧栏实时预览，可把文字与图片灌进秀米已有的模板，生成封面，并发布到账号自己的「我的图文」。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/27Synthesis__dsh-xiumi-studio"
+    },
+    {
+      "id": "526365412__dsh-credit-expiry",
+      "name": "526365412/dsh-credit-expiry",
+      "url": "https://github.com/526365412/dsh-credit-expiry",
+      "category": "其他",
+      "description": "积分到期面板：左侧边栏底栏一行显示 WorkBuddy、Trae、MiniMax Code、Qoder 四个积分池的余额与最近到期日，点开是完整页面（到期分布 + 积分消耗 + 积分会话）。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/526365412__dsh-credit-expiry"
+    },
+    {
+      "id": "6starlong__dsh-disk-cleanup",
+      "name": "6starlong/dsh-disk-cleanup",
+      "url": "https://github.com/6starlong/dsh-disk-cleanup",
+      "category": "其他",
+      "description": "DSH 插件：为 shell 命令注入临时目录与依赖缓存变量，给 scratch 目录补齐写权限，在系统提示里说明临时文件落点，并自动清理过期的临时文件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/6starlong__dsh-disk-cleanup"
+    },
+    {
+      "id": "879745uhjun__dsh-running-sessions",
+      "name": "879745uhjun/dsh-running-sessions",
+      "url": "https://github.com/879745uhjun/dsh-running-sessions",
+      "category": "其他",
+      "description": "在 DSH 首页列出当前正在工作的会话：实时状态、所属工作区、正在等待什么，并可一键进入。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-running-sessions"
+    },
+    {
+      "id": "879745uhjun__dsh-session-boxes",
+      "name": "879745uhjun/dsh-session-boxes",
+      "url": "https://github.com/879745uhjun/dsh-session-boxes",
+      "category": "其他",
+      "description": "把 DSH 工作区侧栏里的会话归入自定义命名与配色的盒子，不改变所属工作区：一个会话可属于多个盒子并显示镜像行，支持折叠、拖拽或菜单归类，以及工作区标题栏的盒子管理器。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-session-boxes"
+    },
+    {
+      "id": "879745uhjun__dsh-session-broadcast",
+      "name": "879745uhjun/dsh-session-broadcast",
+      "url": "https://github.com/879745uhjun/dsh-session-broadcast",
+      "category": "其他",
+      "description": "用输入框工具栏上的喇叭按钮把同一条消息一次发给多个 DSH 会话：按标题、工作区、运行状态或盒子挑选目标，可选择排队或打断投递，并逐个显示结果、对失败项重试。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-session-broadcast"
+    },
+    {
+      "id": "879745uhjun__dsh-session-notify",
+      "name": "879745uhjun/dsh-session-notify",
+      "url": "https://github.com/879745uhjun/dsh-session-notify",
+      "category": "其他",
+      "description": "盯着的会话一跑完就在屏幕右下角弹出提醒卡片：在侧边栏会话行右键即可开启或关闭提醒，可先弹示例卡预览，点击卡片直接跳到该会话。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-session-notify"
+    },
+    {
+      "id": "879745uhjun__dsh-session-quickbar",
+      "name": "879745uhjun/dsh-session-quickbar",
+      "url": "https://github.com/879745uhjun/dsh-session-quickbar",
+      "category": "其他",
+      "description": "接管侧边栏每个会话行右侧的快捷按钮排：按会话决定显示哪些按钮与顺序，复用星标、待办、置顶、归档与复制 ID 等内置动作，并与制作插件的会话保持双向沟通。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-session-quickbar"
+    },
+    {
+      "id": "879745uhjun__dsh-session-todos",
+      "name": "879745uhjun/dsh-session-todos",
+      "url": "https://github.com/879745uhjun/dsh-session-todos",
+      "category": "其他",
+      "description": "给侧边栏每个会话行加一个待办方格，并提供整页待办面板，按正在做、将要做、已做完分组，支持重要度、截止时间与备注。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-session-todos"
+    },
+    {
+      "id": "879745uhjun__dsh-session-transfer",
+      "name": "879745uhjun/dsh-session-transfer",
+      "url": "https://github.com/879745uhjun/dsh-session-transfer",
+      "category": "其他",
+      "description": "把任意 DSH 会话连同子会话与引用附件打包成便携的 .dshpack，再导入另一台 DSH，可自选目标工作区并自动处理 id 与路径冲突。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-session-transfer"
+    },
+    {
+      "id": "879745uhjun__dsh-sidebar-pin",
+      "name": "879745uhjun/dsh-sidebar-pin",
+      "url": "https://github.com/879745uhjun/dsh-sidebar-pin",
+      "category": "其他",
+      "description": "把侧栏的全局面板入口（插件、Token 用量、待办以及后续插件新增的面板）固定在侧栏顶部，会话列表再长也能随时点到，设置上方有图钉按钮可开关。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-sidebar-pin"
+    },
+    {
+      "id": "879745uhjun__dsh-token-usage",
+      "name": "879745uhjun/dsh-token-usage",
+      "url": "https://github.com/879745uhjun/dsh-token-usage",
+      "category": "其他",
+      "description": "给 DSH 增加独立的 Token 用量页：按会话实时统计输入、输出、缓存读、缓存写与总量、缓存命中率，提供 14 天历史条、搜索和可排序列；数据从持久化会话文件增量读取，每两秒刷新。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-token-usage"
+    },
+    {
+      "id": "AD199-gif__dsh-nav-tidy",
+      "name": "AD199-gif/dsh-nav-tidy",
+      "url": "https://github.com/AD199-gif/dsh-nav-tidy",
+      "category": "其他",
+      "description": "隐藏选定的侧栏面板入口，但不卸载它们背后的插件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AD199-gif__dsh-nav-tidy"
+    },
+    {
+      "id": "BeanPaste233__dsh-interaction-optimize",
+      "name": "BeanPaste233/dsh-interaction-optimize",
+      "url": "https://github.com/BeanPaste233/dsh-interaction-optimize",
+      "category": "其他",
+      "description": "输入框上方的实时增删胶囊与右侧栏 diff、跨会话完成提醒（点击跳回对应对话）、划词注释、文件链接右键菜单。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BeanPaste233__dsh-interaction-optimize"
+    },
+    {
+      "id": "BillyWang-7__dsh-turn-bell",
+      "name": "BillyWang-7/dsh-turn-bell",
+      "url": "https://github.com/BillyWang-7/dsh-turn-bell",
+      "category": "其他",
+      "description": "macOS、Windows、Linux 通用的 DeepSeek Harness 原生通知：一轮回答结束、或需要你确认权限时，用应用自己的图标和声音提醒，点一下直接跳到对应会话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BillyWang-7__dsh-turn-bell"
+    },
+    {
+      "id": "CYF736222347__dsh-workspace-status-board",
+      "name": "CYF736222347/dsh-workspace-status-board",
+      "url": "https://github.com/CYF736222347/dsh-workspace-status-board",
+      "category": "其他",
+      "description": "把 DSH 侧边栏工作区改成按「需要介入 → 执行中 → 已完成」排序的状态看板：提供工作区/任务搜索、同状态内拖拽排序、任务归档与恢复，并用三种醒目状态标识实时更新。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CYF736222347__dsh-workspace-status-board"
+    },
+    {
+      "id": "CarbeneLee__dsh-mac-notify",
+      "name": "CarbeneLee/dsh-mac-notify",
+      "url": "https://github.com/CarbeneLee/dsh-mac-notify",
+      "category": "其他",
+      "description": "为 DSH 提供 macOS 原生通知：任务完成、失败、需要批准、需要回答、计划确认时弹横幅。内置的极简 helper 应用让横幅使用 DSH 图标、点击唤起 DSH；提示音可以用任意音频文件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CarbeneLee__dsh-mac-notify"
+    },
+    {
+      "id": "CatBox215__dsh-safety-remove",
+      "name": "CatBox215/dsh-safety-remove",
+      "url": "https://github.com/CatBox215/dsh-safety-remove",
+      "category": "其他",
+      "description": "把每条 shell 删除命令的目标移入本 Session 暂存夹并拒绝原命令，文件首次被覆写时保留一份副本，右侧栏分页可预览、还原、送入回收站或永久删除。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CatBox215__dsh-safety-remove"
+    },
+    {
+      "id": "CuberSome__dsh-auto-archive-echo",
+      "name": "CuberSome/dsh-auto-archive-echo",
+      "url": "https://github.com/CuberSome/dsh-auto-archive-echo",
+      "category": "其他",
+      "description": "按闲置时间自动归档 DSH 会话：可配置闲置阈值与扫描周期，带冷却期、dry-run 预览、置顶与子代理会话豁免、目录排除清单，并把每个会话的归档时间持久化下来。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CuberSome__dsh-auto-archive-echo"
+    },
+    {
+      "id": "CyberYui__dsh-workspace-isolate",
+      "name": "CyberYui/dsh-workspace-isolate",
+      "url": "https://github.com/CyberYui/dsh-workspace-isolate",
+      "category": "其他",
+      "description": "DSH 工作区级插件与技能门控。锁定一个工作区的插件/技能集合后，其它工作区会自动失去该工作区不使用的部分。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CyberYui__dsh-workspace-isolate"
+    },
+    {
+      "id": "DanneLeung__dsh-multi-key-rotation",
+      "name": "DanneLeung/dsh-multi-key-rotation",
+      "url": "https://github.com/DanneLeung/dsh-multi-key-rotation",
+      "category": "其他",
+      "description": "给 MiniMax Token Plan 路由配置多个具名 API Key，插件按剩余配额轮换：单个 Key 额度耗尽、触发限流或鉴权失败时，路由切到池中下一个 Key 并重试本次请求。下一个 Key 按重置时间排序，周窗口最先重置的先用。每个 Key 的 5 小时与周两个窗口的剩余比例、距重置倒计时都列在设置页；输入框模型选择器前的胶囊显示当前所用 Key 的两个窗口。仅支持 minimax 与 minimax-cn 路由。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DanneLeung__dsh-multi-key-rotation"
+    },
+    {
+      "id": "Daphne999__dsh-auto-plugin-factory",
+      "name": "Daphne999/dsh-auto-plugin-factory",
+      "url": "https://github.com/Daphne999/dsh-auto-plugin-factory",
+      "category": "其他",
+      "description": "需求雷达：每晚采集 Hacker News 与 GitHub 上「求工具 / 求插件」的帖子，归一化聚类去重，对两个插件市场查重，用固定公式打分，产出一份 Markdown 需求雷达日报（当天无达标需求也会出简报）。只做判断，不生成、不安装、不上架任何插件代码。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Daphne999__dsh-auto-plugin-factory"
+    },
+    {
+      "id": "Douglas-Fly__dsh-qrcode",
+      "name": "Douglas-Fly/dsh-qrcode",
+      "url": "https://github.com/Douglas-Fly/dsh-qrcode",
+      "category": "其他",
+      "description": "把任意文本生成二维码，也能从 PNG/JPEG 图片里读出二维码内容；消息里发来的图片会自动扫描，Web 界面选中文字即可出图。二维码编码器为内置实现，插件不发起任何网络请求。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Douglas-Fly__dsh-qrcode"
+    },
+    {
+      "id": "DrizzleGig__dsh-novel-fanfic",
+      "name": "DrizzleGig/dsh-novel-fanfic",
+      "url": "https://github.com/DrizzleGig/dsh-novel-fanfic",
+      "category": "其他",
+      "description": "同人工作室：导入原著得到可核 canon（每条事实带章节、偏移、引文），把这一版有意的二创改动声明为「本作设定」，写作前编译场景契约，写作后按原著与设定检查。本作优先于原著；只报冲突，不自动改稿。默认关闭。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DrizzleGig__dsh-novel-fanfic"
+    },
+    {
+      "id": "ECHOUniverse__dsh-zoteroplugin",
+      "name": "ECHOUniverse/dsh-zoteroplugin",
+      "url": "https://github.com/ECHOUniverse/dsh-zoteroplugin",
+      "category": "其他",
+      "description": "面向 DeepSeek Harness 的 Zotero 插件：在右侧标签内浏览检索文库、阅读带注释与高亮的 PDF、导出 BibTeX 与 RIS 引文，并通过 19 个 Agent 工具完成同样的操作。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ECHOUniverse__dsh-zoteroplugin"
+    },
+    {
+      "id": "Ejinhouse__dsh-turn-timeline",
+      "name": "Ejinhouse/dsh-turn-timeline",
+      "url": "https://github.com/Ejinhouse/dsh-turn-timeline",
+      "category": "其他",
+      "description": "左侧栏「任务时间线」面板：按 turn 展示当前会话的交付物、台账更新与文件改动，数据来自会话事件日志与变更台账。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Ejinhouse__dsh-turn-timeline"
+    },
+    {
+      "id": "Eray114514__dsh-exec",
+      "name": "Eray114514/dsh-exec",
+      "url": "https://github.com/Eray114514/dsh-exec",
+      "category": "计算机",
+      "description": "在终端、脚本、CI 或另一个 agent 里一行调用 DeepSeek Harness：会话由桌面宿主进程创建，因此会实时出现在侧边栏并能继续；stdout 默认只有最终回答（可选 NDJSON 事件流），四个 Agent 预设（standard / ptc / minimal / cordis）可按次选择。它提供需要 bearer token 的回环 HTTP 路由，设置路由另外接受来自应用页面的同源请求。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Eray114514__dsh-exec"
+    },
+    {
+      "id": "FSNH__dsh-plugin-knowledge-base",
+      "name": "FSNH/dsh-plugin-knowledge-base",
+      "url": "https://github.com/FSNH/dsh-plugin-knowledge-base",
+      "category": "其他",
+      "description": "个人本地知识库：树状目录、Office / PDF / 图片的原版式阅读、中英文全文检索（可选向量融合）、用视觉模型把图片描述成文字后也能搜；模型可通过三个只读工具列出、检索并读取文件。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-18",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FSNH__dsh-plugin-knowledge-base"
     }
   ]
 }
