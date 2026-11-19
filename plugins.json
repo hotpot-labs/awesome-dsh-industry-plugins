@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -13632,7 +13632,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/jiangnanquan__dsh-ux"
+      "dir": "plugins/jiangnanquan__dsh-ux",
+      "removed": true
     },
     {
       "id": "jiangwangyang__dsh-theme-blackhole",
@@ -62583,7 +62584,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-17",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/DanceElephant__dsh-codex-bridge"
+      "dir": "plugins/DanceElephant__dsh-codex-bridge",
+      "removed": true
     },
     {
       "id": "Darkhe55__dsh-plugin-middle-panel",
@@ -62649,7 +62651,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-18",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/13711018663__DeepSeek-Harness-BT-"
+      "dir": "plugins/13711018663__DeepSeek-Harness-BT-",
+      "removed": true
     },
     {
       "id": "180lisilence__dsh-floating-ball",
@@ -62980,6 +62983,336 @@
       "auditedAt": "2026-11-18",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/FSNH__dsh-plugin-knowledge-base"
+    },
+    {
+      "id": "07-dot__dsh-memory-vault",
+      "name": "07-dot/dsh-memory-vault",
+      "url": "https://github.com/07-dot/dsh-memory-vault",
+      "category": "其他",
+      "description": "把 Obsidian Markdown 记忆库接进 Harness：每个 Agent 创建时挂一个提示词上下文，按当前任务文本检索后注入常驻档案与相关条目；另有三个工具用于读写与结构体检（收件箱积压、断链、重复候选、过期目标）。检索为本地 n-gram 打分，无嵌入模型、无外部服务、无运行时依赖。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/07-dot__dsh-memory-vault"
+    },
+    {
+      "id": "1010231693__dsh-api-costbar",
+      "name": "1010231693/dsh-api-costbar",
+      "url": "https://github.com/1010231693/dsh-api-costbar",
+      "category": "其他",
+      "description": "一个可以快速查看云端模型api费用的插件，支持手动切换厂商，支持调节刷新频率。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1010231693__dsh-api-costbar"
+    },
+    {
+      "id": "1250589385__dsh-vendor-quick-switch",
+      "name": "1250589385/dsh-vendor-quick-switch",
+      "url": "https://github.com/1250589385/dsh-vendor-quick-switch",
+      "category": "其他",
+      "description": "在原版模型菜单旁常驻厂商索引：点厂商直达该厂商模型，可选显示按来源探测的剩余额度徽标。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1250589385__dsh-vendor-quick-switch"
+    },
+    {
+      "id": "1334104926__vps-proxy-doctor",
+      "name": "1334104926/vps-proxy-doctor",
+      "url": "https://github.com/1334104926/vps-proxy-doctor",
+      "category": "其他",
+      "description": "自建 VPS 代理排障技能：先按症状分诊，再逐层检查端口连通、防火墙、时间偏差、DNS 和分流规则，附带 VPS 端与 Windows/macOS 客户端的只读检查脚本。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1334104926__vps-proxy-doctor"
+    },
+    {
+      "id": "1502074527-svg__dsh-handoff-at-75",
+      "name": "1502074527-svg/dsh-handoff-at-75",
+      "url": "https://github.com/1502074527-svg/dsh-handoff-at-75",
+      "category": "其他",
+      "description": "上下文用量达到设定阈值时自动交接：把交接文档写入项目目录，并在同一工作区的新会话中续接任务，新会话标题带 -N 后缀，并可为侧栏会话行叠加半透明四色状态染色（可开关）；新会话的模型与推理强度可预先设定，也可在交接时弹卡现选。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1502074527-svg__dsh-handoff-at-75"
+    },
+    {
+      "id": "1gokd__dsh-rhino",
+      "name": "1gokd/dsh-rhino",
+      "url": "https://github.com/1gokd/dsh-rhino",
+      "category": "其他",
+      "description": "从 DeepSeek Harness 里直接驱动运行中的 Rhino 8：一键启动、在 Rhino UI 线程执行 IronPython 建模代码、查看文档对象、截取视口。仅限 Windows + Rhino 8。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1gokd__dsh-rhino"
+    },
+    {
+      "id": "7nian173__dsh-session-orchestrator",
+      "name": "7nian173/dsh-session-orchestrator",
+      "url": "https://github.com/7nian173/dsh-session-orchestrator",
+      "category": "其他",
+      "description": "建会话、交棒、在会话之间跳转，并用工作区信箱在会话之间来回通信。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/7nian173__dsh-session-orchestrator"
+    },
+    {
+      "id": "AXTUT__dsh-gesture-control",
+      "name": "AXTUT/dsh-gesture-control",
+      "url": "https://github.com/AXTUT/dsh-gesture-control",
+      "category": "其他",
+      "description": "用单手手势操作 DSH 会话的实验插件；需 Windows Desktop 0.12.1 媒体权限补丁和 Harness 0.2.1-rc.2。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AXTUT__dsh-gesture-control"
+    },
+    {
+      "id": "Aeroscis__dsh-run-deck",
+      "name": "Aeroscis/dsh-run-deck",
+      "url": "https://github.com/Aeroscis/dsh-run-deck",
+      "category": "计算机",
+      "description": "输入框上方的启动条：按项目 .dsh/run-deck/run.json 里声明的条目各生成一个按钮（字段沿用 VS Code 的 tasks.json），点一下跑、再点停；每条带实时状态，另有三种按钮密度与可钉住的输出卡。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Aeroscis__dsh-run-deck"
+    },
+    {
+      "id": "Astral-Yang__dsh-preset-editor",
+      "name": "Astral-Yang/dsh-preset-editor",
+      "url": "https://github.com/Astral-Yang/dsh-preset-editor",
+      "category": "其他",
+      "description": "DSH 原生 Agent 预设可视化编辑器，支持人格自定义、插件组合管理、预设级工具过滤、自动备份与回滚。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Astral-Yang__dsh-preset-editor"
+    },
+    {
+      "id": "BunnySakura__dsh-model-capability-detector",
+      "name": "BunnySakura/dsh-model-capability-detector",
+      "url": "https://github.com/BunnySakura/dsh-model-capability-detector",
+      "category": "其他",
+      "description": "为 DSH 第三方 API 渠道补全模型上下文、输出、识图和推理参数。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BunnySakura__dsh-model-capability-detector"
+    },
+    {
+      "id": "CG-7S__dsh-waitiforud",
+      "name": "CG-7S/dsh-waitiforud",
+      "url": "https://github.com/CG-7S/dsh-waitiforud",
+      "category": "其他",
+      "description": "在一个文件夹里执行过任务后，开始下一个任务时模型仍会查看该文件夹内的内容，可能造成上下文混乱、思考量过多、额外消耗 token 等；本插件在每次完成任务后生成一个新的空文件夹并置顶在工作区等待调用，原文件夹会根据任务内容命名，全程在本地执行，安全可靠。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CG-7S__dsh-waitiforud"
+    },
+    {
+      "id": "CII-Joint-Lab-BIGC__dsh-collaborator",
+      "name": "CII-Joint-Lab-BIGC/dsh-collaborator",
+      "url": "https://github.com/CII-Joint-Lab-BIGC/dsh-collaborator",
+      "category": "其他",
+      "description": "DSH 协作导航：为 DeepSeek Harness 添加共同理解引导、会话内任务记录和持续协作提醒。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CII-Joint-Lab-BIGC__dsh-collaborator"
+    },
+    {
+      "id": "Cheemsup__dsh-plugin-console",
+      "name": "Cheemsup/dsh-plugin-console",
+      "url": "https://github.com/Cheemsup/dsh-plugin-console",
+      "category": "计算机",
+      "description": "DSH 侧边栏插件控制台：查看 DSH 插件信息、会话来源与工具归属，预演上下文内容与插件禁用影响，并支持提示词/工具定制首次请求。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Cheemsup__dsh-plugin-console"
+    },
+    {
+      "id": "Chsw-CC__dsh-lazy-tools",
+      "name": "Chsw-CC/dsh-lazy-tools",
+      "url": "https://github.com/Chsw-CC/dsh-lazy-tools",
+      "category": "其他",
+      "description": "保留一小份核心工具原生可见，其余收进一个 toolbox 入口：模型先按参数签名列出已加载的工具，只取真正要用的 schema，再经正常的审批与 guard 管线执行调用。目录超预算时先截短签名、再降成前缀计数，让列表在 token 预算内仍然可调用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Chsw-CC__dsh-lazy-tools"
+    },
+    {
+      "id": "CloudSen__dsh-umbrella-hive-theme",
+      "name": "CloudSen/dsh-umbrella-hive-theme",
+      "url": "https://github.com/CloudSen/dsh-umbrella-hive-theme",
+      "category": "其他",
+      "description": "生化危机「蜂巢」主题，明暗双外观，界面背后实时渲染一座 3D 蜂巢设施，侧栏为保护伞伞面标志。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CloudSen__dsh-umbrella-hive-theme"
+    },
+    {
+      "id": "Czerror__dsh-plugin-prompt-tool",
+      "name": "Czerror/dsh-plugin-prompt-tool",
+      "url": "https://github.com/Czerror/dsh-plugin-prompt-tool",
+      "category": "其他",
+      "description": "提示词与规则工具，带 Web 工作台：模块决定注入什么内容、何时触发、作用于主会话还是子代理，可编辑正文、人设、条件、变量与各目标的模型参数；支持导入 SillyTavern 预设、角色卡与世界书，模块内可配置账本、知识检索与持续记忆。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Czerror__dsh-plugin-prompt-tool"
+    },
+    {
+      "id": "DASHAN-0079__dsh-ppt-master",
+      "name": "DASHAN-0079/dsh-ppt-master",
+      "url": "https://github.com/DASHAN-0079/dsh-ppt-master",
+      "category": "其他",
+      "description": "把 PPT Master（上游 v6.8.0，MIT）整套 skill 原样封装成 DeepSeek Harness bundle，并通过 ctx.skills 注册为 ppt-master。附带跨平台 CLI（doctor、install-deps、run），负责 Python 探测、UTF-8 stdio、可写工作副本与隔离 venv，把 PDF、DOCX、网页或 Markdown 生成原生可编辑的 .pptx。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DASHAN-0079__dsh-ppt-master"
+    },
+    {
+      "id": "DASHAN-0079__dsh-superagent-adapt",
+      "name": "DASHAN-0079/dsh-superagent-adapt",
+      "url": "https://github.com/DASHAN-0079/dsh-superagent-adapt",
+      "category": "其他",
+      "description": "把 dsh-superagent 原型适配到 DeepSeek Harness 0.2.2-rc.3 的社区版本。监听一个 GitHub 仓库（可选再加飞书）中授权人员提出的工作请求，每条请求开一个工单，在独立的 DSH 会话与目录中执行，并把结果回复到原对话，例如一个 pull request。网页面板显示需要人处理的事项。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DASHAN-0079__dsh-superagent-adapt"
+    },
+    {
+      "id": "DL909__dsh-session-pause",
+      "name": "DL909/dsh-session-pause",
+      "url": "https://github.com/DL909/dsh-session-pause",
+      "category": "其他",
+      "description": "一个可以暂停和恢复DSH会话的插件，watericetangcw/dsh-session-pause的后继。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DL909__dsh-session-pause"
+    },
+    {
+      "id": "DamonKoy__dsh-bot-model-switch",
+      "name": "DamonKoy/dsh-bot-model-switch",
+      "url": "https://github.com/DamonKoy/dsh-bot-model-switch",
+      "category": "其他",
+      "description": "给 DS Bot 团队批量或逐个切换模型：一次把全队切到同一模型，或每个 Bot 单独一行设置；写入走 DS Bot 自己的 api/bot update-bot 端点，不直接改 state.json。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DamonKoy__dsh-bot-model-switch"
+    },
+    {
+      "id": "DanceElephant__dsh-codex-skill-bridge",
+      "name": "DanceElephant/dsh-codex-skill-bridge",
+      "url": "https://github.com/DanceElephant/dsh-codex-skill-bridge",
+      "category": "其他",
+      "description": "把本机 Codex 已装的 skills，一条命令搬进 DeepSeek Harness —— 这个插件就是那座桥。装一次之后：DSH 里能直接扫描、检视、导入这些 skills，导入过的技能会出现在 DSH 的 skill 列表里，和原生 skill 一样被模型按需加载；导入的描述会按 DSH 提示词预算压缩好（默认 220 字符），不会把上下文撑爆；上游改了、删了能一条命令查出来；不想用了也能干净地撤掉。它自己不执行任何被导入的 skill：脚本只是被列出来给你看，正文只是被读取和登记。六个工具 + 一个 CLI，零运行时依赖，无需构建，Node.js 20 或更新。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DanceElephant__dsh-codex-skill-bridge"
+    },
+    {
+      "id": "DeepSlacking__dsh-task-progress",
+      "name": "DeepSlacking/dsh-task-progress",
+      "url": "https://github.com/DeepSlacking/dsh-task-progress",
+      "category": "其他",
+      "description": "DSH 会话内的本轮任务进度：输入框上方有节点轨道和可展开列表，完成回复底部有灰色进度图标，右侧边栏按时间顺序用卡片显示全部节点；节点来自模型的 report_progress 调用和旁路评估。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DeepSlacking__dsh-task-progress"
+    },
+    {
+      "id": "DerikZhang__dsh-http-local-proxy",
+      "name": "DerikZhang/dsh-http-local-proxy",
+      "url": "https://github.com/DerikZhang/dsh-http-local-proxy",
+      "category": "计算机",
+      "description": "让 DSH 执行的 pnpm 与 git 安装走同一个 HTTP 代理，并在 Web 界面里提供开关和可编辑的地址。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DerikZhang__dsh-http-local-proxy"
+    },
+    {
+      "id": "DrizzleGig__dsh-novel-fade",
+      "name": "DrizzleGig/dsh-novel-fade",
+      "url": "https://github.com/DrizzleGig/dsh-novel-fade",
+      "category": "其他",
+      "description": "想用 AI 写几十万字、上百万字的长篇小说，却总担心 AI 忘记前面的剧情、人物和伏笔？每次都把大量旧章节塞进上下文，不仅费钱，还会挤占真正用于创作的空间。「褪色」让 AI 拥有一套会逐渐淡化的长篇记忆：最近的剧情记得清楚，久远的故事保留重点，重要人物和事件随时可以找回。写完一章自动整理记忆、保存原文，不必反复携带整部小说。减少不必要的 Token 消耗，把更多上下文和预算留给后续创作，让 AI 陪你把故事写得更长。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DrizzleGig__dsh-novel-fade"
+    },
+    {
+      "id": "DrizzleGig__dsh-novel-voice",
+      "name": "DrizzleGig/dsh-novel-voice",
+      "url": "https://github.com/DrizzleGig/dsh-novel-voice",
+      "category": "其他",
+      "description": "想让 AI 写出你喜欢的小说风格，甚至形成独属于自己的文风？「创作风格」支持导入你喜欢的小说和自己的原创作品，从中提炼写作特点，建立专属风格档案。无论你是想让 AI 写出喜欢的故事风格，还是寻找、打磨自己的独特文风，都可以把喜欢的作品和自己的创作变成风格素材，让 AI 按照你喜欢的方式写小说。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DrizzleGig__dsh-novel-voice"
+    },
+    {
+      "id": "EliasRookie66__dsh-inspiration",
+      "name": "EliasRookie66/dsh-inspiration",
+      "url": "https://github.com/EliasRookie66/dsh-inspiration",
+      "category": "其他",
+      "description": "中长篇小说写作工作台，支持章节与设定卡管理、AI 起草和由作者确认的行内修改。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EliasRookie66__dsh-inspiration"
+    },
+    {
+      "id": "EndlessPoem__dsh-ip-info",
+      "name": "EndlessPoem/dsh-ip-info",
+      "url": "https://github.com/EndlessPoem/dsh-ip-info",
+      "category": "其他",
+      "description": "在输入框下方或悬浮窗里显示当前公网 IP、归属地、运营商、ASN 与本地网卡，字号跟随 Harness 设置。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EndlessPoem__dsh-ip-info"
+    },
+    {
+      "id": "EndlessPoem__dsh-session-delete",
+      "name": "EndlessPoem/dsh-session-delete",
+      "url": "https://github.com/EndlessPoem/dsh-session-delete",
+      "category": "其他",
+      "description": "在会话菜单加一行两次点击确认的「删除会话」：停止工作、归档、解除工作区归属、取消置顶，再删除日志与投影缓存；日志仍被占用时回滚前面每一步，不留半删除状态。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EndlessPoem__dsh-session-delete"
+    },
+    {
+      "id": "FairmeHIT__dsh-sync",
+      "name": "FairmeHIT/dsh-sync",
+      "url": "https://github.com/FairmeHIT/dsh-sync",
+      "category": "其他",
+      "description": "通过私有 Git 仓库（SSH、HTTPS 或本地路径）同步任意 DSH profile（含 desktop）的插件清单与 cordis.patch.yml：提供 /sync-status、/sync-pull、/sync-push 与设置页；冲突 push 默认拒绝、显式 force 才覆盖；应用前快照并在失败时自动回滚；凭据、会话与插件私有数据不在同步范围内。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-19",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FairmeHIT__dsh-sync"
     }
   ]
 }
