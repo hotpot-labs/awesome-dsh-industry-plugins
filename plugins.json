@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-20",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -48915,7 +48915,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-10-19",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/ChenJun25__dsh-console-plugin"
+      "dir": "plugins/ChenJun25__dsh-console-plugin",
+      "removed": true
     },
     {
       "id": "ChenYiming-aaa__better-trip-planner",
@@ -56066,7 +56067,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-10-31",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/FragrantLotus__dsh-sidebar-entries"
+      "dir": "plugins/FragrantLotus__dsh-sidebar-entries",
+      "removed": true
     },
     {
       "id": "Gaudi-XIX__dsbot-session-create",
@@ -61044,7 +61046,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-11",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/ECCVIK__lmtagent"
+      "dir": "plugins/ECCVIK__lmtagent",
+      "removed": true
     },
     {
       "id": "Echo-Smith__dsh-hy-memory",
@@ -63313,6 +63316,336 @@
       "auditedAt": "2026-11-19",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/FairmeHIT__dsh-sync"
+    },
+    {
+      "id": "0131kikimy__dsh-collect",
+      "name": "0131kikimy/dsh-collect",
+      "url": "https://github.com/0131kikimy/dsh-collect",
+      "category": "其他",
+      "description": "把网页正文与图片采集到工作目录，再从侧边栏面板或三个 agent 工具导出 docx、xlsx、pptx、pdf、md、html、txt、csv、json，桌面操控类工具默认被拦截。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0131kikimy__dsh-collect"
+    },
+    {
+      "id": "0131kikimy__dsh-council",
+      "name": "0131kikimy/dsh-council",
+      "url": "https://github.com/0131kikimy/dsh-council",
+      "category": "其他",
+      "description": "用六个 council_* 工具把可检验的活交给 Leader、执行者与检验者三份独立上下文，完成与否由检验者按既定标准判定，而不是 agent 自评。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0131kikimy__dsh-council"
+    },
+    {
+      "id": "0131kikimy__dsh-ima",
+      "name": "0131kikimy/dsh-ima",
+      "url": "https://github.com/0131kikimy/dsh-ima",
+      "category": "其他",
+      "description": "通过 16 个 ima_* 工具把腾讯 ima 知识库接给 agent：列知识库与文档、检索、读文档正文、写笔记、上传文件，在侧边栏面板里配置。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0131kikimy__dsh-ima"
+    },
+    {
+      "id": "0xDaj__dsh-amdkey",
+      "name": "0xDaj/dsh-amdkey",
+      "url": "https://github.com/0xDaj/dsh-amdkey",
+      "category": "其他",
+      "description": "在本地代理后面轮换多个 AMD Radeon Cloud API key，从官方用量接口读取真实日额度，模型选择改完无需重启即可生效。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0xDaj__dsh-amdkey"
+    },
+    {
+      "id": "1165655527-dot__dsh-cyber-green-theme",
+      "name": "1165655527-dot/dsh-cyber-green-theme",
+      "url": "https://github.com/1165655527-dot/dsh-cyber-green-theme",
+      "category": "其他",
+      "description": "赛博绿 CRT 配色主题：侧边栏、顶栏、输入框、浮层统一配色并带扫描线，输入框工具条左侧有小开关；配色基于设计令牌，之后新装的插件自动跟随。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1165655527-dot__dsh-cyber-green-theme"
+    },
+    {
+      "id": "2-qing__dsh-aftermath",
+      "name": "2-qing/dsh-aftermath",
+      "url": "https://github.com/2-qing/dsh-aftermath",
+      "category": "其他",
+      "description": "记录每一轮对话在观测目录里改了什么：哪些文件被新建、删除或修改，大致是哪次工具调用干的。不读文件内容。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/2-qing__dsh-aftermath"
+    },
+    {
+      "id": "9-bai__dsh-external-toolbox",
+      "name": "9-bai/dsh-external-toolbox",
+      "url": "https://github.com/9-bai/dsh-external-toolbox",
+      "category": "其他",
+      "description": "在任意 Windows 程序里选中文字，旁边冒出一个小胶囊：翻译、解释、引用到新的 DSH 会话、存入按遗忘曲线复习的生词本，或者直接复制。不用切窗口，浮窗也不抢焦点。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/9-bai__dsh-external-toolbox"
+    },
+    {
+      "id": "AlaIchhe__dsh-antigravity-acp",
+      "name": "AlaIchhe/dsh-antigravity-acp",
+      "url": "https://github.com/AlaIchhe/dsh-antigravity-acp",
+      "category": "其他",
+      "description": "把 Google Antigravity 接成 DSH 的模型提供方：通过 stdio 驱动官方 agy ACP server，模型选择器里出现 Gemini 4 Argon/Hydrogen、Gemini 3.8 Flash 与 Claude Opus/Sonnet 5.5。工具调用经私有 loopback MCP 桥回到 DSH 执行；新增账号使用隔离的 HOME，在设置页里走浏览器授权，额度按账号读取。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AlaIchhe__dsh-antigravity-acp"
+    },
+    {
+      "id": "AmahaHanasaki__dsh-mtrans",
+      "name": "AmahaHanasaki/dsh-mtrans",
+      "url": "https://github.com/AmahaHanasaki/dsh-mtrans",
+      "category": "其他",
+      "description": "四个 DSH 工具，用于翻译 MTool 格式的游戏文本：mtrans_info 分析 ManualTransFile.json，mtrans_prepare 把文本键拆成块文件，mtrans_apply 合并译文回写，mtrans_translate 通过已注册的大模型服务整篇翻译（日译中或英译中）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AmahaHanasaki__dsh-mtrans"
+    },
+    {
+      "id": "AmahaHanasaki__dsh-ra2-csf",
+      "name": "AmahaHanasaki/dsh-ra2-csf",
+      "url": "https://github.com/AmahaHanasaki/dsh-ra2-csf",
+      "category": "其他",
+      "description": "读写并保存红色警戒 2／尤里的复仇 CSF 字符串表（含 RA2 补码编码），并可直接用 RA2CStrEditor 打开文件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AmahaHanasaki__dsh-ra2-csf"
+    },
+    {
+      "id": "AmahaHanasaki__dsh-ra2-mix",
+      "name": "AmahaHanasaki/dsh-ra2-mix",
+      "url": "https://github.com/AmahaHanasaki/dsh-ra2-mix",
+      "category": "其他",
+      "description": "读取红色警戒 2／尤里的复仇 MIX 归档（含 Blowfish 加密的条目表），按文件名、序号或文件 ID 提取条目。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AmahaHanasaki__dsh-ra2-mix"
+    },
+    {
+      "id": "AmazarashiEnduerRain__dsh-unread",
+      "name": "AmazarashiEnduerRain/dsh-unread",
+      "url": "https://github.com/AmazarashiEnduerRain/dsh-unread",
+      "category": "其他",
+      "description": "Codex 风格未读提醒：会话任务运行完成或审批待处理时，在 Windows 任务栏图标上显示黑底白字数字角标，并在会话侧栏提供未读圆点与标记已读/未读。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AmazarashiEnduerRain__dsh-unread"
+    },
+    {
+      "id": "Amesawa-000__dsh-ppt-image-studio",
+      "name": "Amesawa-000/dsh-ppt-image-studio",
+      "url": "https://github.com/Amesawa-000/dsh-ppt-image-studio",
+      "category": "其他",
+      "description": "在设置页配置 OpenAI Images 兼容或 Gemini 生图接口，并提供 agent 工具：编写提示词、为幻灯片生成配图，返回原始图片的本地路径。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Amesawa-000__dsh-ppt-image-studio"
+    },
+    {
+      "id": "Aphlita__dsh-agent-browser",
+      "name": "Aphlita/dsh-agent-browser",
+      "url": "https://github.com/Aphlita/dsh-agent-browser",
+      "category": "其他",
+      "description": "人与智能体共用的 Chrome/Edge 会话：右栏显示实时画面，智能体基于可访问性树快照操作（支持 iframe，引用失效自动重试），单写者租约允许用户随时接管；上传、JS 对话框与危险导航需审批，并受域名白/黑名单与凭据脱敏约束。另带一个 MCP stdio 出口，在 DSH 之外也能用同一套工具。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Aphlita__dsh-agent-browser"
+    },
+    {
+      "id": "ArthurZhu1992__dsh-zh-yayan",
+      "name": "ArthurZhu1992/dsh-zh-yayan",
+      "url": "https://github.com/ArthurZhu1992/dsh-zh-yayan",
+      "category": "其他",
+      "description": "所思所言，皆成中文。DSH 起笔即中文，一线到底——主 agent、子智能体、团队与后台任务的推理与思考一律简体中文；说得出，就查得到。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ArthurZhu1992__dsh-zh-yayan"
+    },
+    {
+      "id": "BadWolfZXY__dsh-emoji-panel",
+      "name": "BadWolfZXY/dsh-emoji-panel",
+      "url": "https://github.com/BadWolfZXY/dsh-emoji-panel",
+      "category": "其他",
+      "description": "DSH 输入框里的表情面板：分类标签 + 常驻搜索框，200 多个 Unicode emoji，另有「最近」和「自定义」——自定义可导入本地图片或图片网址，导入时写一句含义。点选即插到光标处、自动收起并把焦点还给输入框；导入的表情插入「[表情: 含义]」文本，模型据此理解表情意思。数据只存本机浏览器。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BadWolfZXY__dsh-emoji-panel"
+    },
+    {
+      "id": "BiXianGoGo__dsh-ESPemotion-pool",
+      "name": "BiXianGoGo/dsh-ESPemotion-pool",
+      "url": "https://github.com/BiXianGoGo/dsh-ESPemotion-pool",
+      "category": "其他",
+      "description": "给 DSH 对话加一套三轴（E/S/P）情绪状态：每轮先分基线、波动、趋势、跳变，再按形状归到你起的名字下。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BiXianGoGo__dsh-ESPemotion-pool"
+    },
+    {
+      "id": "ChenJun25__dsh-console-hm",
+      "name": "ChenJun25/dsh-console-hm",
+      "url": "https://github.com/ChenJun25/dsh-console-hm",
+      "category": "其他",
+      "description": "DSH 控制台面板：在 DSH 设置里显示扫码配对面板，手机扫一下二维码（或输入 6 位码）就连上这台电脑的 DSH，之后在手机 App 里收发会话、看历史、传文件。全部能力都在本机跑，局域网内不依赖云端。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ChenJun25__dsh-console-hm"
+    },
+    {
+      "id": "CyberPzy__dsh-prompt-smith",
+      "name": "CyberPzy/dsh-prompt-smith",
+      "url": "https://github.com/CyberPzy/dsh-prompt-smith",
+      "category": "其他",
+      "description": "在 DSH 输入框工具行加 ✨ 按钮：经本机模型路由做一次辅助调用，把草稿改写成结构化提示词并回填（Ctrl+Z 可还原），草稿带防注入围栏，不写会话日志；设置页从宿主自身的模型目录选择供应商、模型与思考强度，并提供验证组合是否可用的测试调用；内置提示词可编辑，经宿主配置编辑器持久化；可调温度、最大 token 与草稿长度上限。零依赖、无构建。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CyberPzy__dsh-prompt-smith"
+    },
+    {
+      "id": "DaYangtuo247__dsh-composer-display",
+      "name": "DaYangtuo247/dsh-composer-display",
+      "url": "https://github.com/DaYangtuo247/dsh-composer-display",
+      "category": "其他",
+      "description": "Claude 风格输入框：单行输入并实时高亮 Markdown、运行中输入的消息收进排队托盘、模式与模型菜单、字符间平滑滑动的光标，以及输入框上方固定的回到底部按钮。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DaYangtuo247__dsh-composer-display"
+    },
+    {
+      "id": "DaYangtuo247__dsh-context-monitor",
+      "name": "DaYangtuo247/dsh-context-monitor",
+      "url": "https://github.com/DaYangtuo247/dsh-context-monitor",
+      "category": "其他",
+      "description": "上下文明细：输入框状态行的用量环，弹层按消息、工具、系统提示、技能与记忆文件拆分上下文；「上下文透视」页签列出每个类别、节点、工具与增长趋势。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DaYangtuo247__dsh-context-monitor"
+    },
+    {
+      "id": "DaYangtuo247__dsh-conversation-enhancer",
+      "name": "DaYangtuo247/dsh-conversation-enhancer",
+      "url": "https://github.com/DaYangtuo247/dsh-conversation-enhancer",
+      "category": "其他",
+      "description": "对话视图增强：工作过程与工具调用重新分组、内联计划卡片、用户消息按 Markdown 渲染、滚到顶部自动加载更早消息，以及统一的阅读排版与命令行语法配色。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DaYangtuo247__dsh-conversation-enhancer"
+    },
+    {
+      "id": "DaYangtuo247__dsh-whale-theme",
+      "name": "DaYangtuo247/dsh-whale-theme",
+      "url": "https://github.com/DaYangtuo247/dsh-whale-theme",
+      "category": "其他",
+      "description": "DeepSeek 官网风格皮肤：三套可切换的 WebGL 鲸鱼底纹、穿透式外壳面板、统一的液态玻璃材质，以及带界面 / 回复 / 代码字体设置的「主题」设置页。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DaYangtuo247__dsh-whale-theme"
+    },
+    {
+      "id": "Darianliu23__dsh-civ6",
+      "name": "Darianliu23/dsh-civ6",
+      "url": "https://github.com/Darianliu23/dsh-civ6",
+      "category": "其他",
+      "description": "让会话自己的模型玩《文明6》：通过 civ6-mcp（lmwilki/civ6-mcp 的分叉，base-game-compat 分支，需另外安装）经游戏的 Tuner 端口读取局面、发出操作。注册三个会话预设：AI 自己玩、只有查询工具的助理、按你的话操作且可随时接手的一起玩；另有一个所有会话（包括已经聊过的）都能用的 civ6 入口工具。配置卡片里可以设入口工具的玩法、给 AI 的额外要求、原版规则模式（隐藏资料片专属工具）和 civ6-mcp 文件夹。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Darianliu23__dsh-civ6"
+    },
+    {
+      "id": "Diomchen__dsh-better-tag",
+      "name": "Diomchen/dsh-better-tag",
+      "url": "https://github.com/Diomchen/dsh-better-tag",
+      "category": "其他",
+      "description": "给会话贴扁平标签并落一枚持久的「完成」章：侧栏行尾、悬停卡片与标题旁都能看到标签，另有跨全部 workspace、按状态计数与标签筛选的会话总览。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Diomchen__dsh-better-tag"
+    },
+    {
+      "id": "ECCVIK__LMTAgent",
+      "name": "ECCVIK/LMTAgent",
+      "url": "https://github.com/ECCVIK/LMTAgent",
+      "category": "其他",
+      "description": "多智能体全栈研发编排工作台（dsh-lmtagent v1.1.0）：一句话需求自动拆解为并行开发分片，支持脱离 DSH 的独立弹出窗口、8 角色协同编码、防并发覆盖、越界一键 Git 回滚与预算熔断，内置全双语可视化控制台。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ECCVIK__LMTAgent"
+    },
+    {
+      "id": "EricStoneChina__better-auto-review",
+      "name": "EricStoneChina/better-auto-review",
+      "url": "https://github.com/EricStoneChina/better-auto-review",
+      "category": "其他",
+      "description": "Codex 风格的沙箱提权自动审查：auto-mode 预设接管 Claude 样式界面的 Auto 按钮并成为新会话默认档，保留 workspace-write；由只读 spawn 审查子代理在每轮预算和拒绝熔断下返回结构化裁决。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EricStoneChina__better-auto-review"
+    },
+    {
+      "id": "Ernesto-yuan__dsh-theme-switcher",
+      "name": "Ernesto-yuan/dsh-theme-switcher",
+      "url": "https://github.com/Ernesto-yuan/dsh-theme-switcher",
+      "category": "其他",
+      "description": "给 DSH 的「个性化」分六个模块，并固定在左侧边栏：20 套明暗配色（15 套纯色 + 5 套马卡龙/彩虹渐变）；四种自定义背景（纯色、2–5 色可调角度的渐变、自由组合 Emoji 在本地生成 1024 贴图、长边最高 3840 像素且存 IndexedDB 的本地图片）；14 套内置 Emoji 场景墙（甜心、夏日、春日、秋日、冬日、森林、夜空、星空、海边、咖啡时光、彩虹、派对、黄脸、表情）；「我的背景」命名保存后可切换/重命名/删除；把配色渐变当成 50% 滤镜叠在背景上的开关；菜单、弹窗、输入框卡片与侧边栏「新会话」按钮的毛玻璃；以及与设置页共用状态的侧边栏页面。所有选择只存在浏览器本地。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Ernesto-yuan__dsh-theme-switcher"
+    },
+    {
+      "id": "Ethanyuan802__dsh-product-workbench",
+      "name": "Ethanyuan802/dsh-product-workbench",
+      "url": "https://github.com/Ethanyuan802/dsh-product-workbench",
+      "category": "其他",
+      "description": "支持需求分析、竞品研究、知识检索和可编辑 Office 汇报，PPT 材料模板保留中国联通与联通数科双 Logo。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Ethanyuan802__dsh-product-workbench"
+    },
+    {
+      "id": "FYTG-Sprite__dsh-shenhai-skin",
+      "name": "FYTG-Sprite/dsh-shenhai-skin",
+      "url": "https://github.com/FYTG-Sprite/dsh-shenhai-skin",
+      "category": "其他",
+      "description": "把 1440p 深海视频循环播放为 DeepSeek Harness 的半透明玻璃壁纸，内置夜光珊瑚、深海极光、极光潮汐三套配色，中英双语控制面板、背景音乐和账号隐私开关。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-20",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FYTG-Sprite__dsh-shenhai-skin"
     }
   ]
 }
