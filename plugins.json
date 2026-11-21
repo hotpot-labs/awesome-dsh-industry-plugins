@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -63646,6 +63646,127 @@
       "auditedAt": "2026-11-20",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/FYTG-Sprite__dsh-shenhai-skin"
+    },
+    {
+      "id": "08mamba24__dsh-subagent-compactor",
+      "name": "08mamba24/dsh-subagent-compactor",
+      "url": "https://github.com/08mamba24/dsh-subagent-compactor",
+      "category": "其他",
+      "description": "手动压缩直接子智能体历史，支持恢复已结算的可续接子智能体后再压缩。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/08mamba24__dsh-subagent-compactor"
+    },
+    {
+      "id": "3309602454__dsh-edge-pilot",
+      "name": "3309602454/dsh-edge-pilot",
+      "url": "https://github.com/3309602454/dsh-edge-pilot",
+      "category": "其他",
+      "description": "用 playwright-core 直接驱动 Windows 上已装好的 Microsoft Edge，不下载 Chromium。插件把页面编译成带编号的 ref 清单（e1、e2……），模型只需回一个 ref 而不必写 CSS 选择器；点击会先滚入视口、检测遮挡，点完再比对地址与正文确认是否真的生效。还能重放保存好的技能文件（JSON 步骤表 + {{参数}} 替换，不含 ref），固化流程一次调用跑完；并防止标签页越攒越多——启动前清理会话还原文件、限制标签数量、空闲自动回收、退出前统一关闭。另附 ChatGPT 网页版工具（问答、生图、GIF），走独立 profile。仅限 Windows。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/3309602454__dsh-edge-pilot"
+    },
+    {
+      "id": "ACGNnsj__dsh-jev-tools-continued",
+      "name": "ACGNnsj/dsh-jev-tools-continued",
+      "url": "https://github.com/ACGNnsj/dsh-jev-tools-continued",
+      "category": "其他",
+      "description": "把 Jev 判定模型接进 DeepSeek Harness：精简超长工具输出、筛查抓取页面、推荐技能，另带显式 ask/gate 判定工具与本地累计台账。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ACGNnsj__dsh-jev-tools-continued"
+    },
+    {
+      "id": "ADBdad__dsh-qq-identity",
+      "name": "ADBdad/dsh-qq-identity",
+      "url": "https://github.com/ADBdad/dsh-qq-identity",
+      "category": "其他",
+      "description": "每轮把 agent 自己在群里的群名片与群角色、以及私聊对方是谁，自动注入系统提示词。基于 OneBot 11 只读查询。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ADBdad__dsh-qq-identity"
+    },
+    {
+      "id": "AyaoJies__dsh-mobile-android-test",
+      "name": "AyaoJies/dsh-mobile-android-test",
+      "url": "https://github.com/AyaoJies/dsh-mobile-android-test",
+      "category": "其他",
+      "description": "在 DSH 页面里托管安卓模拟器运行 APK：上传安装、实时投屏、用鼠标和电脑键盘操作，并像 DevTools 一样查看解密后的 HTTPS 请求。需要 Windows + 硬件虚拟化、JDK 17+、Python 3.10+，首次安装 Android SDK 约 5GB。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AyaoJies__dsh-mobile-android-test"
+    },
+    {
+      "id": "ChengruiLabs__dsh-standup-clockoff-reminder",
+      "name": "ChengruiLabs/dsh-standup-clockoff-reminder",
+      "url": "https://github.com/ChengruiLabs/dsh-standup-clockoff-reminder",
+      "category": "其他",
+      "description": "工位小猫：下班倒计时与久坐起身提醒，支持休息模式、提示音和后台通知。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ChengruiLabs__dsh-standup-clockoff-reminder"
+    },
+    {
+      "id": "DeepLifeStudio__dsh-lark-studio",
+      "name": "DeepLifeStudio/dsh-lark-studio",
+      "url": "https://github.com/DeepLifeStudio/dsh-lark-studio",
+      "category": "其他",
+      "description": "飞书智能工作台：一句话生成多维表格，并在侧栏处理日程、待办、群聊、邮件与通讯录。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DeepLifeStudio__dsh-lark-studio"
+    },
+    {
+      "id": "Dushiqi1987__dsh-sweeper",
+      "name": "Dushiqi1987/dsh-sweeper",
+      "url": "https://github.com/Dushiqi1987/dsh-sweeper",
+      "category": "其他",
+      "description": "审计工具执行在你工作区里留下的文件：把 write/edit 写过的每个路径、以及 DSH 的溢出文件，与会话日志、磁盘和 git 三方对账。所有一周内没被任何工具再用过、且未被 git 跟踪的文件分两档列出，只有你勾选的那一档才会被移入可整批恢复的回收站。默认只做报告；模型可以额外推荐候选，但每条建议都要过五道服务端校验。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Dushiqi1987__dsh-sweeper"
+    },
+    {
+      "id": "Dvva__dsh-alert",
+      "name": "Dvva/dsh-alert",
+      "url": "https://github.com/Dvva/dsh-alert",
+      "category": "其他",
+      "description": "DSH 需要你批准操作、回答提问或审批计划时，弹出 Windows 系统通知并播放提示音；原生通知失败时退回自绘卡片。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Dvva__dsh-alert"
+    },
+    {
+      "id": "Eustia-Ast__dsh-prompt-lab",
+      "name": "Eustia-Ast/dsh-prompt-lab",
+      "url": "https://github.com/Eustia-Ast/dsh-prompt-lab",
+      "category": "其他",
+      "description": "按会话改写、置空或新增 DeepSeek Harness 系统提示词 section，支持模板、预设、自动备份、空白窗口草稿、追加消息与按会话的 global 工具开关；只影响用户明确开启的会话。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Eustia-Ast__dsh-prompt-lab"
+    },
+    {
+      "id": "FenrirCait__dsh-tool-hub",
+      "name": "FenrirCait/dsh-tool-hub",
+      "url": "https://github.com/FenrirCait/dsh-tool-hub",
+      "category": "其他",
+      "description": "把这套 DSH 安装里的插件、技能与 MCP 服务收进一个面板：逐行开关、MCP 服务器的新增/编辑/测试连接、工具级屏蔽与懒启动（按需加载工具目录）、分组与分组群的整组启停、可保存与一键应用的开关预设、导入 dshmarket 分组、按会话的工具覆盖层与可保存的整环境场景，以及按官方 / MCP / 通用 / 用户下载四类自动分组。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-21",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FenrirCait__dsh-tool-hub"
     }
   ]
 }
