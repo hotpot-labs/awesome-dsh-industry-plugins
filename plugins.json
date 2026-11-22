@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -63767,6 +63767,204 @@
       "auditedAt": "2026-11-21",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/FenrirCait__dsh-tool-hub"
+    },
+    {
+      "id": "08mamba24__dsh-team-presets",
+      "name": "08mamba24/dsh-team-presets",
+      "url": "https://github.com/08mamba24/dsh-team-presets",
+      "category": "其他",
+      "description": "在当前 Harness 会话中配置并启动实现与复核两角色，支持分别设置模型、推理强度、提示词与工作工具集。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/08mamba24__dsh-team-presets"
+    },
+    {
+      "id": "1Tohka0__dsh-session-wrapup",
+      "name": "1Tohka0/dsh-session-wrapup",
+      "url": "https://github.com/1Tohka0/dsh-session-wrapup",
+      "category": "其他",
+      "description": "对话收尾：把一次对话产生的文件分成五类列出，勾选删除的文件先进回收站保留 3 天，下次启动时清掉这个会话的日志。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1Tohka0__dsh-session-wrapup"
+    },
+    {
+      "id": "3297304308__dsh-dream-wander",
+      "name": "3297304308/dsh-dream-wander",
+      "url": "https://github.com/3297304308/dsh-dream-wander",
+      "category": "其他",
+      "description": "给 DSH 角色加上走神与做梦：独处联想、睡眠判定、梦境演出、打码残留与衰减副本。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/3297304308__dsh-dream-wander"
+    },
+    {
+      "id": "7ygys__dsh-fishchat",
+      "name": "7ygys/dsh-fishchat",
+      "url": "https://github.com/7ygys/dsh-fishchat",
+      "category": "其他",
+      "description": "让多个会话像微信群一样同屏聊天、讨论的 DSH 插件。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/7ygys__dsh-fishchat"
+    },
+    {
+      "id": "ALICExhcm__dsh-transcript-turbo",
+      "name": "ALICExhcm/dsh-transcript-turbo",
+      "url": "https://github.com/ALICExhcm/dsh-transcript-turbo",
+      "category": "其他",
+      "description": "让超长、含大量公式的对话保持流畅：视口外消息块不再参与样式重算与布局，加载动画不再逐帧重绘，插件页开关即时生效。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ALICExhcm__dsh-transcript-turbo"
+    },
+    {
+      "id": "AR-26710-1__dsh-plugin-scu-urp",
+      "name": "AR-26710-1/dsh-plugin-scu-urp",
+      "url": "https://github.com/AR-26710-1/dsh-plugin-scu-urp",
+      "category": "其他",
+      "description": "四川大学教务系统与微服务全能助手：免密自动登录、高颜值课表、手机日历同步、培养方案大纲与保研GPA测算、考试倒计时与自习室查询、一卡通记账与宿舍电费监控。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AR-26710-1__dsh-plugin-scu-urp"
+    },
+    {
+      "id": "AlienwareBoy__dsh-stage-chat",
+      "name": "AlienwareBoy/dsh-stage-chat",
+      "url": "https://github.com/AlienwareBoy/dsh-stage-chat",
+      "category": "其他",
+      "description": "阶段式对话视图，把一轮回复组织为执行过程、执行结果和待确认事项。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AlienwareBoy__dsh-stage-chat"
+    },
+    {
+      "id": "Anzerwhite__dsh-local-codex",
+      "name": "Anzerwhite/dsh-local-codex",
+      "url": "https://github.com/Anzerwhite/dsh-local-codex",
+      "category": "计算机",
+      "description": "按会话切换的本机 Codex 模式：发触发词或 /codex 把单个会话交给本机 Codex，回复流式显示，命令与文件改动以工具卡片同步展示在同一对话流。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Anzerwhite__dsh-local-codex"
+    },
+    {
+      "id": "BioAIEvolu__dsh-token-tally",
+      "name": "BioAIEvolu/dsh-token-tally",
+      "url": "https://github.com/BioAIEvolu/dsh-token-tally",
+      "category": "其他",
+      "description": "Token 用量与费用看板：模型×时间堆叠柱（绝对值 / 100% 占比切换）、每模型趋势折线、环形分布、调用排行、多模型对比表（输出速度 / 每百万 Token 单价 / 缓存命中率 / P50·P95 响应时长）与 53 周热力图，全部本地聚合，零第三方运行时依赖。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BioAIEvolu__dsh-token-tally"
+    },
+    {
+      "id": "BlobfishSteelLiu__dsh-approval-popup",
+      "name": "BlobfishSteelLiu/dsh-approval-popup",
+      "url": "https://github.com/BlobfishSteelLiu/dsh-approval-popup",
+      "category": "其他",
+      "description": "Windows 专用的 DSH 权限审批弹窗：应用内全局模态框 + 原生 WinForms 系统窗口，语义级高危识别、按类别开关和四种可选颜色。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BlobfishSteelLiu__dsh-approval-popup"
+    },
+    {
+      "id": "CPHWQ__dsh-balance-strip",
+      "name": "CPHWQ/dsh-balance-strip",
+      "url": "https://github.com/CPHWQ/dsh-balance-strip",
+      "category": "其他",
+      "description": "一枚常驻在 DSH 会话标签行右侧的胶囊，始终显示 DeepSeek 账户余额、按余额下降估算的今日已用，以及当前是峰时还是谷时定价，不需要点击；未配置 DEEPSEEK_API_KEY 时改走 DSH 账号服务读取余额。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CPHWQ__dsh-balance-strip"
+    },
+    {
+      "id": "Eddielllllllllllll__dsh-fiction-voices",
+      "name": "Eddielllllllllllll/dsh-fiction-voices",
+      "url": "https://github.com/Eddielllllllllllll/dsh-fiction-voices",
+      "category": "其他",
+      "description": "注册五套中文小说笔法技能（江南、繁花、狂飙、汤溪、婺州），每套是一份 Markdown 指令文件，讲句子节奏、意象库、对话技术、示范段落、禁区与写作前自检。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Eddielllllllllllll__dsh-fiction-voices"
+    },
+    {
+      "id": "EthanZhu-07__capability-value-test",
+      "name": "EthanZhu-07/capability-value-test",
+      "url": "https://github.com/EthanZhu-07/capability-value-test",
+      "category": "其他",
+      "description": "对原有方法与接入新能力后的方法执行经人工确认的 A/B 测试，并生成包含指标与调用证据的可追溯 HTML 报告。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EthanZhu-07__capability-value-test"
+    },
+    {
+      "id": "ExTetragon__dsh-illuminating-skin",
+      "name": "ExTetragon/dsh-illuminating-skin",
+      "url": "https://github.com/ExTetragon/dsh-illuminating-skin",
+      "category": "其他",
+      "description": "卡片风格简约毛玻璃主题：内置六色可自定义标题栏顶光、彩色卡片开关、磨砂浮层与 Google Sans 字体排版，支持独立模式、dsh-claude-style 与 ds-bot。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ExTetragon__dsh-illuminating-skin"
+    },
+    {
+      "id": "FYZB2020__dsh-8g-poster",
+      "name": "FYZB2020/dsh-8g-poster",
+      "url": "https://github.com/FYZB2020/dsh-8g-poster",
+      "category": "其他",
+      "description": "跑在自己 8GB 显卡上的海报工坊。用本地 ComfyUI 出背景（FLUX.2-klein 或 MOSS-Image），往上排标题、正文与参数表，抠产品图、识别占位块、贴真二维码、自检遮挡与出血，导出 2048/4096 PNG 与 A4 300dpi PDF。13 个工具；4MB 网页工作台以本地文件打开、免登录，带图层面板与 Alt+单击穿透选中被压住的元素。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FYZB2020__dsh-8g-poster"
+    },
+    {
+      "id": "FYZB2020__dsh-fy-code-animation",
+      "name": "FYZB2020/dsh-fy-code-animation",
+      "url": "https://github.com/FYZB2020/dsh-fy-code-animation",
+      "category": "其他",
+      "description": "代码动画。把中文文案拆成 HTML/Canvas 场景，用真浏览器逐帧渲染、FFmpeg 合成 MP4。内置 341 条画风提示词（每条都有静帧预览）与 2 个技能；6 个工具负责查画风、建项目、装依赖与渲染。1080p30 约 6–8 秒机时换 1 秒成片。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FYZB2020__dsh-fy-code-animation"
+    },
+    {
+      "id": "Fahaoxi__dsh-tdx-tools",
+      "name": "Fahaoxi/dsh-tdx-tools",
+      "url": "https://github.com/Fahaoxi/dsh-tdx-tools",
+      "category": "其他",
+      "description": "把通达信 MCP 行情服务注册为四个 DSH 工具：期权链、可交易合约月份、K 线与实时行情；服务端回收 MCP 会话时自动重新握手并重放请求。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Fahaoxi__dsh-tdx-tools"
+    },
+    {
+      "id": "Fantasy-XY808__dsh-every-models",
+      "name": "Fantasy-XY808/dsh-every-models",
+      "url": "https://github.com/Fantasy-XY808/dsh-every-models",
+      "category": "其他",
+      "description": "在模型选择器和设置页加入 75 家厂商、1692 条公开模型（2013 至 2026），全是假模型——不管问什么都会一本正经自报代号，由插件本地合成回复，不发推理请求、不扣真实余额，支持厂商分组、80 条分页、推理档位与全目录搜索。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-22",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Fantasy-XY808__dsh-every-models"
     }
   ]
 }
