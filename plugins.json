@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -60704,7 +60704,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-11",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Betsy20__dsh-magpie"
+      "dir": "plugins/Betsy20__dsh-magpie",
+      "removed": true
     },
     {
       "id": "Boris-boomer__dsh-icon-grid",
@@ -63965,6 +63966,215 @@
       "auditedAt": "2026-11-22",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/Fantasy-XY808__dsh-every-models"
+    },
+    {
+      "id": "13691032917-creator__dsh-work-out",
+      "name": "13691032917-creator/dsh-work-out",
+      "url": "https://github.com/13691032917-creator/dsh-work-out",
+      "category": "其他",
+      "description": "左侧栏把所有对话产出的文件按时间汇总成一条时间线，交付后被更改或已删除的文件用颜色标出。点击对话按钮会跳到该对话、滚到提到这个文件的那一行，并在右侧栏预览中打开文件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/13691032917-creator__dsh-work-out"
+    },
+    {
+      "id": "18059842153__dsh-multi-dir-workspace",
+      "name": "18059842153/dsh-multi-dir-workspace",
+      "url": "https://github.com/18059842153/dsh-multi-dir-workspace",
+      "category": "其他",
+      "description": "给工作区附加多个目录：全局标题栏上的 chip 用来添加、切换、移除目录，每个附加目录都会作为提示上下文交给模型并被授予沙箱写权限，另有 workspace_directories 工具完成同样的操作。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/18059842153__dsh-multi-dir-workspace"
+    },
+    {
+      "id": "1T2TTTTT__dsh-followup-thread",
+      "name": "1T2TTTTT/dsh-followup-thread",
+      "url": "https://github.com/1T2TTTTT/dsh-followup-thread",
+      "category": "其他",
+      "description": "在任意一条历史回答下就地追问，问题和回答一起留在那条回答之后，不新增左侧会话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1T2TTTTT__dsh-followup-thread"
+    },
+    {
+      "id": "329604421__dsh-tiny-aquarium",
+      "name": "329604421/dsh-tiny-aquarium",
+      "url": "https://github.com/329604421/dsh-tiny-aquarium",
+      "category": "其他",
+      "description": "DSH 工作台里的透明三维鱼缸：红绿灯与小丑鱼、三套生态造景，可拖动旋转、滚轮放大、单击玻璃惊鱼，鱼食用 Token 用量兑换。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/329604421__dsh-tiny-aquarium"
+    },
+    {
+      "id": "60liulin60__dsh-workspace-running-tasks",
+      "name": "60liulin60/dsh-workspace-running-tasks",
+      "url": "https://github.com/60liulin60/dsh-workspace-running-tasks",
+      "category": "其他",
+      "description": "在工作区行内标出实时状态：有任务运行时行首文件夹图标换成旋转环，等待权限审核、提问或计划确认时换成警示点；有任务运行的工作区自动排到「工作区」列表最前，任务全部结束后保留当前顺序。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/60liulin60__dsh-workspace-running-tasks"
+    },
+    {
+      "id": "777wtmsb__dsh-choice-buttons",
+      "name": "777wtmsb/dsh-choice-buttons",
+      "url": "https://github.com/777wtmsb/dsh-choice-buttons",
+      "category": "其他",
+      "description": "把回答末尾的 A–H 或 1–99 选项行渲染成回复下方的可点胶囊，点一下就把那行作为你的消息发出。纯客户端插件，不额外消耗模型调用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/777wtmsb__dsh-choice-buttons"
+    },
+    {
+      "id": "ASER-ho__Loji-skill",
+      "name": "ASER-ho/Loji-skill",
+      "url": "https://github.com/ASER-ho/Loji-skill",
+      "category": "其他",
+      "description": "把《The Fire Rises》角色「逻辑/征酱」的 Loji-skill 注册为 DSH Agent Skill，按需加载角色知识库、世界观、表达风格与安全边界参考。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ASER-ho__Loji-skill"
+    },
+    {
+      "id": "Archerkattri__dsh-qwen-websearch",
+      "name": "Archerkattri/dsh-qwen-websearch",
+      "url": "https://github.com/Archerkattri/dsh-qwen-websearch",
+      "category": "其他",
+      "description": "通过 Responses API 的 web_search 工具让 web_search 走 Qwen Token Plan 额度，由 Qwen3.8 Flash 总结并返回来源链接。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Archerkattri__dsh-qwen-websearch"
+    },
+    {
+      "id": "Archerkattri__dsh-qwen4-effort",
+      "name": "Archerkattri/dsh-qwen4-effort",
+      "url": "https://github.com/Archerkattri/dsh-qwen4-effort",
+      "category": "其他",
+      "description": "为已有 Qwen Token Plan 路由上的 Qwen4 模型补齐官方推理等级（Max Preview 为 low/medium/xhigh，Max 为 low/high/xhigh），并保留其他提供商与已有声明。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Archerkattri__dsh-qwen4-effort"
+    },
+    {
+      "id": "AyanamReiIV__dsh-plugin-wallpaper-machine",
+      "name": "AyanamReiIV/dsh-plugin-wallpaper-machine",
+      "url": "https://github.com/AyanamReiIV/dsh-plugin-wallpaper-machine",
+      "category": "其他",
+      "description": "把 macOS 上 WallpaperMachine 的壁纸库接入 DeepSeek Harness：场景壁纸由 WebWallGL 实时渲染，视频与图片直接作为聊天背景播放。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AyanamReiIV__dsh-plugin-wallpaper-machine"
+    },
+    {
+      "id": "BullyHigh__dsh-side-ask",
+      "name": "BullyHigh/dsh-side-ask",
+      "url": "https://github.com/BullyHigh/dsh-side-ask",
+      "category": "其他",
+      "description": "从对话头部、划词菜单或右侧栏「+」菜单打开只读的侧边提问：在最新持久事件处 fork，把选中的文字或未发送的草稿放进侧栏输入框，关闭标签即静默归档。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BullyHigh__dsh-side-ask"
+    },
+    {
+      "id": "CHSCN123__dsh-knowledge-base",
+      "name": "CHSCN123/dsh-knowledge-base",
+      "url": "https://github.com/CHSCN123/dsh-knowledge-base",
+      "category": "其他",
+      "description": "262 种格式拖进设置卡片，本地转成可检索的 Markdown 笔记：Office、PDF、EPUB、压缩包、字幕、邮件、代码都能抽正文，全程不联网、不上传。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CHSCN123__dsh-knowledge-base"
+    },
+    {
+      "id": "CM-Silence__dsh-mo-image",
+      "name": "CM-Silence/dsh-mo-image",
+      "url": "https://github.com/CM-Silence/dsh-mo-image",
+      "category": "其他",
+      "description": "在 DSH 对话中生成和编辑图片，支持云端和本地模型、提供商预设及自定义生图 API。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CM-Silence__dsh-mo-image"
+    },
+    {
+      "id": "Catwb__dsh-solution-ledger",
+      "name": "Catwb/dsh-solution-ledger",
+      "url": "https://github.com/Catwb/dsh-solution-ledger",
+      "category": "其他",
+      "description": "把踩过的坑和做过的取舍记进全局账本，工具调用失败时自动带出已确认的相关条目。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Catwb__dsh-solution-ledger"
+    },
+    {
+      "id": "DogEgg-alR__dsh-scan-to-pdf",
+      "name": "DogEgg-alR/dsh-scan-to-pdf",
+      "url": "https://github.com/DogEgg-alR/dsh-scan-to-pdf",
+      "category": "其他",
+      "description": "在插件页的一个标签里，把拍照 / 扫描的页面抄成排版好的 PDF。图片、ZIP、Word、PDF 都能拖进来（PDF 逐页渲成图片，所以里面的扫描件一样能抄），每页先按扫描件处理：白底合成、拉对比、统一尺寸。视觉模型把每页抄成 Markdown，看到插图时留下占位符和一个 0~1 的包围框，插件按框从页面上裁出这幅图、做同样的清理、再放回正文里的那个位置。版式是真正的 Word 排版再经 LibreOffice 转换：A4、奇偶页页码分居左右、表格只留横线。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DogEgg-alR__dsh-scan-to-pdf"
+    },
+    {
+      "id": "DreamYuande__dsh-history-message-editor",
+      "name": "DreamYuande/dsh-history-message-editor",
+      "url": "https://github.com/DreamYuande/dsh-history-message-editor",
+      "category": "其他",
+      "description": "原位编辑已发送的用户消息，从修改处重新生成回复，沿用当前 DSH 会话和工作目录。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DreamYuande__dsh-history-message-editor"
+    },
+    {
+      "id": "DrizzleGig__dsh-novel-conductor",
+      "name": "DrizzleGig/dsh-novel-conductor",
+      "url": "https://github.com/DrizzleGig/dsh-novel-conductor",
+      "category": "其他",
+      "description": "想让每一章都写得有条不紊，不遗漏重要的剧情选择，也不让写完后的事情乱成一团？「舞台监督」帮助小说作者安排好每章的写作顺序：先拍板，再写故事，写完后整理进展、核对内容，最后收好尾。它不替你写正文，也不改动其他写作工具里的记录；即使单独使用也没问题。写作卡住时，它会告诉你停在了哪一步。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DrizzleGig__dsh-novel-conductor"
+    },
+    {
+      "id": "DuncanLii__dsh-context-kernel",
+      "name": "DuncanLii/dsh-context-kernel",
+      "url": "https://github.com/DuncanLii/dsh-context-kernel",
+      "category": "其他",
+      "description": "面向长会话的上下文管理：把较早历史投影成一条结构化工作上下文消息、对超大工具结果做确定性裁剪、并用执行证据而非模型自述来判定任务能否结束。提供两个工具，默认以影子模式运行（只记录不改变）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DuncanLii__dsh-context-kernel"
+    },
+    {
+      "id": "DynasturnStudio__dsh-date-model",
+      "name": "DynasturnStudio/dsh-date-model",
+      "url": "https://github.com/DynasturnStudio/dsh-date-model",
+      "category": "其他",
+      "description": "输入框里的趣味「按日期选模型」：两个无限数字滚轮 + 七种天气 + 月历拼出假模型名，写进系统提示词，并可用小眼睛显隐真实模型选择器。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-23",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DynasturnStudio__dsh-date-model"
     }
   ]
 }
