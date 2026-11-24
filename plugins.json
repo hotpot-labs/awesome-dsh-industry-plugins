@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -19465,7 +19465,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/vlln__plugin-registry--packages-plugin-console"
+      "dir": "plugins/vlln__plugin-registry--packages-plugin-console",
+      "removed": true
     },
     {
       "id": "vlln__whale-girl",
@@ -62711,7 +62712,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-18",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/6starlong__dsh-disk-cleanup"
+      "dir": "plugins/6starlong__dsh-disk-cleanup",
+      "removed": true
     },
     {
       "id": "879745uhjun__dsh-running-sessions",
@@ -64009,7 +64011,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-23",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/329604421__dsh-tiny-aquarium"
+      "dir": "plugins/329604421__dsh-tiny-aquarium",
+      "removed": true
     },
     {
       "id": "60liulin60__dsh-workspace-running-tasks",
@@ -64175,6 +64178,226 @@
       "auditedAt": "2026-11-23",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/DynasturnStudio__dsh-date-model"
+    },
+    {
+      "id": "1447714306-sys__dsh-plugin-catalog",
+      "name": "1447714306-sys/dsh-plugin-catalog",
+      "url": "https://github.com/1447714306-sys/dsh-plugin-catalog",
+      "category": "其他",
+      "description": "把已安装的 DSH 插件列成清单：作用、怎么用、挂载项与被调用次数占比，并能在面板里检查更新、一键或选择性更新、回退旧版本、启用停用、卸载，以及一键导出到桌面的 Word/PDF。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1447714306-sys__dsh-plugin-catalog"
+    },
+    {
+      "id": "1473447954-cloud__dsh-model-drag",
+      "name": "1473447954-cloud/dsh-model-drag",
+      "url": "https://github.com/1473447954-cloud/dsh-model-drag",
+      "category": "其他",
+      "description": "在 DSH 模型选择菜单里拖拽排序：按住模型行在组内换位、按住分组标题整组移动，顺序跨会话与重渲染保持，打开菜单自动定位到当前选中的模型。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1473447954-cloud__dsh-model-drag"
+    },
+    {
+      "id": "1502074527-svg__dsh-agent-manager",
+      "name": "1502074527-svg/dsh-agent-manager",
+      "url": "https://github.com/1502074527-svg/dsh-agent-manager",
+      "category": "其他",
+      "description": "左侧栏常驻的「智能体」面板：用 Markdown 在用户级或项目级目录里定义可复用的智能体角色，含画廊式首页、只读详情页、五步编辑器（角色/能力/模型/图标/高级）、按五个领域归组的 12 份起步模板、30 款可选图标、可从粘贴文本或网址提炼的知识卡、按项目保存在本机的启停策略，以及就地弹层编辑的风格库；保存时比对文件修改时间，两个窗口不会静默互相覆盖。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1502074527-svg__dsh-agent-manager"
+    },
+    {
+      "id": "2806577488__fastsh-dsh",
+      "name": "2806577488/fastsh-dsh",
+      "url": "https://github.com/2806577488/fastsh-dsh",
+      "category": "其他",
+      "description": "给 DSH 的快速、编码安全的 Windows 命令执行器：cmd.exe 加原生 PowerShell 子集，拥有 PowerShell 级权限，后台任务带环形缓冲。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/2806577488__fastsh-dsh"
+    },
+    {
+      "id": "329604421__dsh-tiny-fish",
+      "name": "329604421/dsh-tiny-fish",
+      "url": "https://github.com/329604421/dsh-tiny-fish",
+      "category": "其他",
+      "description": "DSH 工作台里的透明三维鱼缸：红绿灯与小丑鱼、三套生态造景，可拖动旋转、滚轮放大、单击玻璃惊鱼，鱼食用 Token 用量兑换。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/329604421__dsh-tiny-fish"
+    },
+    {
+      "id": "5923Cx__dsh-persona-self-review",
+      "name": "5923Cx/dsh-persona-self-review",
+      "url": "https://github.com/5923Cx/dsh-persona-self-review",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 提供角色卡的创建、编辑、切换与备份。每张卡是一份纯文本，按会话注入；定期的自我审视会话可以在通过校验后小幅修改角色设定，延迟生效并保留每一版存档。可配合其他记忆插件使用，也可以在无记忆插件时单独使用；自我审视只在 GUI 打开时进行。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/5923Cx__dsh-persona-self-review"
+    },
+    {
+      "id": "743715364-collab__dsh-desktop-butler1",
+      "name": "743715364-collab/dsh-desktop-butler1",
+      "url": "https://github.com/743715364-collab/dsh-desktop-butler1",
+      "category": "其他",
+      "description": "把桌面管家 Electron 桌宠接入 DSH：自动使用 DSH 默认模型和登录凭据，支持语音对话、打开已安装软件、音乐与音量控制，并随 DSH 思考、干活、完成状态做动作。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/743715364-collab__dsh-desktop-butler1"
+    },
+    {
+      "id": "81502063-dev__dsh-3min",
+      "name": "81502063-dev/dsh-3min",
+      "url": "https://github.com/81502063-dev/dsh-3min",
+      "category": "其他",
+      "description": "按「每天3分钟」栏目形式做新闻简报：只从《互联网新闻信息稿源单位名单》内抓取，按有趣/有用/有共鸣打分，一键成稿并导出公众号 HTML。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/81502063-dev__dsh-3min"
+    },
+    {
+      "id": "879745uhjun__dsh-plugin-pack",
+      "name": "879745uhjun/dsh-plugin-pack",
+      "url": "https://github.com/879745uhjun/dsh-plugin-pack",
+      "category": "其他",
+      "description": "把一组 DSH 插件连同配置与版本锁定打包成一个可离线安装的 .dshpack，在另一台机器上扫描、预检、原子安装，出错时回滚。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-plugin-pack"
+    },
+    {
+      "id": "879745uhjun__dsh-session-resume",
+      "name": "879745uhjun/dsh-session-resume",
+      "url": "https://github.com/879745uhjun/dsh-session-resume",
+      "category": "其他",
+      "description": "DSH 上次关闭时还没跑完的会话，重新打开时会提示「继续上次的工作」：从会话日志里识别被打断的那一轮，并给出续跑入口。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-session-resume"
+    },
+    {
+      "id": "AeolusJack__dsh-computer-pro",
+      "name": "AeolusJack/dsh-computer-pro",
+      "url": "https://github.com/AeolusJack/dsh-computer-pro",
+      "category": "其他",
+      "description": "为 DeepSeek Harness 0.2.2-rc.5 提供桌面控制、办公文件编辑、本地 OCR、应用启动和独立 Chromium DOM 工具；Windows x64 已测试，macOS 为实验性适配。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AeolusJack__dsh-computer-pro"
+    },
+    {
+      "id": "Agelei19__dsh-autostart",
+      "name": "Agelei19/dsh-autostart",
+      "url": "https://github.com/Agelei19/dsh-autostart",
+      "category": "计算机",
+      "description": "Windows 登录时启动 DeepSeek Harness，并把开机那一次的窗口直接收进系统托盘：随包附带 8 KB 原生启动器，拉起应用后等待主窗口出现并关闭它一次，开机实例继续在后台运行，而手动打开的窗口照常显示。每次启动都会核对并修复启动项，顺手清理旧的 DSHBoot 项；设置面板提供两个开关和一键测试隐藏。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Agelei19__dsh-autostart"
+    },
+    {
+      "id": "CHENJIAMIAN__dsh-editable-send",
+      "name": "CHENJIAMIAN/dsh-editable-send",
+      "url": "https://github.com/CHENJIAMIAN/dsh-editable-send",
+      "category": "其他",
+      "description": "在输入框右边加一个文本可编辑的发送按钮，点一下就把它的文本直接发出去，默认「继续」。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CHENJIAMIAN__dsh-editable-send"
+    },
+    {
+      "id": "CHENJIAMIAN__dsh-session-switch",
+      "name": "CHENJIAMIAN/dsh-session-switch",
+      "url": "https://github.com/CHENJIAMIAN/dsh-session-switch",
+      "category": "其他",
+      "description": "桌面版按 Ctrl+Tab 在「当前会话」和「上一个会话」之间来回切，只在这两个之间打转，不会一路翻回更早的会话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CHENJIAMIAN__dsh-session-switch"
+    },
+    {
+      "id": "Camus2001__dsh-pet-see-live",
+      "name": "Camus2001/dsh-pet-see-live",
+      "url": "https://github.com/Camus2001/dsh-pet-see-live",
+      "category": "其他",
+      "description": "让 dsh-pet 实时看屏幕、听同期声音，并通过气泡和语音点评；采集与拼图复用 dsh-see-now。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Camus2001__dsh-pet-see-live"
+    },
+    {
+      "id": "Chygyo__dsh-comcode-quota",
+      "name": "Chygyo/dsh-comcode-quota",
+      "url": "https://github.com/Chygyo/dsh-comcode-quota",
+      "category": "其他",
+      "description": "侧边栏里的 Command Code 额度监控：5 小时 / 每周 / 每月三个窗口的剩余额度、重置倒计时与消耗速度预测，75 个模型的价目表，按模型的用量明细，以及本计费周期的 TOKEN 与请求总量。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Chygyo__dsh-comcode-quota"
+    },
+    {
+      "id": "DrizzleGig__dsh-novel-kit",
+      "name": "DrizzleGig/dsh-novel-kit",
+      "url": "https://github.com/DrizzleGig/dsh-novel-kit",
+      "category": "其他",
+      "description": "一个独立的小说写作引擎：七个 novel_* 工具把一章从计划推进到落账，写作前装配剧情、设定、记忆与文风四段依据；右栏六页签查看拍板、记忆、文风、设定与冲突。直接读取 beat / fade / voice / fanfic 的账本、不做迁移，并可在面板里一键接管与恢复。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DrizzleGig__dsh-novel-kit"
+    },
+    {
+      "id": "ElonBright-sudo__dsh-knowledge-cockpit",
+      "name": "ElonBright-sudo/dsh-knowledge-cockpit",
+      "url": "https://github.com/ElonBright-sudo/dsh-knowledge-cockpit",
+      "category": "其他",
+      "description": "给本地 Markdown 知识库做的一页侧边栏仪表盘：资产总量、专题分布、六个月增长折线、最近更新、结构覆盖率，以及能一键补出缺失 index.md 的待办。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ElonBright-sudo__dsh-knowledge-cockpit"
+    },
+    {
+      "id": "EonCosmos__dsh-pure-chat",
+      "name": "EonCosmos/dsh-pure-chat",
+      "url": "https://github.com/EonCosmos/dsh-pure-chat",
+      "category": "其他",
+      "description": "纯对话 agent 预设：空系统提示词，只挂载联网搜索与网页抓取，屏蔽宿主注册的其他工具。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EonCosmos__dsh-pure-chat"
+    },
+    {
+      "id": "ErgeAIA__dsh-skills-zhiyin",
+      "name": "ErgeAIA/dsh-skills-zhiyin",
+      "url": "https://github.com/ErgeAIA/dsh-skills-zhiyin",
+      "category": "其他",
+      "description": "控制模型此刻真正看得见哪些已安装技能。把技能编成包、逐个启停，并算出目录占用的字符成本；同时支持安装、归档与恢复。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-24",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ErgeAIA__dsh-skills-zhiyin"
     }
   ]
 }
