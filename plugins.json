@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -18801,7 +18801,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/temotee2103__dsh-ci-co-pilot"
+      "dir": "plugins/temotee2103__dsh-ci-co-pilot",
+      "removed": true
     },
     {
       "id": "temotee2103__dsh-overdrive--packages-gateway-core",
@@ -23740,7 +23741,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-08-26",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/kiligzzz__dsh-session-archive"
+      "dir": "plugins/kiligzzz__dsh-session-archive",
+      "removed": true
     },
     {
       "id": "kiligzzz__dsh-session-nav",
@@ -28107,7 +28109,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-08-30",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/haozheou__dsh-discipline-guard"
+      "dir": "plugins/haozheou__dsh-discipline-guard",
+      "removed": true
     },
     {
       "id": "hehetoshang__dsh-talebook-plugin",
@@ -28184,7 +28187,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-08-30",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/jiangyinluwei__dsh-plugInOne"
+      "dir": "plugins/jiangyinluwei__dsh-plugInOne",
+      "removed": true
     },
     {
       "id": "k2d5rqjpkg-art__dsh-auto-vision",
@@ -28228,7 +28232,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-08-30",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/kiligzzz__dsh-agent-dispatch"
+      "dir": "plugins/kiligzzz__dsh-agent-dispatch",
+      "removed": true
     },
     {
       "id": "klingai-dev__deepseek-plugin",
@@ -40449,7 +40454,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-20",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/ShenpingDD__wooden-fish-dsh"
+      "dir": "plugins/ShenpingDD__wooden-fish-dsh",
+      "removed": true
     },
     {
       "id": "Signalight__law-thesis-review",
@@ -57209,7 +57215,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-02",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Lumos-789__VoiceTranser"
+      "dir": "plugins/Lumos-789__VoiceTranser",
+      "removed": true
     },
     {
       "id": "Lumos-789__delivery-video-plugin",
@@ -59020,7 +59027,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-06",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/JayC-L__dsh-skills-management"
+      "dir": "plugins/JayC-L__dsh-skills-management",
+      "removed": true
     },
     {
       "id": "18518182595-cell__dsh-prompt-workshop",
@@ -64210,7 +64218,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/1502074527-svg__dsh-agent-manager"
+      "dir": "plugins/1502074527-svg__dsh-agent-manager",
+      "removed": true
     },
     {
       "id": "2806577488__fastsh-dsh",
@@ -64398,6 +64407,292 @@
       "auditedAt": "2026-11-24",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/ErgeAIA__dsh-skills-zhiyin"
+    },
+    {
+      "id": "1158295269__dsh-serial-trigger",
+      "name": "1158295269/dsh-serial-trigger",
+      "url": "https://github.com/1158295269/dsh-serial-trigger",
+      "category": "其他",
+      "description": "面向 DeepSeek Harness 的串口抓取与排障插件：无损录制与 SQLite 索引、增量读取、字节级回查、工作区扫描标记、实时状态机中间件，并提供 Web 面板。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1158295269__dsh-serial-trigger"
+    },
+    {
+      "id": "1502074527-svg__dsh-custom-subagents",
+      "name": "1502074527-svg/dsh-custom-subagents",
+      "url": "https://github.com/1502074527-svg/dsh-custom-subagents",
+      "category": "其他",
+      "description": "左侧栏常驻的「智能体」面板：用 Markdown 在用户级或项目级目录里定义可复用的智能体角色，含画廊式首页、只读详情页、五步编辑器（角色/能力/模型/图标/高级）、按五个领域归组的 12 份起步模板、30 款可选图标、可从粘贴文本或网址提炼的知识卡、按项目保存在本机的启停策略，以及就地弹层编辑的风格库；保存时比对文件修改时间，两个窗口不会静默互相覆盖。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1502074527-svg__dsh-custom-subagents"
+    },
+    {
+      "id": "2685387167__dsh-human-browser",
+      "name": "2685387167/dsh-human-browser",
+      "url": "https://github.com/2685387167/dsh-human-browser",
+      "category": "其他",
+      "description": "通过 native messaging 与 chrome.debugger 驱动你正在用的 Chrome：15 个浏览器工具，派发真实 CDP 输入事件、不启用任何 CDP 域、指针与打字都带人类化的节奏。仅 Windows，首次使用时扩展由插件从本仓库的 GitHub Releases 下载解压，需在 chrome://extensions 手动加载一次。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/2685387167__dsh-human-browser"
+    },
+    {
+      "id": "777wtmsb__dsh-keep-top",
+      "name": "777wtmsb/dsh-keep-top",
+      "url": "https://github.com/777wtmsb/dsh-keep-top",
+      "category": "其他",
+      "description": "输出时视口只跟到「本条回答的第一行」贴住顶部就停住，不再继续往底部追， 想回看刚过去的那段时不用跟还在往下跑的输出较劲。官方展示档保持标准、不改动； 任何滚动、触摸、点击或翻页键都会立即交还控制权，本轮不再抢。 纯前端插件，不调用模型、不联网、不读写文件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/777wtmsb__dsh-keep-top"
+    },
+    {
+      "id": "8589526__dsh-capability-safety-guard",
+      "name": "8589526/dsh-capability-safety-guard",
+      "url": "https://github.com/8589526/dsh-capability-safety-guard",
+      "category": "其他",
+      "description": "每次新增或升级能力后自动安全检查（显存、卡死任务、插件健康、版本通道、核心链、系统资源、错误指纹与卫士自健康），能安全修的自动修、不能修的解释原因；另带 safe_trial_run 试跑沙箱，新软件先在隔离环境跑几遍再上真机。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/8589526__dsh-capability-safety-guard"
+    },
+    {
+      "id": "879745uhjun__dsh-session-hub",
+      "name": "879745uhjun/dsh-session-hub",
+      "url": "https://github.com/879745uhjun/dsh-session-hub",
+      "category": "其他",
+      "description": "把各小插件各自保存的会话元数据（星标、待办、盒子、结束提醒）只读聚合到同一个 GET /session-meta，供工作区界面和其他插件一次读全，替代四条路由、四次读取。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/879745uhjun__dsh-session-hub"
+    },
+    {
+      "id": "ADBdad__dsh-agent-preset-switch-ui",
+      "name": "ADBdad/dsh-agent-preset-switch-ui",
+      "url": "https://github.com/ADBdad/dsh-agent-preset-switch-ui",
+      "category": "其他",
+      "description": "在 DSH 会话标题栏加一个可点击的 Agent 预设切换器，切换对当前会话立即生效；自带切换引擎，不依赖其它插件。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ADBdad__dsh-agent-preset-switch-ui"
+    },
+    {
+      "id": "Asthestarsfalll__dsh-answer-card",
+      "name": "Asthestarsfalll/dsh-answer-card",
+      "url": "https://github.com/Asthestarsfalll/dsh-answer-card",
+      "category": "其他",
+      "description": "macOS 悬浮卡片：审批、提问、回合结束三种时刻弹卡，点选项即等于在 DSH 里作答；完成卡可跨桌面、跨 workspace 回到会话，并把光标和鼠标指针放回输入框。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Asthestarsfalll__dsh-answer-card"
+    },
+    {
+      "id": "Awoodwhale__dsh-skill-mcp-manager",
+      "name": "Awoodwhale/dsh-skill-mcp-manager",
+      "url": "https://github.com/Awoodwhale/dsh-skill-mcp-manager",
+      "category": "其他",
+      "description": "在全局、项目、会话三级管理 skill 与 MCP 服务器：读取 15 个来源的技能目录（DSH、通用 .agents 目录，以及 Claude Code、Codex、Cursor 等 13 个编程 agent），可按整个来源或单个技能启停、添加额外的技能目录、新建编辑删除技能、连接本地进程或 HTTP 的 MCP 服务器，并能在输入框里为某一次发送单独选择带上哪些技能与服务器。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Awoodwhale__dsh-skill-mcp-manager"
+    },
+    {
+      "id": "Bencibr__bugx-dsh-plugin",
+      "name": "Bencibr/bugx-dsh-plugin",
+      "url": "https://github.com/Bencibr/bugx-dsh-plugin",
+      "category": "计算机",
+      "description": "在 DSH 中运行 BugX 自主代码审查与智能测试的会话级 MCP 桥接与侧边栏插件。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Bencibr__bugx-dsh-plugin"
+    },
+    {
+      "id": "Bert0000000000__dsh-rsi",
+      "name": "Bert0000000000/dsh-rsi",
+      "url": "https://github.com/Bert0000000000/dsh-rsi",
+      "category": "其他",
+      "description": "用实验而非主观判断改进 harness 的 12 个工具：按 sha256 固定评分表规划探针实验、把重复采样汇总成通过率、在没有标准答案时对比同一任务的两个变体、审计实验开始后 `.rsi` 之外的越界写入、带血缘归档实验、并在冒烟检查与失败回滚的保护下采纳已批准的提案。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Bert0000000000__dsh-rsi"
+    },
+    {
+      "id": "Blank-not-black__dsh-threadlight",
+      "name": "Blank-not-black/dsh-threadlight",
+      "url": "https://github.com/Blank-not-black/dsh-threadlight",
+      "category": "其他",
+      "description": "把 Git 项目整理成可浏览的功能线路图，带源码证据、批注、流程草稿和实现报告。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Blank-not-black__dsh-threadlight"
+    },
+    {
+      "id": "CC2027MK2__dsh-watch-phone",
+      "name": "CC2027MK2/dsh-watch-phone",
+      "url": "https://github.com/CC2027MK2/dsh-watch-phone",
+      "category": "其他",
+      "description": "安卓手表与手机上的 DeepSeek Harness 之间的按住说话对话：手表把 WAV 录音上传到网桥，网桥用主机自带的语音识别本地转写、经真实 DSH 会话作答，再把回复合成为 WAV 播回手表；手表 APK 随包分发，由 /watch/app.apk 直接下载。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CC2027MK2__dsh-watch-phone"
+    },
+    {
+      "id": "CGH999__dsh-chemdraw",
+      "name": "CGH999/dsh-chemdraw",
+      "url": "https://github.com/CGH999/dsh-chemdraw",
+      "category": "其他",
+      "description": "在 DSH 里读写 ChemDraw 的 .cdx 文件：结构、立体几何、标注、反应箭头和 3D 构象，共 12 个工具；写操作默认 dry-run，落盘前重新读回校验。需要本机已安装并激活 ChemDraw，首次使用前要把 CambridgeSoft.ChemScript.dll 复制到插件的 bin/ 目录、并设置 CHEMDRAW_HOME 指向 ChemDraw 安装目录。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CGH999__dsh-chemdraw"
+    },
+    {
+      "id": "CGH999__dsh-spectrum",
+      "name": "CGH999/dsh-spectrum",
+      "url": "https://github.com/CGH999/dsh-spectrum",
+      "category": "其他",
+      "description": "用 5 个离线工具读荧光光谱：激发波长、扫描范围、峰位、峰高、半高宽和积分面积，支持区间取数与出图。只能直接读港东（天津港东）荧光分光光度计的 .spw 原始文件，其它品牌需先在仪器软件里导出为 CSV/TXT。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CGH999__dsh-spectrum"
+    },
+    {
+      "id": "CHENJIAMIAN__dsh-thinking-toggle",
+      "name": "CHENJIAMIAN/dsh-thinking-toggle",
+      "url": "https://github.com/CHENJIAMIAN/dsh-thinking-toggle",
+      "category": "其他",
+      "description": "在输入框工具行加一个按钮：点一下关闭模型思考，再点一下回到上次的思考档位，如此循环。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CHENJIAMIAN__dsh-thinking-toggle"
+    },
+    {
+      "id": "CIBUDAYI3906__dsh-browser-annotate",
+      "name": "CIBUDAYI3906/dsh-browser-annotate",
+      "url": "https://github.com/CIBUDAYI3906/dsh-browser-annotate",
+      "category": "其他",
+      "description": "圈选右侧浏览器里的页面元素发给 AI：单击选一个，按住拖框选一片（弹窗、卡片组、工具条），自动带上 DOM 路径、坐标和文本；HTML 预览可直接一键转到浏览器里标注。仅桌面端。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CIBUDAYI3906__dsh-browser-annotate"
+    },
+    {
+      "id": "CalmSun__dsh-aupdate",
+      "name": "CalmSun/dsh-aupdate",
+      "url": "https://github.com/CalmSun/dsh-aupdate",
+      "category": "其他",
+      "description": "定时检查 DSH 已装插件的 npm 新版本，逐个安装并就地生效，不用重启；每次安装前留快照，可按包回滚，某个版本失败后一段时间内不再重试，带跨进程锁和更新提醒；设置页中英双语、改动即存，并自动清理超过保留期的更新记录与运行日志（默认 3 天）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CalmSun__dsh-aupdate"
+    },
+    {
+      "id": "Calvin-Xia__dsh-error-museum",
+      "name": "Calvin-Xia/dsh-error-museum",
+      "url": "https://github.com/Calvin-Xia/dsh-error-museum",
+      "category": "其他",
+      "description": "把最近 30 天（可切 7 / 30 / 90 天）的会话可确认失败做成「错误博物馆」，展品按模型失败后的处置（复原 / 重试 / 交还 / 搁置）分馆陈列，保留失败前后的调用与错误原文。会话日志只在本机读取，只有点「用模型深挖」时才把该会话摘要发给已配置的模型。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Calvin-Xia__dsh-error-museum"
+    },
+    {
+      "id": "CarviS0302__dsh-editable-question-options",
+      "name": "CarviS0302/dsh-editable-question-options",
+      "url": "https://github.com/CarviS0302/dsh-editable-question-options",
+      "category": "其他",
+      "description": "在 ask_user_question 的选择题卡片中选中接近的选项后，就地修改选项名称与细节，提交时保留原选项并把修改说明一起带给模型。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CarviS0302__dsh-editable-question-options"
+    },
+    {
+      "id": "D-Lobster__ts8xxx-dev-plugin",
+      "name": "D-Lobster/ts8xxx-dev-plugin",
+      "url": "https://github.com/D-Lobster/ts8xxx-dev-plugin",
+      "category": "其他",
+      "description": "TS8XXX 系列芯片固件开发插件：DSH 预设 + 构建/烧录/日志/OTA/审查等 24 个技能（当前支持 TS800X）。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/D-Lobster__ts8xxx-dev-plugin"
+    },
+    {
+      "id": "DSHJJJ__dsh-oauth",
+      "name": "DSHJJJ/dsh-oauth",
+      "url": "https://github.com/DSHJJJ/dsh-oauth",
+      "category": "其他",
+      "description": "把登录墙搬进 DSH Web：GitHub、Google、GitLab、Gitee、Microsoft Entra、Discord、Slack、Keycloak·任意 OIDC、飞书·Lark 九种登录，全部在「设置 → OAuth」里配置，按账号白名单，改动下一个请求即生效。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DSHJJJ__dsh-oauth"
+    },
+    {
+      "id": "DongKaiqiang1992__dsh-zsxq-digest",
+      "name": "DongKaiqiang1992/dsh-zsxq-digest",
+      "url": "https://github.com/DongKaiqiang1992/dsh-zsxq-digest",
+      "category": "其他",
+      "description": "云知识汇总所选知识星球和腾讯 IMA 知识库的投研资料，保留出处，将详版归档至个人 IMA，并可将精选同步到量化平台。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DongKaiqiang1992__dsh-zsxq-digest"
+    },
+    {
+      "id": "DrWang1__dsh-plugin-mode-cycle",
+      "name": "DrWang1/dsh-plugin-mode-cycle",
+      "url": "https://github.com/DrWang1/dsh-plugin-mode-cycle",
+      "category": "其他",
+      "description": "在输入框用 Tab 正向、Shift+Tab 反向切换普通 / 计划模式，直调官方 /plan 处理器，因此会话里不会多出命令行记录；斜杠或触发菜单打开时按键先归菜单。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DrWang1__dsh-plugin-mode-cycle"
+    },
+    {
+      "id": "Elysian1knight__Elysian-repository",
+      "name": "Elysian1knight/Elysian-repository",
+      "url": "https://github.com/Elysian1knight/Elysian-repository",
+      "category": "其他",
+      "description": "侧栏聊天室：把已经存在的会话叫进同一个屋里说话。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Elysian1knight__Elysian-repository"
+    },
+    {
+      "id": "EndWithHyphen__dsh-learning-quirky-stuff",
+      "name": "EndWithHyphen/dsh-learning-quirky-stuff",
+      "url": "https://github.com/EndWithHyphen/dsh-learning-quirky-stuff",
+      "category": "其他",
+      "description": "在画布上记录手写笔记和截图，生成 AI 图文总结与可编辑信息图，用间隔复习巩固知识，并通过配套 Chrome 扩展收集网页笔记。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-25",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EndWithHyphen__dsh-learning-quirky-stuff"
     }
   ]
 }
