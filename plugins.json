@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -64693,6 +64693,138 @@
       "auditedAt": "2026-11-25",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/EndWithHyphen__dsh-learning-quirky-stuff"
+    },
+    {
+      "id": "2251702615q-png__dsh-autonomy-ro",
+      "name": "2251702615q-png/dsh-autonomy-ro",
+      "url": "https://github.com/2251702615q-png/dsh-autonomy-ro",
+      "category": "其他",
+      "description": "DeepSeek Harness 的 Chat | Agent 开关插件，基于 dsh-autonomy 0.1.5（MIT）改造，只改一处行为：Chat 模式保留「读」的一半工具面（read、read_image、glob、grep、web_search、web_fetch、skill 与会话记忆只读工具），write、edit、pwsh 等一切会改动东西的工具一律拒绝；Agent 模式恢复全部工具。三道闸同时生效：下发给模型的工具清单先过滤，执行期 guard 再拒绝白名单外的调用，系统提示词里说明当前模式允许什么。模式按会话记录，刷新、重启、恢复后仍然有效。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/2251702615q-png__dsh-autonomy-ro"
+    },
+    {
+      "id": "AURORA-bad__dsh-connect-MIMOdesktop",
+      "name": "AURORA-bad/dsh-connect-MIMOdesktop",
+      "url": "https://github.com/AURORA-bad/dsh-connect-MIMOdesktop",
+      "category": "其他",
+      "description": "把小米 MiMo 桌面 App 已登录的模型接进 DeepSeek Harness：复用桌面端登录态，无需单独申请 API Key，提供本地账号池、输入框额度胶囊，以及 status/login/verify/doctor 命令行。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AURORA-bad__dsh-connect-MIMOdesktop"
+    },
+    {
+      "id": "Bigkingcn__dsh-goofish",
+      "name": "Bigkingcn/dsh-goofish",
+      "url": "https://github.com/Bigkingcn/dsh-goofish",
+      "category": "其他",
+      "description": "通过本机部署的 ai-goofish-monitor 监控闲鱼商品：提供查任务与结果的对话工具、管理面板，并按时把汇报投递到固定会话。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Bigkingcn__dsh-goofish"
+    },
+    {
+      "id": "BioAIEvolu__dsh-pane-find",
+      "name": "BioAIEvolu/dsh-pane-find",
+      "url": "https://github.com/BioAIEvolu/dsh-pane-find",
+      "category": "其他",
+      "description": "DeepSeek Harness 页内查找：Ctrl+F 定位对话、侧栏与右栏的可见文本，高亮导航，中英文字面匹配，面板可拖拽并记忆位置，宽度随输入自适应，颜色跟随主题。另支持输入框历史取回、复制整条消息与悬停复制图片。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BioAIEvolu__dsh-pane-find"
+    },
+    {
+      "id": "Chaosheng-yiwc__qvasp-skill",
+      "name": "Chaosheng-yiwc/qvasp-skill",
+      "url": "https://github.com/Chaosheng-yiwc/qvasp-skill",
+      "category": "其他",
+      "description": "在 DeepSeek Harness 中使用 qvasp：技能包收录 qvasp（VASP 前后处理工具）全部 88 条命令的用法与坑，MCP 服务端可运行 qvasp 命令、执行 10 个标准多阶段工作流（弛豫、能带、DOS、声子、光学、弹性、MD、表面、虚频修复）、用 spglib 做结构核查、抽取并交叉核对计算结果、生成报告——流程标准化，常规计算更省 token 也更不易出错。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Chaosheng-yiwc__qvasp-skill"
+    },
+    {
+      "id": "Charlieeeo__dsh-next-reply-chips",
+      "name": "Charlieeeo/dsh-next-reply-chips",
+      "url": "https://github.com/Charlieeeo/dsh-next-reply-chips",
+      "category": "其他",
+      "description": "每条回答下方显示可点击的下一步建议：建议由主回复自身给出，不额外调用模型；点击可立即发送，或只填入输入框待你修改。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Charlieeeo__dsh-next-reply-chips"
+    },
+    {
+      "id": "ChengGuanjin666__dsh-find-in-sessions",
+      "name": "ChengGuanjin666/dsh-find-in-sessions",
+      "url": "https://github.com/ChengGuanjin666/dsh-find-in-sessions",
+      "category": "其他",
+      "description": "跨会话检索 DSH 会话日志，本地 SQLite FTS5 索引：正文与工具输出分区入索引，中文按两字窗口切词，短词查询走索引而不是全表扫；命中可跳到那条消息，或开右侧预览。预览需前置插件 dsh-better-sidebar。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/ChengGuanjin666__dsh-find-in-sessions"
+    },
+    {
+      "id": "EasonMWS__dsh-sim",
+      "name": "EasonMWS/dsh-sim",
+      "url": "https://github.com/EasonMWS/dsh-sim",
+      "category": "其他",
+      "description": "本地防复发记忆：工具调用失败后，若同一任务内改用新输入成功，就记下这一对失败与修法；之后遇到匹配的报错，在工具结果中追加已验证的修法。规则全部在本地执行，不调用模型，提示最多 100 字节。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EasonMWS__dsh-sim"
+    },
+    {
+      "id": "Ep1phanyw__project_manager",
+      "name": "Ep1phanyw/project_manager",
+      "url": "https://github.com/Ep1phanyw/project_manager",
+      "category": "其他",
+      "description": "把一次交付拆成若干部分，交给独立上下文里的子对话并行完成；验收由插件亲自执行检查（命令退出码与产物断言）。计划批准与收尾点头只归用户，收尾会全量重跑一遍。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Ep1phanyw__project_manager"
+    },
+    {
+      "id": "EscapeKarma__dsh-memory-evolve",
+      "name": "EscapeKarma/dsh-memory-evolve",
+      "url": "https://github.com/EscapeKarma/dsh-memory-evolve",
+      "category": "其他",
+      "description": "活跃维护中的 dsh-memory-evolve 分支（上游最后提交于 2026-10-29）：为 DeepSeek Harness 带来「跨会话长期记忆 + 后台自我进化」——五轨记忆（memory / user / key / project / daily）· git 分支感知 · 回合内自我审查 · 技能自我进化与技能管理器 · 四轨待办 · COI 调度 · 会话广播 · 会话搜索 · 提示词管理器 · 临时信息便签。纯插件实现、零核心修改、零运行时依赖。在上游基础上补齐 Windows 修复（git 子进程树清理、画板私钥路径拦截、隐藏控制台）、可重复测试与 Windows/Linux 双平台 CI，并合并了 13 个上游社区 PR（提交里保留原作者署名）。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/EscapeKarma__dsh-memory-evolve"
+    },
+    {
+      "id": "FatBadger217__dsh-gemini-parameter",
+      "name": "FatBadger217/dsh-gemini-parameter",
+      "url": "https://github.com/FatBadger217/dsh-gemini-parameter",
+      "category": "其他",
+      "description": "为 DSH 上使用的 Google Gemini 添加 Google 官方支持的自定义参数透传（Gemini 请求体修复），可用于调整官方安全参数、延长超时时长以增强长周期任务稳定性等。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FatBadger217__dsh-gemini-parameter"
+    },
+    {
+      "id": "FelixRaySun__dsh-session-cleanup",
+      "name": "FelixRaySun/dsh-session-cleanup",
+      "url": "https://github.com/FelixRaySun/dsh-session-cleanup",
+      "category": "其他",
+      "description": "真正删除会话且可还原——通过官方 API 解绑注册表，把日志原子移动到保留 7 天的回收站，并清理孤儿日志目录与孤儿投影缓存。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-26",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/FelixRaySun__dsh-session-cleanup"
     }
   ]
 }
