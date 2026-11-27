@@ -1,6 +1,6 @@
 {
   "$schema": "./plugins.schema.json",
-  "updatedAt": "2026-11-26",
+  "updatedAt": "2026-11-27",
   "plugins": [
     {
       "id": "00080000__dsh-project-memory",
@@ -16464,7 +16464,8 @@
       "verdict": "whitelist",
       "auditedAt": "2026-08-24",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/nonentity303__dsh-plugin-manager"
+      "dir": "plugins/nonentity303__dsh-plugin-manager",
+      "removed": true
     },
     {
       "id": "nonewind__dsh-spend",
@@ -25614,7 +25615,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-08-28",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/SiriusWJ__dsh-updater-npm"
+      "dir": "plugins/SiriusWJ__dsh-updater-npm",
+      "removed": true
     },
     {
       "id": "SuCriss__dsh-leekbox",
@@ -30719,7 +30721,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-09-02",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Witherwithwinter__DeepSeek-Balance-Whale-Widget-Bowl"
+      "dir": "plugins/Witherwithwinter__DeepSeek-Balance-Whale-Widget-Bowl",
+      "removed": true
     },
     {
       "id": "alchemistwu__dsh-tool-call-guard",
@@ -46363,7 +46366,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-10-16",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/Witherwithwinter__DSH-Codinput"
+      "dir": "plugins/Witherwithwinter__DSH-Codinput",
+      "removed": true
     },
     {
       "id": "Xian-JL__dsh-Xiao-theme",
@@ -64670,7 +64674,8 @@
       "verdict": "blacklist",
       "auditedAt": "2026-11-25",
       "source": "awesome-dsh-plugin",
-      "dir": "plugins/DrWang1__dsh-plugin-mode-cycle"
+      "dir": "plugins/DrWang1__dsh-plugin-mode-cycle",
+      "removed": true
     },
     {
       "id": "Elysian1knight__Elysian-repository",
@@ -64825,6 +64830,182 @@
       "auditedAt": "2026-11-26",
       "source": "awesome-dsh-plugin",
       "dir": "plugins/FelixRaySun__dsh-session-cleanup"
+    },
+    {
+      "id": "0x2fovo__DSH-Codinput",
+      "name": "0x2fovo/DSH-Codinput",
+      "url": "https://github.com/0x2fovo/DSH-Codinput",
+      "category": "其他",
+      "description": "把聊天输入框换成 CodeMirror 6 的编辑器式输入面板：行号、编辑 + Markdown 预览分屏、悬浮窗与全高侧栏标签，同一时刻只有一个输入入口。草稿走官方输入机；宿主有语音输入按钮时原样渲染官方语音组件，数据行与上下文小圈与官方 dock 同源。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0x2fovo__DSH-Codinput"
+    },
+    {
+      "id": "0x2fovo__DeepSeek-Balance-Whale-Widget-Bowl",
+      "name": "0x2fovo/DeepSeek-Balance-Whale-Widget-Bowl",
+      "url": "https://github.com/0x2fovo/DeepSeek-Balance-Whale-Widget-Bowl",
+      "category": "其他",
+      "description": "DSH Web 界面右下角的 DeepSeek 余额鲸鱼挂件：三套形象切换（默认 / 顶碗 / 拿碗）、余额与今日已用、每轮对话消耗提示、峰谷价换算、按压音效与随机台词。基于 MeteorNOX/DeepSeek-Balance-Whale-Widget 修改。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0x2fovo__DeepSeek-Balance-Whale-Widget-Bowl"
+    },
+    {
+      "id": "0x2fovo__dsh-ccx",
+      "name": "0x2fovo/dsh-ccx",
+      "url": "https://github.com/0x2fovo/dsh-ccx",
+      "category": "其他",
+      "description": "给 DSH 桌面版换上动态背景——10 种场景渲染器（银河、辉光地平线、层峦、云穹、极光电离层、黑洞、云列车、粒子成像、像素雕塑、闪烁方块）、壁纸与视频素材库、UI 表面分区透明，外加逐像素复刻的 Appearance 设置面板。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/0x2fovo__dsh-ccx"
+    },
+    {
+      "id": "1099800476__dsh-world-engine",
+      "name": "1099800476/dsh-world-engine",
+      "url": "https://github.com/1099800476/dsh-world-engine",
+      "category": "其他",
+      "description": "给 DSH 角色扮演用的本地持久世界，在 DSH 设置面板里管理：世界时钟与日历（日期、星期、时段、季节）、主角状态、可演化的世界法则（推进节奏、事件密度、冷却天数）、按自己时间表行动的 NPC、按地点分开的预置回忆与运行时记忆检索/导出、重大节点审批（可选联动 QQ 私聊回执）、快照备份与回滚。引擎作为独立本地 Node 子进程运行在 127.0.0.1:32100，由插件拉起并看护，存档与代码分离。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1099800476__dsh-world-engine"
+    },
+    {
+      "id": "1804608397__dsh-plugin-linux-computer-use",
+      "name": "1804608397/dsh-plugin-linux-computer-use",
+      "url": "https://github.com/1804608397/dsh-plugin-linux-computer-use",
+      "category": "其他",
+      "description": "让 DSH 接管 Wayland Linux 桌面：经 XDG 桌面 portal 截屏、读取 AT-SPI 无障碍树、把鼠标键盘事件直接写入 /dev/uinput，并以 mcp__linux__* 工具连同剪贴板、进程、gsettings 与通知一起交给模型，附带宿主机诊断工具和默认关闭的可选解锁开关。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/1804608397__dsh-plugin-linux-computer-use"
+    },
+    {
+      "id": "2532316972__dsh-preset-scope",
+      "name": "2532316972/dsh-preset-scope",
+      "url": "https://github.com/2532316972/dsh-preset-scope",
+      "category": "其他",
+      "description": "会话标题栏切换 Agent 预设，并按工作区、会话或全局收窄可加载的 Skill 与 MCP，两个能力合成一个包。合并自 dsh-preset-switcher 与 dsh-workspace-scope。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/2532316972__dsh-preset-scope"
+    },
+    {
+      "id": "AIcivilization__dsh-voice-engine",
+      "name": "AIcivilization/dsh-voice-engine",
+      "url": "https://github.com/AIcivilization/dsh-voice-engine",
+      "category": "其他",
+      "description": "声音引擎：给 DSH 和所有需要声音的软件提供声音——朗读、配音字幕、按角色配音的有声书、克隆自己的声音、实时发音、转写；讯飞、Edge、本机 Ming、小米 MiMo、DeepSeek 语音、硅基流动和任何 OpenAI 兼容的语音免费收费任选，也给别的插件、dsh-her、AnyAudio 用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/AIcivilization__dsh-voice-engine"
+    },
+    {
+      "id": "Allencccc__dsh-punch-desk",
+      "name": "Allencccc/dsh-punch-desk",
+      "url": "https://github.com/Allencccc/dsh-punch-desk",
+      "category": "其他",
+      "description": "会话手账：捕获评审发现、起草提示词，并把选定会话的精炼结果写回项目文档。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Allencccc__dsh-punch-desk"
+    },
+    {
+      "id": "Arrosam__dsh-fishball-bundle",
+      "name": "Arrosam/dsh-fishball-bundle",
+      "url": "https://github.com/Arrosam/dsh-fishball-bundle",
+      "category": "其他",
+      "description": "Fishball 一体化嵌入版：一次安装加入由本 DSH 托管的 Fishball 子 DSH、供其他 agent 驱动本 DSH 会话的 MCP 2026-07-28 + OAuth 2.1 端点、跨 DSH 连接适配器与会话看护，并提供合并的 Fishball / 连接器设置页。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Arrosam__dsh-fishball-bundle"
+    },
+    {
+      "id": "Bacon-01__desktop-pilot",
+      "name": "Bacon-01/desktop-pilot",
+      "url": "https://github.com/Bacon-01/desktop-pilot",
+      "category": "其他",
+      "description": "不靠截图猜坐标：先用 Windows UI Automation 语义树按名字/类型锁定真实控件，换主题、改 DPI、挪窗口也能重新找到；OCR 只在没有语义控件时兜底，点完回读验证。原生 DSH 技能，不接视觉模型、没有逐步视觉 token 成本，直接操作 Windows 桌面应用。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Bacon-01__desktop-pilot"
+    },
+    {
+      "id": "Bejohnself__dsh-study-less",
+      "name": "Bejohnself/dsh-study-less",
+      "url": "https://github.com/Bejohnself/dsh-study-less",
+      "category": "其他",
+      "description": "DSH 知止读书台：导入 PDF 并按节切分，记录每个知识点的掌握度，安排间隔复习。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Bejohnself__dsh-study-less"
+    },
+    {
+      "id": "Bel1m3__dsh-resume-kit",
+      "name": "Bel1m3/dsh-resume-kit",
+      "url": "https://github.com/Bel1m3/dsh-resume-kit",
+      "category": "其他",
+      "description": "用三套固定版式（深灰蓝双栏、酒红绶带、单栏 ATS）渲染可编辑的 Word 和 PDF 简历，缺项先追问，单栏超一页自动微缩。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Bel1m3__dsh-resume-kit"
+    },
+    {
+      "id": "BioAIEvolu__dsh-superagent-ptc",
+      "name": "BioAIEvolu/dsh-superagent-ptc",
+      "url": "https://github.com/BioAIEvolu/dsh-superagent-ptc",
+      "category": "其他",
+      "description": "DeepSeek Harness 长任务监督层：目标与义务的版本化锚点、Mandate 有界委派给 Worker、独立 Reviewer 验收、证据门（pass/fail/unknown）放行，以及崩溃后基于 SnapshotProof 的恢复。以 preset 形式叠加在原生 PTC/Agent/Goal/Teams 运行时之上，不另造 Agent loop、任务板或路由器。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/BioAIEvolu__dsh-superagent-ptc"
+    },
+    {
+      "id": "CHENJIAMIAN__dsh-effort-cycle",
+      "name": "CHENJIAMIAN/dsh-effort-cycle",
+      "url": "https://github.com/CHENJIAMIAN/dsh-effort-cycle",
+      "category": "其他",
+      "description": "在输入框工具行加一个按钮：点一下切到模型支持的下一个思考档位，走到最高档再绕回最低档，如此循环。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/CHENJIAMIAN__dsh-effort-cycle"
+    },
+    {
+      "id": "DrWang1__dsh-mode-cycle-by-tab",
+      "name": "DrWang1/dsh-mode-cycle-by-tab",
+      "url": "https://github.com/DrWang1/dsh-mode-cycle-by-tab",
+      "category": "其他",
+      "description": "在输入框用 Tab 正向、Shift+Tab 反向切换普通 / 计划模式，直调官方 /plan 处理器，因此会话里不会多出命令行记录；斜杠或触发菜单打开时按键先归菜单。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/DrWang1__dsh-mode-cycle-by-tab"
+    },
+    {
+      "id": "Elosiad__dsh-script-progress",
+      "name": "Elosiad/dsh-script-progress",
+      "url": "https://github.com/Elosiad/dsh-script-progress",
+      "category": "其他",
+      "description": "让长任务脚本自带进度条（百分比 / 速度 / ETA），在 10/25/50/75/90% 里程碑回报聊天，并写进 DSH 进度通道让界面实时显示。",
+      "verdict": "blacklist",
+      "auditedAt": "2026-11-27",
+      "source": "awesome-dsh-plugin",
+      "dir": "plugins/Elosiad__dsh-script-progress"
     }
   ]
 }
